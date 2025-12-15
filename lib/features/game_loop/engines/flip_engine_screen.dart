@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:social_shuffle/features/summary/summary_screen.dart';
 
 class FlipEngineScreen extends StatefulWidget {
   const FlipEngineScreen({super.key});
@@ -14,6 +15,9 @@ class _FlipEngineScreenState extends State<FlipEngineScreen> {
     setState(() {
       _showFront = !_showFront;
     });
+    ScaffoldMessenger.of(context).showSnackBar(
+      const SnackBar(content: Text('Card flipped!')),
+    );
   }
 
   @override
@@ -21,6 +25,18 @@ class _FlipEngineScreenState extends State<FlipEngineScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Flip Engine'),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.check),
+            onPressed: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (context) => const SummaryScreen(),
+                ),
+              );
+            },
+          ),
+        ],
       ),
       body: Center(
         child: GestureDetector(

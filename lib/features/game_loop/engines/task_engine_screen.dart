@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:social_shuffle/features/summary/summary_screen.dart';
 
 class TaskEngineScreen extends StatelessWidget {
   const TaskEngineScreen({super.key});
@@ -8,6 +9,18 @@ class TaskEngineScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Task Engine'),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.check),
+            onPressed: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (context) => const SummaryScreen(),
+                ),
+              );
+            },
+          ),
+        ],
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -46,11 +59,19 @@ class TaskEngineScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(content: Text('Pass button pressed!')),
+                    );
+                  },
                   child: const Text('Pass'),
                 ),
                 ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(content: Text('Got it! button pressed!')),
+                    );
+                  },
                   child: const Text('Got it!'),
                 ),
               ],

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:social_shuffle/features/summary/summary_screen.dart';
 
 class VotingEngineScreen extends StatefulWidget {
   const VotingEngineScreen({super.key});
@@ -25,8 +26,9 @@ class _VotingEngineScreenState extends State<VotingEngineScreen> {
         });
         _startCountdown();
       } else {
-        // Auto-advance after countdown
-        // Navigator.of(context).pop(); // Example: go back after countdown
+        Navigator.of(context).pushReplacement(
+          MaterialPageRoute(builder: (context) => const SummaryScreen()),
+        );
       }
     });
   }
@@ -36,6 +38,16 @@ class _VotingEngineScreenState extends State<VotingEngineScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Voting Engine'),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.check),
+            onPressed: () {
+              Navigator.of(context).pushReplacement(
+                MaterialPageRoute(builder: (context) => const SummaryScreen()),
+              );
+            },
+          ),
+        ],
       ),
       body: Center(
         child: Column(

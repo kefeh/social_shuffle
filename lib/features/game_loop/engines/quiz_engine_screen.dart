@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:social_shuffle/features/summary/summary_screen.dart';
 
 class QuizEngineScreen extends StatelessWidget {
   const QuizEngineScreen({super.key});
@@ -8,6 +9,18 @@ class QuizEngineScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Quiz Engine'),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.check),
+            onPressed: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (context) => const SummaryScreen(),
+                ),
+              );
+            },
+          ),
+        ],
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -36,10 +49,38 @@ class QuizEngineScreen extends StatelessWidget {
                 mainAxisSpacing: 16,
                 crossAxisSpacing: 16,
                 children: [
-                  ElevatedButton(onPressed: () {}, child: const Text('Berlin')),
-                  ElevatedButton(onPressed: () {}, child: const Text('Madrid')),
-                  ElevatedButton(onPressed: () {}, child: const Text('Paris')),
-                  ElevatedButton(onPressed: () {}, child: const Text('Rome')),
+                  ElevatedButton(
+                    onPressed: () {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        const SnackBar(content: Text('Answer selected!')),
+                      );
+                    },
+                    child: const Text('Berlin'),
+                  ),
+                  ElevatedButton(
+                    onPressed: () {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        const SnackBar(content: Text('Answer selected!')),
+                      );
+                    },
+                    child: const Text('Madrid'),
+                  ),
+                  ElevatedButton(
+                    onPressed: () {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        const SnackBar(content: Text('Answer selected!')),
+                      );
+                    },
+                    child: const Text('Paris'),
+                  ),
+                  ElevatedButton(
+                    onPressed: () {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        const SnackBar(content: Text('Answer selected!')),
+                      );
+                    },
+                    child: const Text('Rome'),
+                  ),
                 ],
               ),
             ),

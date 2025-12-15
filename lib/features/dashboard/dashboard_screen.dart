@@ -21,6 +21,8 @@ class _DashboardScreenState extends State<DashboardScreen> {
     {'title': 'Charades', 'color': Colors.blueAccent},
     {'title': 'Truth or Dare', 'color': Colors.greenAccent},
     {'title': 'Debate', 'color': Colors.purpleAccent},
+    {'title': 'Never Have I Ever', 'color': Colors.orangeAccent},
+    {'title': 'Most Likely To', 'color': Colors.tealAccent},
   ];
 
   @override
@@ -88,24 +90,31 @@ class _DashboardScreenState extends State<DashboardScreen> {
                     title: mode['title'],
                     color: mode['color'],
                     onTap: () => _showDeckLibrary(context),
+                    isGridView: false, // Ensure full opacity for carousel view
                   ),
                 );
               },
             )
-          : GridView.builder(
-              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: 2,
-                childAspectRatio: 1.5,
+          : Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: GridView.builder(
+                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: 2,
+                  childAspectRatio: 1.0, // Adjusted for 2x4 layout
+                  mainAxisSpacing: 8,
+                  crossAxisSpacing: 8,
+                ),
+                itemCount: _gameModes.length,
+                itemBuilder: (context, index) {
+                  final mode = _gameModes[index];
+                  return GameModeCard(
+                    title: mode['title'],
+                    color: mode['color'],
+                    onTap: () => _showDeckLibrary(context),
+                    isGridView: true, // Apply 40% opacity for grid view
+                  );
+                },
               ),
-              itemCount: _gameModes.length,
-              itemBuilder: (context, index) {
-                final mode = _gameModes[index];
-                return GameModeCard(
-                  title: mode['title'],
-                  color: mode['color'],
-                  onTap: () => _showDeckLibrary(context),
-                );
-              },
             ),
     );
   }
