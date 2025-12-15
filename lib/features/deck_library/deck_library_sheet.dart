@@ -7,15 +7,23 @@ class DeckLibrarySheet extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.all(16.0),
-      child: const Column(
+      child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Text(
+          const Text(
             'Deck Library',
             style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
           ),
-          SizedBox(height: 16),
-          Text('Deck list will be shown here.'),
+          const SizedBox(height: 16),
+          const Text('Deck list will be shown here.'),
+          const SizedBox(height: 16),
+          ElevatedButton.icon(
+            onPressed: () {
+              // Handle create new deck
+            },
+            icon: const Icon(Icons.add),
+            label: const Text('Create New'),
+          ),
         ],
       ),
     );
