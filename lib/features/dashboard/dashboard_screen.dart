@@ -1,6 +1,7 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:social_shuffle/features/dashboard/widgets/game_mode_card.dart';
+import 'package:social_shuffle/features/deck_library/deck_library_sheet.dart';
 
 class DashboardScreen extends StatefulWidget {
   const DashboardScreen({super.key});
@@ -43,6 +44,13 @@ class _DashboardScreenState extends State<DashboardScreen> {
     }
   }
 
+  void _showDeckLibrary(BuildContext context) {
+    showModalBottomSheet(
+      context: context,
+      builder: (context) => const DeckLibrarySheet(),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -79,9 +87,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                   child: GameModeCard(
                     title: mode['title'],
                     color: mode['color'],
-                    onTap: () {
-                      // Handle tap
-                    },
+                    onTap: () => _showDeckLibrary(context),
                   ),
                 );
               },
@@ -97,9 +103,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                 return GameModeCard(
                   title: mode['title'],
                   color: mode['color'],
-                  onTap: () {
-                    // Handle tap
-                  },
+                  onTap: () => _showDeckLibrary(context),
                 );
               },
             ),
