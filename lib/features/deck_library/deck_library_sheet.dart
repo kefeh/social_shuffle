@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:social_shuffle/features/deck_library/widgets/deck_list_item.dart';
+import 'package:social_shuffle/features/game_loop/engines/flip_engine_screen.dart';
+import 'package:social_shuffle/features/game_loop/engines/quiz_engine_screen.dart';
+import 'package:social_shuffle/features/game_loop/engines/task_engine_screen.dart';
+import 'package:social_shuffle/features/game_loop/game_loop_screen.dart';
 
 class DeckLibrarySheet extends StatelessWidget {
   const DeckLibrarySheet({super.key});
@@ -7,10 +11,23 @@ class DeckLibrarySheet extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final List<Map<String, dynamic>> _decks = [
-      {'title': '90s Hip Hop (System)', 'isSystem': true},
-      {'title': 'Movie Quotes (System)', 'isSystem': true},
-      {'title': 'My Custom Deck', 'isSystem': false},
+      {'title': '90s Hip Hop (System)', 'isSystem': true, 'engine': 'quiz'},
+      {'title': 'Movie Quotes (System)', 'isSystem': true, 'engine': 'flip'},
+      {'title': 'My Custom Deck', 'isSystem': false, 'engine': 'task'},
     ];
+
+    Widget _getEngine(String engine) {
+      switch (engine) {
+        case 'quiz':
+          return const QuizEngineScreen();
+        case 'flip':
+          return const FlipEngineScreen();
+        case 'task':
+          return const TaskEngineScreen();
+        default:
+          return const QuizEngineScreen();
+      }
+    }
 
     return Container(
       padding: const EdgeInsets.all(16.0),
@@ -31,7 +48,13 @@ class DeckLibrarySheet extends StatelessWidget {
                   title: deck['title'],
                   isSystemDeck: deck['isSystem'],
                   onTap: () {
-                    // Handle deck selection
+                    Navigator.of(context).push(
+                      MaterialPageRoute(
+                        builder: (context) => GameLoopScreen(
+                          engine: _getEngine(deck['engine']),
+                        ),
+                      ),
+                    );
                   },
                 );
               },
@@ -40,7 +63,11 @@ class DeckLibrarySheet extends StatelessWidget {
           const SizedBox(height: 16),
           ElevatedButton.icon(
             onPressed: () {
-              // Handle create new deck
+              ScaffoldMessenger.of(context).showSnackBar(
+                const SnackBar(
+                  content: Text('Create New Deck - Not implemented yet'),
+                ),
+              );
             },
             icon: const Icon(Icons.add),
             label: const Text('Create New'),

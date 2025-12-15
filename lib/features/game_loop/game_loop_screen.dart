@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 
 class GameLoopScreen extends StatelessWidget {
-  const GameLoopScreen({super.key});
+  final Widget engine;
+
+  const GameLoopScreen({super.key, required this.engine});
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
-        child: Text('Game Loop Screen'),
-      ),
-    );
+    return engine;
   }
 }
