@@ -1,4 +1,5 @@
 import 'dart:math';
+import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:social_shuffle/features/dashboard/widgets/game_mode_card.dart';
 import 'package:social_shuffle/features/deck_library/deck_library_sheet.dart';
@@ -56,9 +57,9 @@ class _DashboardScreenState extends State<DashboardScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: _isCarouselView
-          ? _backgroundColor.withOpacity(0.5)
-          : Theme.of(context).scaffoldBackgroundColor,
+      backgroundColor: _backgroundColor.withOpacity(
+        _isCarouselView ? 0.5 : 0.2,
+      ),
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
@@ -67,7 +68,11 @@ class _DashboardScreenState extends State<DashboardScreen> {
           IconButton(
             icon: Icon(_isCarouselView ? Icons.grid_on : Icons.view_carousel),
             onPressed: () {
+              if (_isCarouselView) {
+                _pageController.jumpTo(0.0);
+              }
               setState(() {
+                _currentPage = 0;
                 _isCarouselView = !_isCarouselView;
               });
             },
@@ -76,31 +81,74 @@ class _DashboardScreenState extends State<DashboardScreen> {
       ),
       body: _isCarouselView
           ? PageView.builder(
+              key: ValueKey('PageView'),
               controller: _pageController,
               itemCount: _gameModes.length,
               itemBuilder: (context, index) {
+                double scale = max(0.6, (1.2 - (_currentPage - index).abs()));
                 final mode = _gameModes[index];
-                double scale = max(
-                  0.8,
-                  (1.0 - (_currentPage - index).abs()) + 0.2,
-                );
-                return Transform.scale(
-                  scale: scale,
-                  child: GameModeCard(
-                    title: mode['title'],
-                    color: mode['color'],
-                    onTap: () => _showDeckLibrary(context),
-                    isGridView: false, // Ensure full opacity for carousel view
-                  ),
+                double pagePos = _pageController.position.haveDimensions
+                    ? _pageController.page!
+                    : 0.0;
+                double distanceFromCenter = (index - pagePos).abs();
+
+                double opacity = 0.0;
+
+                if (distanceFromCenter < 0.5) {
+                  opacity = (0.5 - distanceFromCenter) * 2;
+
+                  opacity = opacity.clamp(0.0, 1.0);
+                }
+                return Column(
+                  children: [
+                    Expanded(
+                      flex: 1,
+                      child: Center(
+                        child: Opacity(
+                          opacity: opacity.ceil().toDouble(),
+                          child: Transform.translate(
+                            offset: Offset(0, 50 * (1 - opacity)),
+                            child: Text(
+                              mode['title'],
+                              textAlign: TextAlign.center,
+                              style: const TextStyle(
+                                fontSize: 40,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                    Expanded(
+                      flex: 2,
+                      child: Transform.scale(
+                        scale: scale,
+                        child: GameModeCard(
+                          title: mode['title'],
+                          color: (mode['color'] as Color).withOpacity(
+                            opacity == 0
+                                ? 0.5
+                                : clampDouble(opacity + 0.5, 0.5, 1.0),
+                          ),
+                          onTap: () => _showDeckLibrary(context),
+                          isGridView:
+                              false, // Ensure full opacity for carousel view
+                        ),
+                      ),
+                    ),
+                    Expanded(flex: 1, child: Container()),
+                  ],
                 );
               },
             )
           : Padding(
               padding: const EdgeInsets.all(8.0),
               child: GridView.builder(
+                key: ValueKey('GridView'),
                 gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2,
-                  childAspectRatio: 1.0, // Adjusted for 2x4 layout
+                  childAspectRatio: 0.5, // Adjusted for 2x4 layout
                   mainAxisSpacing: 8,
                   crossAxisSpacing: 8,
                 ),

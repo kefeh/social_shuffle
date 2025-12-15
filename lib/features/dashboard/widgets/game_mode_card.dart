@@ -20,18 +20,16 @@ class GameModeCard extends StatelessWidget {
       onTap: onTap,
       child: Container(
         margin: const EdgeInsets.all(8.0),
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(24),
-          border: Border.all(color: Colors.white, width: 2),
-        ),
+        decoration: BoxDecoration(borderRadius: BorderRadius.circular(24)),
         child: Card(
-          color: isGridView ? color.withOpacity(0.4) : color,
+          color: isGridView ? color.withOpacity(0.8) : color,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(22),
           ),
           child: Center(
             child: Text(
               title,
+              textAlign: TextAlign.center,
               style: const TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
