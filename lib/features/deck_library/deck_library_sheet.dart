@@ -3,7 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:social_shuffle/core/providers/deck_provider.dart';
 import 'package:social_shuffle/features/deck_generator/deck_generator_dialog.dart';
 import 'package:social_shuffle/features/deck_library/widgets/deck_list_item.dart';
-import 'package:social_shuffle/features/game_loop/game_loop_screen.dart';
+import 'package:social_shuffle/features/game_config/game_config_screen.dart';
 
 class DeckLibrarySheet extends ConsumerWidget {
   const DeckLibrarySheet({super.key});
@@ -41,7 +41,7 @@ class DeckLibrarySheet extends ConsumerWidget {
                     onTap: () {
                       Navigator.of(context).push(
                         MaterialPageRoute(
-                          builder: (context) => GameLoopScreen(
+                          builder: (context) => GameConfigScreen(
                             deck: deck,
                           ),
                         ),

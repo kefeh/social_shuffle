@@ -1,7 +1,16 @@
+import 'package:hive/hive.dart';
+
+part 'card.g.dart';
+
+@HiveType(typeId: 0)
 class Card {
+  @HiveField(0)
   final String content;
+  @HiveField(1)
   final List<String>? options;
+  @HiveField(2)
   final int? correctIndex;
+  @HiveField(3)
   final Map<String, dynamic>? meta;
 
   Card({

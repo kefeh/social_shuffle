@@ -1,12 +1,22 @@
+import 'package:hive/hive.dart';
 import 'package:social_shuffle/core/models/card.dart';
 import 'package:uuid/uuid.dart';
 
+part 'deck.g.dart';
+
+@HiveType(typeId: 1)
 class Deck {
+  @HiveField(0)
   final String id;
+  @HiveField(1)
   final String title;
+  @HiveField(2)
   final String gameEngineId;
+  @HiveField(3)
   final bool isSystem;
+  @HiveField(4)
   final DateTime createdAt;
+  @HiveField(5)
   final List<Card> cards;
 
   Deck({
