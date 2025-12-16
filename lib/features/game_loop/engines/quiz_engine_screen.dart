@@ -1,23 +1,32 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:social_shuffle/features/game_loop/game_loop_notifier.dart';
 import 'package:social_shuffle/features/summary/summary_screen.dart';
 
-class QuizEngineScreen extends StatelessWidget {
+class QuizEngineScreen extends ConsumerWidget {
   const QuizEngineScreen({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final gameLoopState = ref.watch(gameLoopProvider);
+    final currentCard = gameLoopState.currentCard;
+
     return Scaffold(
       appBar: AppBar(
         title: const Text('Quiz Engine'),
         actions: [
           IconButton(
-            icon: const Icon(Icons.check),
+            icon: const Icon(Icons.arrow_forward),
             onPressed: () {
-              Navigator.of(context).push(
-                MaterialPageRoute(
-                  builder: (context) => const SummaryScreen(),
-                ),
-              );
+              if (gameLoopState.isLastCard) {
+                Navigator.of(context).pushReplacement(
+                  MaterialPageRoute(
+                    builder: (context) => const SummaryScreen(),
+                  ),
+                );
+              } else {
+                ref.read(gameLoopProvider.notifier).nextCard();
+              }
             },
           ),
         ],
@@ -35,10 +44,10 @@ class QuizEngineScreen extends StatelessWidget {
             ),
             const SizedBox(height: 32),
             // Question Text
-            const Text(
-              'What is the capital of France?',
+            Text(
+              currentCard.content,
               textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+              style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 32),
             // Answer Buttons
@@ -48,40 +57,25 @@ class QuizEngineScreen extends StatelessWidget {
                 childAspectRatio: 2.5,
                 mainAxisSpacing: 16,
                 crossAxisSpacing: 16,
-                children: [
-                  ElevatedButton(
-                    onPressed: () {
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        const SnackBar(content: Text('Answer selected!')),
-                      );
-                    },
-                    child: const Text('Berlin'),
-                  ),
-                  ElevatedButton(
-                    onPressed: () {
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        const SnackBar(content: Text('Answer selected!')),
-                      );
-                    },
-                    child: const Text('Madrid'),
-                  ),
-                  ElevatedButton(
-                    onPressed: () {
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        const SnackBar(content: Text('Answer selected!')),
-                      );
-                    },
-                    child: const Text('Paris'),
-                  ),
-                  ElevatedButton(
-                    onPressed: () {
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        const SnackBar(content: Text('Answer selected!')),
-                      );
-                    },
-                    child: const Text('Rome'),
-                  ),
-                ],
+                children: currentCard.options != null
+                    ? currentCard.options!
+                        .asMap()
+                        .entries
+                        .map(
+                          (entry) => ElevatedButton(
+                            onPressed: () {
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                SnackBar(
+                                    content: Text(
+                                        'Answer selected: ${entry.value} (Index: ${entry.key})')),
+                              );
+                              // TODO: Add actual answer validation logic
+                            },
+                            child: Text(entry.value),
+                          ),
+                        )
+                        .toList()
+                    : [],
               ),
             ),
           ],

@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:social_shuffle/features/game_loop/game_loop_notifier.dart';
 import 'package:social_shuffle/features/summary/summary_screen.dart';
 
-class VotingEngineScreen extends StatefulWidget {
+class VotingEngineScreen extends ConsumerStatefulWidget {
   const VotingEngineScreen({super.key});
 
   @override
-  State<VotingEngineScreen> createState() => _VotingEngineScreenState();
+  ConsumerState<VotingEngineScreen> createState() => _VotingEngineScreenState();
 }
 
-class _VotingEngineScreenState extends State<VotingEngineScreen> {
+class _VotingEngineScreenState extends ConsumerState<VotingEngineScreen> {
   int _countdown = 3;
 
   @override
@@ -26,25 +28,37 @@ class _VotingEngineScreenState extends State<VotingEngineScreen> {
         });
         _startCountdown();
       } else {
-        Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (context) => const SummaryScreen()),
-        );
+        final gameLoopState = ref.read(gameLoopProvider);
+        if (gameLoopState.isLastCard) {
+          Navigator.of(context).pushReplacement(
+            MaterialPageRoute(builder: (context) => const SummaryScreen()),
+          );
+        } else {
+          ref.read(gameLoopProvider.notifier).nextCard();
+        }
       }
     });
   }
 
   @override
   Widget build(BuildContext context) {
+    final gameLoopState = ref.watch(gameLoopProvider);
+    final currentCard = gameLoopState.currentCard;
+
     return Scaffold(
       appBar: AppBar(
         title: const Text('Voting Engine'),
         actions: [
           IconButton(
-            icon: const Icon(Icons.check),
+            icon: const Icon(Icons.arrow_forward),
             onPressed: () {
-              Navigator.of(context).pushReplacement(
-                MaterialPageRoute(builder: (context) => const SummaryScreen()),
-              );
+              if (gameLoopState.isLastCard) {
+                Navigator.of(context).pushReplacement(
+                  MaterialPageRoute(builder: (context) => const SummaryScreen()),
+                );
+              } else {
+                ref.read(gameLoopProvider.notifier).nextCard();
+              }
             },
           ),
         ],
@@ -54,12 +68,12 @@ class _VotingEngineScreenState extends State<VotingEngineScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             // Statement Text
-            const Padding(
-              padding: EdgeInsets.symmetric(horizontal: 16.0),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16.0),
               child: Text(
-                'Most likely to accidentally join a cult?',
+                currentCard.content,
                 textAlign: TextAlign.center,
-                style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+                style: const TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
               ),
             ),
             const SizedBox(height: 64),

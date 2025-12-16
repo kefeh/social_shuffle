@@ -1,23 +1,32 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:social_shuffle/features/game_loop/game_loop_notifier.dart';
 import 'package:social_shuffle/features/summary/summary_screen.dart';
 
-class TaskEngineScreen extends StatelessWidget {
+class TaskEngineScreen extends ConsumerWidget {
   const TaskEngineScreen({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final gameLoopState = ref.watch(gameLoopProvider);
+    final currentCard = gameLoopState.currentCard;
+
     return Scaffold(
       appBar: AppBar(
         title: const Text('Task Engine'),
         actions: [
           IconButton(
-            icon: const Icon(Icons.check),
+            icon: const Icon(Icons.arrow_forward),
             onPressed: () {
-              Navigator.of(context).push(
-                MaterialPageRoute(
-                  builder: (context) => const SummaryScreen(),
-                ),
-              );
+              if (gameLoopState.isLastCard) {
+                Navigator.of(context).pushReplacement(
+                  MaterialPageRoute(
+                    builder: (context) => const SummaryScreen(),
+                  ),
+                );
+              } else {
+                ref.read(gameLoopProvider.notifier).nextCard();
+              }
             },
           ),
         ],
@@ -34,22 +43,22 @@ class TaskEngineScreen extends StatelessWidget {
                 color: Colors.red,
                 borderRadius: BorderRadius.circular(8),
               ),
-              child: const Text(
-                '00:30',
-                style: TextStyle(fontSize: 24, color: Colors.white),
+              child: Text(
+                currentCard.meta?['timer']?.toString() ?? '00:00',
+                style: const TextStyle(fontSize: 24, color: Colors.white),
               ),
             ),
             const SizedBox(height: 32),
             // Big Text (Target Word)
-            const Text(
-              'Elephant',
+            Text(
+              currentCard.content,
               textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 64, fontWeight: FontWeight.bold),
+              style: const TextStyle(fontSize: 64, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 16),
             // Subtext (Forbidden words/Rules)
             Text(
-              'Forbidden: Trunk, Grey, Large, Africa',
+              'Forbidden: ${currentCard.meta?['forbidden_words']?.join(', ') ?? 'N/A'}',
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 18, color: Colors.grey[400]),
             ),
