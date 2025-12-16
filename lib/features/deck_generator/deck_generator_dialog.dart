@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:social_shuffle/core/providers/deck_provider.dart';
 import 'package:social_shuffle/core/services/ai_service.dart';
 import 'package:social_shuffle/features/deck_generator/widgets/mixing_cards_animation.dart';
 
@@ -33,8 +34,7 @@ class _DeckGeneratorDialogState extends ConsumerState<DeckGeneratorDialog> {
         _topicController.text,
         _vibeController.text,
       );
-      // TODO: Save the generated deck to the local database and update the deck list
-      print('Generated Deck: ${generatedDeck.toJson()}');
+      await ref.read(deckListProvider.notifier).addDeck(generatedDeck);
       Navigator.of(context).pop(); // Close the dialog
     } catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(

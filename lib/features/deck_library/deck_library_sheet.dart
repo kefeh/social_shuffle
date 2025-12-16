@@ -15,6 +15,30 @@ class DeckLibrarySheet extends ConsumerWidget {
     );
   }
 
+  Future<void> _confirmDelete(BuildContext context, WidgetRef ref, String deckId) async {
+    final bool? confirm = await showDialog<bool>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Delete Deck?'),
+        content: const Text('Are you sure you want to delete this deck?'),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(false),
+            child: const Text('Cancel'),
+          ),
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(true),
+            child: const Text('Delete'),
+          ),
+        ],
+      ),
+    );
+
+    if (confirm == true) {
+      await ref.read(deckListProvider.notifier).deleteDeck(deckId);
+    }
+  }
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final decksAsyncValue = ref.watch(deckListProvider);
@@ -49,13 +73,7 @@ class DeckLibrarySheet extends ConsumerWidget {
                     },
                     onDelete: deck.isSystem
                         ? null
-                        : () {
-                            ScaffoldMessenger.of(context).showSnackBar(
-                              const SnackBar(
-                                content: Text('Delete - Not implemented yet'),
-                              ),
-                            );
-                          },
+                        : () => _confirmDelete(context, ref, deck.id),
                     onRemix: () {
                       ScaffoldMessenger.of(context).showSnackBar(
                         const SnackBar(
