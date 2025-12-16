@@ -1,11 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:social_shuffle/core/providers/deck_provider.dart';
+import 'package:social_shuffle/features/deck_generator/deck_generator_dialog.dart';
 import 'package:social_shuffle/features/deck_library/widgets/deck_list_item.dart';
 import 'package:social_shuffle/features/game_loop/game_loop_screen.dart';
 
 class DeckLibrarySheet extends ConsumerWidget {
   const DeckLibrarySheet({super.key});
+
+  void _showGeneratorDialog(BuildContext context) {
+    showDialog(
+      context: context,
+      builder: (context) => const DeckGeneratorDialog(),
+    );
+  }
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -39,6 +47,22 @@ class DeckLibrarySheet extends ConsumerWidget {
                         ),
                       );
                     },
+                    onDelete: deck.isSystem
+                        ? null
+                        : () {
+                            ScaffoldMessenger.of(context).showSnackBar(
+                              const SnackBar(
+                                content: Text('Delete - Not implemented yet'),
+                              ),
+                            );
+                          },
+                    onRemix: () {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        const SnackBar(
+                          content: Text('Remix - Not implemented yet'),
+                        ),
+                      );
+                    },
                   );
                 },
               ),
@@ -56,13 +80,7 @@ class DeckLibrarySheet extends ConsumerWidget {
           ),
           const SizedBox(height: 16),
           ElevatedButton.icon(
-            onPressed: () {
-              ScaffoldMessenger.of(context).showSnackBar(
-                const SnackBar(
-                  content: Text('Create New Deck - Not implemented yet'),
-                ),
-              );
-            },
+            onPressed: () => _showGeneratorDialog(context),
             icon: const Icon(Icons.add),
             label: const Text('Create New'),
           ),
