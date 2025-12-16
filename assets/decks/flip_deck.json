@@ -1,0 +1,17 @@
+{
+  "id": "flip_deck_1",
+  "title": "Truth or Dare Fun",
+  "game_engine_id": "flip",
+  "is_system": true,
+  "created_at": "2023-01-02T11:00:00Z",
+  "cards": [
+    {
+      "content": "Truth: What is your most embarrassing moment?",
+      "meta": {}
+    },
+    {
+      "content": "Dare: Do 10 push-ups.",
+      "meta": {}
+    }
+  ]
+}

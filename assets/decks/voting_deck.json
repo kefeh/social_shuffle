@@ -1,0 +1,17 @@
+{
+  "id": "voting_deck_1",
+  "title": "Most Likely To...",
+  "game_engine_id": "voting",
+  "is_system": true,
+  "created_at": "2023-01-04T13:00:00Z",
+  "cards": [
+    {
+      "content": "Most likely to accidentally join a cult?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to survive a zombie apocalypse?",
+      "meta": {}
+    }
+  ]
+}

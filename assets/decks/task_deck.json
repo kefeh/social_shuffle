@@ -1,0 +1,17 @@
+{
+  "id": "task_deck_1",
+  "title": "Charades Master",
+  "game_engine_id": "task",
+  "is_system": true,
+  "created_at": "2023-01-03T12:00:00Z",
+  "cards": [
+    {
+      "content": "Elephant",
+      "meta": {"timer": 60, "forbidden_words": ["Trunk", "Grey", "Large", "Africa"]}
+    },
+    {
+      "content": "Guitar",
+      "meta": {"timer": 60, "forbidden_words": ["String", "Play", "Music", "Strum"]}
+    }
+  ]
+}
