@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:social_shuffle/features/game_loop/game_loop_notifier.dart';
+import 'package:social_shuffle/core/providers/game_provider.dart';
 import 'package:social_shuffle/features/summary/summary_screen.dart';
 
 class QuizEngineScreen extends ConsumerWidget {

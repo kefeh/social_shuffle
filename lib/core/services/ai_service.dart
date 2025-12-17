@@ -1,7 +1,6 @@
 import 'dart:convert';
 import 'package:google_generative_ai/google_generative_ai.dart';
 import 'package:social_shuffle/core/models/deck.dart';
-import 'package:social_shuffle/core/models/card.dart' as model_card;
 
 class AIService {
   // TODO: Replace with your actual API key.

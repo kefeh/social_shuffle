@@ -34,7 +34,7 @@ class _DeckGeneratorDialogState extends ConsumerState<DeckGeneratorDialog> {
         _topicController.text,
         _vibeController.text,
       );
-      await ref.read(deckListProvider.notifier).addDeck(generatedDeck);
+      await ref.read(allDecksProvider.notifier).addDeck(generatedDeck);
       Navigator.of(context).pop(); // Close the dialog
     } catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(

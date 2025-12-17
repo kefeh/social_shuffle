@@ -18,12 +18,24 @@ class _DashboardScreenState extends State<DashboardScreen> {
   Color _backgroundColor = Colors.redAccent;
 
   final List<Map<String, dynamic>> _gameModes = [
-    {'title': 'Trivia', 'color': Colors.redAccent},
-    {'title': 'Charades', 'color': Colors.blueAccent},
-    {'title': 'Truth or Dare', 'color': Colors.greenAccent},
-    {'title': 'Debate', 'color': Colors.purpleAccent},
-    {'title': 'Never Have I Ever', 'color': Colors.orangeAccent},
-    {'title': 'Most Likely To', 'color': Colors.tealAccent},
+    {'title': 'Trivia', 'color': Colors.redAccent, 'game_engine_id': 'quiz'},
+    {'title': 'Charades', 'color': Colors.blueAccent, 'game_engine_id': 'task'},
+    {
+      'title': 'Truth or Dare',
+      'color': Colors.greenAccent,
+      'game_engine_id': 'flip'
+    },
+    {'title': 'Debate', 'color': Colors.purpleAccent, 'game_engine_id': 'voting'},
+    {
+      'title': 'Never Have I Ever',
+      'color': Colors.orangeAccent,
+      'game_engine_id': 'flip'
+    },
+    {
+      'title': 'Most Likely To',
+      'color': Colors.tealAccent,
+      'game_engine_id': 'voting'
+    },
   ];
 
   @override
@@ -47,10 +59,14 @@ class _DashboardScreenState extends State<DashboardScreen> {
     }
   }
 
-  void _showDeckLibrary(BuildContext context) {
+  void _showDeckLibrary(
+      BuildContext context, String gameModeTitle, String gameEngineId) {
     showModalBottomSheet(
       context: context,
-      builder: (context) => const DeckLibrarySheet(),
+      builder: (context) => DeckLibrarySheet(
+        gameModeTitle: gameModeTitle,
+        gameEngineId: gameEngineId,
+      ),
     );
   }
 
@@ -131,7 +147,8 @@ class _DashboardScreenState extends State<DashboardScreen> {
                                 ? 0.5
                                 : clampDouble(opacity + 0.5, 0.5, 1.0),
                           ),
-                          onTap: () => _showDeckLibrary(context),
+                          onTap: () => _showDeckLibrary(
+                              context, mode['title'], mode['game_engine_id']),
                           isGridView:
                               false, // Ensure full opacity for carousel view
                         ),
@@ -158,7 +175,8 @@ class _DashboardScreenState extends State<DashboardScreen> {
                   return GameModeCard(
                     title: mode['title'],
                     color: mode['color'],
-                    onTap: () => _showDeckLibrary(context),
+                    onTap: () => _showDeckLibrary(
+                        context, mode['title'], mode['game_engine_id']),
                     isGridView: true, // Apply 40% opacity for grid view
                   );
                 },

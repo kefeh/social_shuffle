@@ -31,6 +31,11 @@ class DeckRepository {
     return box.values.toList();
   }
 
+  Future<List<Deck>> getDecks(String gameEngineId) async {
+    final allDecks = await getAllDecks();
+    return allDecks.where((deck) => deck.gameEngineId == gameEngineId).toList();
+  }
+
   Future<List<Deck>> getAllDecks() async {
     final seedDecks = await _deckService.loadSeedDecks();
     final userDecks = await getUserDecks();

@@ -1,6 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:social_shuffle/core/models/deck.dart';
 import 'package:social_shuffle/core/models/card.dart' as model_card;
+import 'package:social_shuffle/core/providers/game_provider.dart';
 
 class GameLoopState {
   final Deck currentDeck;
@@ -22,13 +23,11 @@ class GameLoopState {
 class GameLoopNotifier extends Notifier<GameLoopState> {
   @override
   GameLoopState build() {
-    // This build method should not be called directly.
-    // The provider should be initialized with a specific deck.
-    throw UnimplementedError('GameLoopProvider must be initialized with a deck.');
-  }
-
-  void initializeGame(Deck deck) {
-    state = GameLoopState(currentDeck: deck, currentCardIndex: 0);
+    final currentDeck = ref.watch(currentDeckProvider);
+    if (currentDeck == null) {
+      throw Exception('GameLoopNotifier must be initialized with a deck.');
+    }
+    return GameLoopState(currentDeck: currentDeck);
   }
 
   void nextCard() {
@@ -41,7 +40,3 @@ class GameLoopNotifier extends Notifier<GameLoopState> {
     // Logic to handle game completion, e.g., navigate to summary
   }
 }
-
-final gameLoopProvider = NotifierProvider<GameLoopNotifier, GameLoopState>(() {
-  return GameLoopNotifier();
-});
