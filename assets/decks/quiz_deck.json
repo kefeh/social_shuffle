@@ -1,6 +1,7 @@
 {
   "id": "quiz_deck_1",
   "title": "General Knowledge Quiz",
+  "description": "Test your knowledge with these general knowledge questions.",
   "game_engine_id": "quiz",
   "is_system": true,
   "created_at": "2023-01-01T10:00:00Z",

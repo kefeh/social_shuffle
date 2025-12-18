@@ -18,6 +18,8 @@ class Deck {
   final DateTime createdAt;
   @HiveField(5)
   final List<Card> cards;
+  @HiveField(6)
+  final String? description;
 
   Deck({
     String? id,
@@ -26,6 +28,7 @@ class Deck {
     this.isSystem = false,
     DateTime? createdAt,
     required this.cards,
+    this.description,
   })  : id = id ?? const Uuid().v4(),
         createdAt = createdAt ?? DateTime.now();
 
@@ -41,6 +44,7 @@ class Deck {
       cards: (json['cards'] as List<dynamic>)
           .map((e) => Card.fromJson(e as Map<String, dynamic>))
           .toList(),
+      description: json['description'] as String?,
     );
   }
 
@@ -52,6 +56,7 @@ class Deck {
       'is_system': isSystem,
       'created_at': createdAt.toIso8601String(),
       'cards': cards.map((e) => e.toJson()).toList(),
+      'description': description,
     };
   }
 }

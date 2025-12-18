@@ -60,12 +60,14 @@ class _DashboardScreenState extends State<DashboardScreen> {
   }
 
   void _showDeckLibrary(
-      BuildContext context, String gameModeTitle, String gameEngineId) {
+      BuildContext context, String gameModeTitle, String gameEngineId, Color color) {
     showModalBottomSheet(
       context: context,
+      isScrollControlled: true, // Allow the modal to take full height
       builder: (context) => DeckLibrarySheet(
         gameModeTitle: gameModeTitle,
         gameEngineId: gameEngineId,
+        backgroundColor: color,
       ),
     );
   }
@@ -148,7 +150,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                                 : clampDouble(opacity + 0.5, 0.5, 1.0),
                           ),
                           onTap: () => _showDeckLibrary(
-                              context, mode['title'], mode['game_engine_id']),
+                              context, mode['title'], mode['game_engine_id'], mode['color']),
                           isGridView:
                               false, // Ensure full opacity for carousel view
                         ),
@@ -176,7 +178,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                     title: mode['title'],
                     color: mode['color'],
                     onTap: () => _showDeckLibrary(
-                        context, mode['title'], mode['game_engine_id']),
+                        context, mode['title'], mode['game_engine_id'], mode['color']),
                     isGridView: true, // Apply 40% opacity for grid view
                   );
                 },
