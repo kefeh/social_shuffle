@@ -18,23 +18,41 @@ class _DashboardScreenState extends State<DashboardScreen> {
   Color _backgroundColor = Colors.redAccent;
 
   final List<Map<String, dynamic>> _gameModes = [
-    {'title': 'Trivia', 'color': Colors.redAccent, 'game_engine_id': 'quiz'},
-    {'title': 'Charades', 'color': Colors.blueAccent, 'game_engine_id': 'task'},
+    {
+      'title': 'Trivia',
+      'color': Colors.redAccent,
+      'game_engine_id': 'quiz',
+      'image': 'assets/images/trivia.png',
+    },
+    {
+      'title': 'Charades',
+      'color': Colors.lightBlue,
+      'game_engine_id': 'task',
+      'image': 'assets/images/charades.png',
+    },
     {
       'title': 'Truth or Dare',
-      'color': Colors.greenAccent,
-      'game_engine_id': 'flip'
+      'color': Colors.pink,
+      'game_engine_id': 'flip',
+      'image': 'assets/images/truth-or-dare.png',
     },
-    {'title': 'Debate', 'color': Colors.purpleAccent, 'game_engine_id': 'voting'},
+    {
+      'title': 'Debate',
+      'color': Colors.green,
+      'game_engine_id': 'voting',
+      'image': 'assets/images/trivia.png',
+    },
     {
       'title': 'Never Have I Ever',
-      'color': Colors.orangeAccent,
-      'game_engine_id': 'flip'
+      'color': Colors.orange,
+      'game_engine_id': 'flip',
+      'image': 'assets/images/never-have.png',
     },
     {
       'title': 'Most Likely To',
-      'color': Colors.tealAccent,
-      'game_engine_id': 'voting'
+      'color': Colors.purple,
+      'game_engine_id': 'voting',
+      'image': 'assets/images/trivia.png',
     },
   ];
 
@@ -60,7 +78,11 @@ class _DashboardScreenState extends State<DashboardScreen> {
   }
 
   void _showDeckLibrary(
-      BuildContext context, String gameModeTitle, String gameEngineId, Color color) {
+    BuildContext context,
+    String gameModeTitle,
+    String gameEngineId,
+    Color color,
+  ) {
     showModalBottomSheet(
       context: context,
       isScrollControlled: true, // Allow the modal to take full height
@@ -75,9 +97,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: _backgroundColor.withOpacity(
-        _isCarouselView ? 0.5 : 0.2,
-      ),
+      backgroundColor: _backgroundColor,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
@@ -144,13 +164,18 @@ class _DashboardScreenState extends State<DashboardScreen> {
                         scale: scale,
                         child: GameModeCard(
                           title: mode['title'],
+                          image: mode['image'],
                           color: (mode['color'] as Color).withOpacity(
                             opacity == 0
                                 ? 0.5
                                 : clampDouble(opacity + 0.5, 0.5, 1.0),
                           ),
                           onTap: () => _showDeckLibrary(
-                              context, mode['title'], mode['game_engine_id'], mode['color']),
+                            context,
+                            mode['title'],
+                            mode['game_engine_id'],
+                            mode['color'],
+                          ),
                           isGridView:
                               false, // Ensure full opacity for carousel view
                         ),
@@ -177,8 +202,13 @@ class _DashboardScreenState extends State<DashboardScreen> {
                   return GameModeCard(
                     title: mode['title'],
                     color: mode['color'],
+                    image: mode['image'],
                     onTap: () => _showDeckLibrary(
-                        context, mode['title'], mode['game_engine_id'], mode['color']),
+                      context,
+                      mode['title'],
+                      mode['game_engine_id'],
+                      mode['color'],
+                    ),
                     isGridView: true, // Apply 40% opacity for grid view
                   );
                 },
