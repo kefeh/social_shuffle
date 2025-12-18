@@ -24,7 +24,7 @@ class GameModeCard extends StatelessWidget {
         margin: const EdgeInsets.all(8.0),
         decoration: BoxDecoration(borderRadius: BorderRadius.circular(24)),
         child: Card(
-          color: isGridView ? color : color.withOpacity(0.2),
+          color: Colors.white,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(22),
           ),
@@ -53,7 +53,7 @@ class GameModeCard extends StatelessWidget {
                     style: const TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                 ),

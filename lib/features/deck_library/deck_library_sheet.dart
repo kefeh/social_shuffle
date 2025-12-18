@@ -75,24 +75,19 @@ class DeckLibrarySheet extends ConsumerWidget {
 
     return Container(
       width: MediaQuery.of(context).size.width,
-      margin: const EdgeInsets.only(top: 60), // Space from the top
+      height: MediaQuery.of(context).size.height / 3 * 2,
       decoration: BoxDecoration(
-        color: Theme.of(context).scaffoldBackgroundColor,
         borderRadius: const BorderRadius.vertical(top: Radius.circular(25)),
         gradient: LinearGradient(
           begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
-          colors: [
-            backgroundColor.withOpacity(0.3),
-            Theme.of(context).scaffoldBackgroundColor,
-          ],
+          colors: [backgroundColor, Theme.of(context).scaffoldBackgroundColor],
         ),
       ),
       child: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
           children: [
-            // Removed mainAxisSize.min
             Text(
               '$gameModeTitle Decks',
               style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
@@ -100,7 +95,6 @@ class DeckLibrarySheet extends ConsumerWidget {
             const SizedBox(height: 16),
             decksAsyncValue.when(
               data: (decks) => Flexible(
-                // Changed Expanded to Flexible
                 child: ListView.builder(
                   itemCount: decks.length,
                   itemBuilder: (context, index) {
@@ -143,10 +137,13 @@ class DeckLibrarySheet extends ConsumerWidget {
                 label: const Text('Create New'),
                 style: ElevatedButton.styleFrom(
                   padding: const EdgeInsets.symmetric(vertical: 15),
-                  textStyle: const TextStyle(fontSize: 18),
+                  textStyle: const TextStyle(fontSize: 18, color: Colors.white),
+                  foregroundColor: Colors.white,
+                  backgroundColor: backgroundColor,
                 ),
               ),
             ),
+            const SizedBox(height: 16),
           ],
         ),
       ),

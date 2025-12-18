@@ -85,11 +85,16 @@ class _DashboardScreenState extends State<DashboardScreen> {
   ) {
     showModalBottomSheet(
       context: context,
-      isScrollControlled: true, // Allow the modal to take full height
-      builder: (context) => DeckLibrarySheet(
-        gameModeTitle: gameModeTitle,
-        gameEngineId: gameEngineId,
-        backgroundColor: color,
+      isScrollControlled: true,
+      useSafeArea: true,
+      builder: (context) => Wrap(
+        children: [
+          DeckLibrarySheet(
+            gameModeTitle: gameModeTitle,
+            gameEngineId: gameEngineId,
+            backgroundColor: color,
+          ),
+        ],
       ),
     );
   }
@@ -123,7 +128,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
               controller: _pageController,
               itemCount: _gameModes.length,
               itemBuilder: (context, index) {
-                double scale = max(0.6, (1.2 - (_currentPage - index).abs()));
+                double scale = max(0.6, (1.4 - (_currentPage - index).abs()));
                 final mode = _gameModes[index];
                 double pagePos = _pageController.position.haveDimensions
                     ? _pageController.page!
@@ -141,7 +146,8 @@ class _DashboardScreenState extends State<DashboardScreen> {
                   children: [
                     Expanded(
                       flex: 1,
-                      child: Center(
+                      child: Align(
+                        alignment: Alignment.topCenter,
                         child: Opacity(
                           opacity: opacity.ceil().toDouble(),
                           child: Transform.translate(
@@ -176,8 +182,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                             mode['game_engine_id'],
                             mode['color'],
                           ),
-                          isGridView:
-                              false, // Ensure full opacity for carousel view
+                          isGridView: false,
                         ),
                       ),
                     ),

@@ -19,9 +19,7 @@ class DeckCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       elevation: 4,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(16),
-      ),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
       child: InkWell(
         onTap: onTap,
         borderRadius: BorderRadius.circular(16),
@@ -44,19 +42,15 @@ class DeckCard extends StatelessWidget {
                     Chip(
                       label: const Text('System'),
                       backgroundColor: Colors.blueGrey[700],
-                    )
+                    ),
                 ],
               ),
               const SizedBox(height: 8),
               if (deck.description != null)
                 Text(
                   deck.description!,
-                  style: TextStyle(
-                    fontSize: 14,
-                    color: Colors.grey[400],
-                  ),
+                  style: TextStyle(fontSize: 14, color: Colors.grey[400]),
                 ),
-              const Spacer(),
               Row(
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
