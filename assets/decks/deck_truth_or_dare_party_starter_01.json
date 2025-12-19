@@ -1,0 +1,311 @@
+{
+  "id": "deck_party_starter_01",
+  "title": "The Party Starter",
+  "description": "The classic deck for house parties. Good vibes, bad decisions, and hilarious memories.",
+  "game_engine_id": "truth_or_dare",
+  "game_engine_type": "flip",
+  "is_system": true,
+  "created_at": "2023-01-02T12:00:00Z",
+  "cards": [
+    {
+      "content": "Truth: What is the drunkest thing you have ever done?",
+      "back": "Dare: Down your drink (or take a shot).",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who in this room do you think has the worst taste in music?",
+      "back": "Dare: Let the group pick a song and you must lip-sync to it perfectly.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever thrown up on someone?",
+      "back": "Dare: Spin around 10 times and try to walk in a straight line.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most embarrassing photo on your phone right now?",
+      "back": "Dare: Post a humiliating photo of yourself on your Story (delete after 24h).",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who in this room would you least like to be stuck in an elevator with?",
+      "back": "Dare: Sit on the lap of the person to your right for the next round.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever ghosted someone you were dating?",
+      "back": "Dare: Hand your phone to the group and let them send one emoji to a random contact.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your biggest regret from a night out?",
+      "back": "Dare: Mix three different drinks together and take a sip.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever hooked up with a friend's ex?",
+      "back": "Dare: Give a foot massage to the person on your left.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the meanest rumor you’ve heard about yourself?",
+      "back": "Dare: Yell the first word that comes to your mind right now.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who in this room is the biggest flirt?",
+      "back": "Dare: Wink at every person in the room individually.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever been arrested or detained by police?",
+      "back": "Dare: Do your best impression of a police siren loud enough for neighbors to hear.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What’s the worst pickup line you’ve ever used?",
+      "back": "Dare: Use a cheesy pickup line on the person across from you.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever skinny-dipped?",
+      "back": "Dare: Take off your socks using only your teeth.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: If you had to date someone in this room, who would it be?",
+      "back": "Dare: Let the person to your right sit on your back while you do 5 pushups.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most illegal thing you have ever done?",
+      "back": "Dare: Call a pizza place and ask if they sell tacos.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who do you think is the worst driver in this group?",
+      "back": "Dare: Blindfold yourself and let someone guide you around the room.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever faked an orgasm?",
+      "back": "Dare: Eat a snack without using your hands.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most embarrassing thing your parents have caught you doing?",
+      "back": "Dare: Call your mom/dad and tell them you love them, then hang up immediately.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who in this room spends the most time on the toilet?",
+      "back": "Dare: Go to the bathroom and take a selfie in the mirror.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever stolen something?",
+      "back": "Dare: Try to pickpocket the person to your left (with permission).",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your biggest insecurity?",
+      "back": "Dare: Stand on a chair and announce 'I am the King/Queen of the World!'",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever peed your pants as an adult?",
+      "back": "Dare: Put an ice cube down your shirt.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who is the funniest person in this room?",
+      "back": "Dare: Try to make the group laugh without speaking.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever stalked someone in real life?",
+      "back": "Dare: Exchange shirts with the person to your right.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the wildest place you’ve hooked up?",
+      "back": "Dare: Demonstrate your favorite dance move.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who in this room has the best style?",
+      "back": "Dare: Let someone restyle your hair with water.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever lied on your resume?",
+      "back": "Dare: Sell the object nearest to you like a telemarketer.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the longest you’ve gone without brushing your teeth?",
+      "back": "Dare: Smile with your teeth showing for the entire next round.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: If you could fire one person from your life, who would it be?",
+      "back": "Dare: Pretend to fire the person to your left like a ruthless boss.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever kissed more than one person in one night?",
+      "back": "Dare: Kiss the cheek of the person to your left.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most shallow reason you broke up with someone?",
+      "back": "Dare: Show the group your ID/Driver's License photo.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who in this room is most likely to get arrested?",
+      "back": "Dare: Put your hands behind your back and pretend to be arrested.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever sent a dirty pic to the wrong person?",
+      "back": "Dare: Draw a mustache on your face with a pen (washable!).",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is a secret you’ve never told your parents?",
+      "back": "Dare: Whisper a secret to the person on your right.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever had a crush on a teacher/professor?",
+      "back": "Dare: Act like a strict teacher scolding the group.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who in this room do you think is rich?",
+      "back": "Dare: Ask someone for a dollar in the most pathetic way possible.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever been caught lying to a friend?",
+      "back": "Dare: Tell the person to your left something you honestly admire about them.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most cringeworthy thing you’ve posted online?",
+      "back": "Dare: Read the last text message you received out loud.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever broken a bone doing something stupid?",
+      "back": "Dare: Wrap your head in toilet paper like a bandage.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who in this room intimidates you the most?",
+      "back": "Dare: Stare contest with the person you find most intimidating.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever blamed a fart on someone else?",
+      "back": "Dare: Smell the armpit of the person next to you.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the worst gift you have ever given someone?",
+      "back": "Dare: Gift someone in the room a piece of trash solemnly.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever dined and dashed?",
+      "back": "Dare: Run in place for 1 minute while shouting 'I'm fast as boy!'",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who in this room would you trust with your life?",
+      "back": "Dare: Let that person feed you a snack.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your guilty pleasure TV show?",
+      "back": "Dare: Act out a dramatic scene from a soap opera.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever looked through a partner's phone?",
+      "back": "Dare: Unlock your phone and place it in the center of the table for 1 minute.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the weirdest place you have fallen asleep?",
+      "back": "Dare: Lie on the floor and pretend to be asleep for one round.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever lied about your age?",
+      "back": "Dare: Act like an old person complaining about 'kids these days'.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who is the most dramatic person in this room?",
+      "back": "Dare: Fake a dramatic faint.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever blocked a friend on social media?",
+      "back": "Dare: Go to your blocked list and read the first name (if any).",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most money you’ve lost or wasted?",
+      "back": "Dare: Throw a coin across the room and then crawl to find it.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever had a crush on a friend's sibling?",
+      "back": "Dare: Admit which friend has the hottest family.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is a habit of yours that is disgusting?",
+      "back": "Dare: Pick your nose and flick it (fake it, please).",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever worn the same underwear two days in a row?",
+      "back": "Dare: Check the label of your shirt and read it out loud.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who do you text the most?",
+      "back": "Dare: Dictate a text to that person chosen by the group.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever been rejected publicly?",
+      "back": "Dare: Propose marriage to a lamp or piece of furniture.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the worst meal you’ve ever cooked?",
+      "back": "Dare: Eat a teaspoon of hot sauce (or lemon juice).",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever fallen in love at first sight?",
+      "back": "Dare: Make intense eye contact with the person across from you for 30 seconds.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the pettiest thing you’ve ever done?",
+      "back": "Dare: Slowly knock a cup off the table like a cat.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who in this room has the most annoying laugh?",
+      "back": "Dare: Imitate that person's laugh.",
+      "meta": {}
+    }
+  ]
+}

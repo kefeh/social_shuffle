@@ -1,0 +1,311 @@
+{
+  "id": "deck_couples_therapy_01",
+  "title": "Couples Therapy",
+  "description": "Romantic, revealing, and sometimes dangerous. Play 1-on-1 to deepen the bond or break the ice.",
+  "game_engine_id": "truth_or_dare",
+  "game_engine_type": "flip",
+  "is_system": true,
+  "created_at": "2023-01-02T16:00:00Z",
+  "cards": [
+    {
+      "content": "Truth: What was your very first impression of me, honestly?",
+      "back": "Dare: Stare into my eyes for 60 seconds without laughing or talking.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is one habit of mine that secretly annoys you?",
+      "back": "Dare: Give me a foot massage for 2 minutes.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: When was the exact moment you knew you liked/loved me?",
+      "back": "Dare: Slow dance with me to no music for one minute.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your biggest fear regarding our relationship?",
+      "back": "Dare: Unlock your phone and place it on the table for the next 2 rounds.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever kept a secret from me to protect my feelings?",
+      "back": "Dare: Let me look through your 'Recently Deleted' photos.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is one thing you wish I would do more often in bed?",
+      "back": "Dare: Kiss me somewhere you have never kissed me before.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who is the one person in my life you actually can't stand?",
+      "back": "Dare: Whisper a genuine compliment into my ear.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: If we broke up tomorrow, what would you miss the most?",
+      "back": "Dare: Let me sit on your lap for the next 3 rounds.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most attractive physical feature I possess?",
+      "back": "Dare: Take off my socks with your teeth.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever successfully lied to me?",
+      "back": "Dare: Show me the last DM you sent to a friend.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is a fantasy you have about us that you've never shared?",
+      "back": "Dare: Blindfold yourself and let me feed you a mystery snack.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Do you think you are the 'reach' or the 'settler' in this relationship?",
+      "back": "Dare: Post a photo of us on your Story right now with a heart caption.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the biggest argument we've had that you still think about?",
+      "back": "Dare: Re-enact our first kiss as accurately as possible.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever been jealous of one of my friends?",
+      "back": "Dare: Let me write a temporary tattoo on your arm with a pen.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most expensive gift you've bought me that you regret?",
+      "back": "Dare: Let me tickle you for 30 seconds without you defending yourself.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: On a scale of 1-10, how good of a kisser am I?",
+      "back": "Dare: French kiss me for exactly 20 seconds.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is one thing I do that makes you feel insecure?",
+      "back": "Dare: Tell me three things you love about my body.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever looked through my phone without asking?",
+      "back": "Dare: Hand me your phone and let me search one keyword in your messages.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your favorite memory of us?",
+      "back": "Dare: Give me a piggyback ride around the room.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Do you think we spend too much or too little time together?",
+      "back": "Dare: Plan a surprise date for us out loud right now.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most embarrassing thing I have ever done in public?",
+      "back": "Dare: Imitate my angry face.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: If you could change one physical thing about me, what would it be?",
+      "back": "Dare: Let me style your hair however I want.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever thought about breaking up with me?",
+      "back": "Dare: Hold my hand and don't let go until your next turn.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the best date we have ever been on?",
+      "back": "Dare: Feed me a piece of fruit/food using only your mouth.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who do you think wears the pants in our relationship?",
+      "back": "Dare: Do 10 pushups with me lying on your back.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is something I am terrible at but think I am good at?",
+      "back": "Dare: Let me check your browser history from today.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever flirted with someone else while we were together?",
+      "back": "Dare: Send a heart emoji to my mother (or best friend).",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your favorite piece of clothing that I wear?",
+      "back": "Dare: Swap shirts with me for the rest of the game.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Do you think my parents like you?",
+      "back": "Dare: Call your parents and tell them how great I am.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the grossest thing I do in private?",
+      "back": "Dare: Smell my armpit (I promise it's fine... maybe).",
+      "meta": {}
+    },
+    {
+      "content": "Truth: If we got married tomorrow, what would be your biggest hesitation?",
+      "back": "Dare: Propose to me with a ring made of paper/foil.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most romantic thing I have ever done for you?",
+      "back": "Dare: Write a love poem in 1 minute and read it to me.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever stayed in this relationship out of pity or habit?",
+      "back": "Dare: Look at me and say 'I love you' in three different accents.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is one thing you wish we had in common?",
+      "back": "Dare: Let me pick your profile picture on social media for 24 hours.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who is your 'Hall Pass' celebrity?",
+      "back": "Dare: Roleplay as that celebrity for 1 minute.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is a recurring dream you have about me?",
+      "back": "Dare: Draw a portrait of me on paper (or a napkin) in 30 seconds.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever lied about liking a gift I gave you?",
+      "back": "Dare: Wear my underwear over your pants for one round.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the pettiest reason you have been mad at me?",
+      "back": "Dare: Apologize for something you didn't do.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Do you think I am a good listener?",
+      "back": "Dare: I will whisper a sentence; you have to lip-read it.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the closest we have come to breaking up?",
+      "back": "Dare: Hug me and whisper your biggest regret into my ear.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: If you could erase one of my exes from history, who would it be?",
+      "back": "Dare: Let me look at your Instagram 'Search' history.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is something you've learned from me?",
+      "back": "Dare: Teach me a dance move and I have to perform it.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever faked being happy for me?",
+      "back": "Dare: Laugh hysterically for 10 seconds without stopping.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is one sexual act you want to try but are afraid to ask?",
+      "back": "Dare: Demonstrate your favorite sleeping position on the floor.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Do you think we handle money well as a couple?",
+      "back": "Dare: Show me your bank account balance.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most annoying sound I make?",
+      "back": "Dare: Record a voice memo of you making that sound and save it.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever trash-talked me to your friends?",
+      "back": "Dare: Text your best friend 'I am so lucky to have [Partner's Name]'.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your favorite time of day to be with me?",
+      "back": "Dare: Cuddle with me in a position I choose for 1 minute.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Do you think I spend too much time on my phone?",
+      "back": "Dare: Put both our phones in the freezer for 5 minutes.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is one thing you would change about my style?",
+      "back": "Dare: Pick out an outfit for me to wear tomorrow.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever doubted if I was 'The One'?",
+      "back": "Dare: Kiss my forehead, then my nose, then my lips.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most childish thing I do?",
+      "back": "Dare: Talk in a baby voice until your next turn.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: If we could move anywhere in the world, where would you take me?",
+      "back": "Dare: Describe your dream house in detail.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is a song that reminds you of me?",
+      "back": "Dare: Sing the chorus of that song to me.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever felt lonely while we were in the same room?",
+      "back": "Dare: Sit back-to-back and talk about our future.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is something I do that turns you on instantly?",
+      "back": "Dare: Bite your lip and look at me seductively.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the biggest sacrifice you've made for this relationship?",
+      "back": "Dare: Bow down and kiss my hand.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Do you think I am too critical of you?",
+      "back": "Dare: Let me give you a unibrow with a makeup pencil.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is one goal you want us to achieve this year?",
+      "back": "Dare: Do a 'trust fall' (I catch you).",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Why do you love me?",
+      "back": "Dare: Shout 'I AM IN LOVE!' out the window.",
+      "meta": {}
+    }
+  ]
+}

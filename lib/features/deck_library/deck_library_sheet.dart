@@ -3,8 +3,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:social_shuffle/core/models/deck.dart';
 import 'package:social_shuffle/core/providers/deck_provider.dart';
 import 'package:social_shuffle/core/providers/game_provider.dart';
-import 'package:social_shuffle/features/deck_generator/deck_generator_dialog.dart';
-import 'package:social_shuffle/features/deck_library/deck_details_sheet.dart';
 import 'package:social_shuffle/features/deck_library/widgets/deck_card.dart';
 import 'package:social_shuffle/features/game_config/game_config_screen.dart';
 import 'package:social_shuffle/features/game_loop/game_loop_screen.dart';
@@ -29,17 +27,6 @@ class DeckLibrarySheet extends ConsumerWidget {
   //     ),
   //   );
   // }
-
-  void _showDeckDetailsSheet(BuildContext context, Deck deck) {
-    showModalBottomSheet(
-      context: context,
-      isScrollControlled: true, // Allow the modal to take full height
-      builder: (context) => FractionallySizedBox(
-        heightFactor: 0.8, // Take 80% of the screen height
-        child: DeckDetailsSheet(deck: deck),
-      ),
-    );
-  }
 
   Future<void> _confirmDelete(
     BuildContext context,
@@ -67,6 +54,10 @@ class DeckLibrarySheet extends ConsumerWidget {
     if (confirm == true) {
       await ref.read(allDecksProvider.notifier).deleteDeck(deckId);
     }
+  }
+
+  bool _doesDeckNeedConfiguration(Deck deck) {
+    return deck.cards.any((card) => card.meta?.containsKey('timer') ?? false);
   }
 
   @override
@@ -103,7 +94,23 @@ class DeckLibrarySheet extends ConsumerWidget {
                       padding: const EdgeInsets.symmetric(vertical: 8.0),
                       child: DeckCard(
                         deck: deck,
-                        onTap: () => _showDeckDetailsSheet(context, deck),
+                        onTap: () {
+                          ref.read(currentDeckProvider.notifier).state = deck;
+                          Navigator.pop(context); // Close details sheet
+                          if (_doesDeckNeedConfiguration(deck)) {
+                            Navigator.of(context).push(
+                              MaterialPageRoute(
+                                builder: (context) => const GameConfigScreen(),
+                              ),
+                            );
+                          } else {
+                            Navigator.of(context).push(
+                              MaterialPageRoute(
+                                builder: (context) => const GameLoopScreen(),
+                              ),
+                            );
+                          }
+                        },
                         onDelete: deck.isSystem
                             ? null
                             : () => _confirmDelete(context, ref, deck.id),

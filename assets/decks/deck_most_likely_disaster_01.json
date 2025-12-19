@@ -1,0 +1,411 @@
+{
+  "id": "deck_most_likely_disaster_01",
+  "title": "The Hot Mess: Disaster Class",
+  "description": "For the friends who are always late, always lost, or always causing a scene. Who is the biggest liability?",
+  "game_engine_id": "most_likely",
+  "game_engine_type": "voting",
+  "is_system": true,
+  "created_at": "2023-01-04T16:00:00Z",
+  "cards": [
+    {
+      "content": "Most likely to drop their phone in the toilet?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to trip over nothing while walking on a flat surface?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to lock themselves out of their house/car?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to send a screenshot to the person they were gossiping about?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to burn water while cooking?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to sleep through 10 alarms?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to arrive an hour late to everything?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to fall in love with a walking red flag?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to get drunk off one drink?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to spill a drink on a stranger?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to break a glass at a party?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to lose their wallet on a night out?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to forget their own birthday?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to walk into a glass door?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to get lost even with Google Maps open?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to accidentally like an ex's photo from 3 years ago?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to drunk text their boss?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to cry in public for no reason?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to get kicked out of an Uber?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to choke on their own saliva?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to forget someone's name while introducing them?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to buy something expensive and regret it 5 minutes later?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to get a tattoo with a spelling error?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to show up to the wrong location for a date?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to wear a shirt inside out all day without noticing?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to lose their passport immediately before a trip?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to miss a flight because they were eating?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to accidentally set something on fire?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to invite themselves to a party?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to overshare with a cashier?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to ghost someone they really liked by accident?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to eat food that expired a week ago?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to fall asleep on the toilet?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to reply to a text 3 months later?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to laugh at a funeral?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to have the messiest room in the group?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to have 5,000 unread emails?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to ignore the 'Check Engine' light for a year?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to break their phone screen once a month?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to go to the grocery store for milk and come back with $100 of snacks?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to accidentally insult a child?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to pee their pants from laughing?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to send a naughty text to the family group chat?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to get a haircut and immediately cry?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to fall off a chair while sitting still?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to get scammed by an internet bot?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to forget where they parked their car?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to wear mismatched shoes?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to ruin a surprise party?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to sustain an injury while sleeping?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to be the 'drama queen/king'?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to verify their age on a website by scrolling to 1890?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to get sunburned indoors?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to pull a 'push' door?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to leave the stove on?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to try a DIY project and destroy their house?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to dye their hair a crazy color during a mental breakdown?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to adopt a pet they can't take care of?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to get fired for something incredibly dumb?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to quit a job after one day?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to accidentally steal something from a store?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to wave at a stranger thinking they know them?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to have spinach in their teeth for an entire date?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to clog a toilet at a friend's house?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to vomit in an Uber?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to lose their voice from screaming at a concert?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to think a stripper actually likes them?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to pass out with their shoes on?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to get banned from Tinder?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to accidentally call 911?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to get stuck in a piece of clothing while trying it on?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to accidentally flash someone?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to have the weirdest Google search history?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to eat something off the floor?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to be the first one to die in a zombie apocalypse?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to trust a Nigerian Prince email?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to give themselves a bad haircut?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to break a tooth opening a bottle?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to sing the wrong lyrics to a very popular song?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to run out of gas on the highway?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to accidentally injure themselves while dancing?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to order a pizza to their old address?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to lose their credit card twice in one month?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to show up to a costume party without a costume?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to be the loudest person in the room?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to spill coffee on their white shirt?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to fall for a fake news article?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to forget to pack underwear for a trip?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to leave their phone in the fridge?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to introduce themselves to the same person twice?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to send a voice note that is 10 minutes long?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to get a noise complaint from neighbors?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to try a fad diet and quit after 3 hours?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to borrow money and forget to pay it back?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to have a panic attack over nothing?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to ruin a group photo by blinking?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to accidentally spit while talking?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to say 'You too' when the waiter says 'Enjoy your meal'?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to high-five someone who was waving?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to argue with a bot online?",
+      "meta": {}
+    }
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "id": "deck_most_likely_friendly_fire_01",
+  "title": "Friendly Fire",
+  "description": "The ultimate voting game. 100 questions to find out who your friends really think you are.",
+  "game_engine_id": "most_likely",
+  "game_engine_type": "voting",
+  "is_system": true,
+  "created_at": "2023-01-04T13:00:00Z",
+  "cards": [
+    {
+      "content": "Most likely to accidentally join a cult?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to survive a zombie apocalypse?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to become a meme?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to trip over nothing while walking on a flat surface?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to forget someone's name immediately after meeting them?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to marry a stranger in Vegas?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to cry during a sad commercial?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to send a screenshot to the person they were screenshotting?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to become a millionaire by accident?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to get arrested for doing something incredibly stupid?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to sleep through a fire alarm?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to win a reality TV show?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to adopt a stray animal they found on the street?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to laugh at a funeral (or an inappropriate moment)?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to drop their phone in the toilet?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to text their ex after two drinks?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to go missing on a night out?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to become a famous influencer?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to fake their own death to start a new life?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to get a tattoo they will regret immediately?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to spend all their rent money on food?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to fall in love with a waiter/waitress?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to lock themselves out of their own house?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to break a bone doing something simple?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to check their phone during sex?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to marry for money?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to quit their job on the spot?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to eat something off the floor?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to die first in a horror movie?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to talk their way out of a speeding ticket?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to have a secret family?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to be the first one to pass out at a party?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to embarrass themselves in front of a crush?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to get lost in their own neighborhood?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to become a stand-up comedian?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to win an argument even when they are wrong?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to forget their own birthday?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to hook up with a friend's ex?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to live with their parents until they are 40?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to have the most screen time on their phone?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to Google something extremely simple?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to accidentally insult someone?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to give the best advice but never follow it?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to possess a fake ID?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to hold a grudge forever?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to be late to their own wedding?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to buy something expensive and return it the next day?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to get banned from a bar or club?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to start a fight with a stranger?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to have a secret snack stash?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to spoil a movie ending for everyone?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to disappear for a week without telling anyone?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to become a crazy cat/dog person?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to try and pet a wild animal?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to have the messiest room?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to talk during a movie?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to stalk an ex on social media?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to lie about their age?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to become a nudist?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to wear pajamas to the grocery store?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to accidentally set something on fire?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to cry when they get drunk?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to make friends with a stranger in the bathroom?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to go viral for doing something embarrassing?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to have the worst driver's license photo?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to get sunburned indoors?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to bring a book to a party?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to steal the covers in bed?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to reply to a text 3 days later?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to ghost a date?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to be the best kisser?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to spend all day on TikTok?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to write a best-selling book?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to get lost in a supermarket?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to be President of the country?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to fail a driving test multiple times?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to laugh so hard they pee?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to move to a cabin in the woods alone?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to start a rumor?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to get a speeding ticket?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to be the first one on the dance floor?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to push a 'pull' door?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to have the most unread emails?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to overshare with an Uber driver?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to win the lottery and lose the ticket?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to become a vegan and tell everyone about it?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to wear sunglasses indoors?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to snore the loudest?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to fall asleep at the club?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to date two people at once?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to invent something useless?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to never return a borrowed hoodie?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to get hacked?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to spill a drink on themselves?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to ask 'Are we there yet?' on a road trip?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to create a fake profile to spy on someone?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to take the most selfies?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to show up uninvited?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to forget their wallet on a date?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to be drama queen/king?",
+      "meta": {}
+    }
+  ]
+}

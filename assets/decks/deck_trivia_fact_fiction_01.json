@@ -1,0 +1,465 @@
+{
+  "id": "deck_fact_fiction_01",
+  "title": "Fact or Fiction",
+  "description": "Prepare to have your mind blown. We challenge the most common myths in history, science, and nature. \"Wait, really?\"",
+  "game_engine_id": "trivia",
+  "game_engine_type": "quiz",
+  "is_system": true,
+  "created_at": "2023-01-01T11:00:00Z",
+  "cards": [
+    {
+      "content": "What actually angers a bull during a bullfight?",
+      "options": [
+        "The color red",
+        "The crowd noise",
+        "The movement of the cape",
+        "The smell of the matador"
+      ],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "How long is a goldfish's memory span, actually?",
+      "options": ["3 seconds", "10 seconds", "1 minute", "Months"],
+      "correct_index": 3,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "True or False: The Great Wall of China is the only man-made object visible from space.",
+      "options": [
+        "True",
+        "False - It's not visible at all",
+        "False - Many things are visible",
+        "False - Only the pyramids are"
+      ],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Napoleon Bonaparte was famously short. How tall was he really?",
+      "options": [
+        "5'2\" (Short)",
+        "5'6\" (Average for the time)",
+        "4'11\" (Very short)",
+        "6'0\" (Tall)"
+      ],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What happens if you wake a sleepwalker?",
+      "options": [
+        "They will have a heart attack",
+        "They will go into a coma",
+        "They will be confused (but safe)",
+        "Their soul leaves their body"
+      ],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "How much of our brain do humans actually use?",
+      "options": ["10%", "25%", "50%", "Virtually all of it"],
+      "correct_index": 3,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What happens when you shave your hair?",
+      "options": [
+        "It grows back thicker",
+        "It grows back darker",
+        "It grows back faster",
+        "Nothing changes (it's an illusion)"
+      ],
+      "correct_index": 3,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Did Vikings actually wear horned helmets?",
+      "options": [
+        "Yes, always",
+        "Only the leaders",
+        "No, never",
+        "Only during ceremonies"
+      ],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Are bats actually blind?",
+      "options": [
+        "Yes, completely",
+        "They can only see light",
+        "No, they see quite well",
+        "Only vampire bats are blind"
+      ],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Which part of the tongue tastes 'bitter'?",
+      "options": [
+        "The back",
+        "The tip",
+        "The sides",
+        "All parts (The tongue map is a myth)"
+      ],
+      "correct_index": 3,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What do ostriches do when they are scared?",
+      "options": [
+        "Burry their head in sand",
+        "Flop on the ground and play dead",
+        "Attack immediately",
+        "Fly away"
+      ],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What grade did Einstein fail in school?",
+      "options": ["Math", "Physics", "History", "None (He was a good student)"],
+      "correct_index": 3,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Did people in Columbus's time think the Earth was flat?",
+      "options": [
+        "Yes, everyone did",
+        "Only the church did",
+        "No, they knew it was round",
+        "They thought it was a cube"
+      ],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What color is de-oxygenated blood inside your veins?",
+      "options": ["Blue", "Purple", "Dark Red", "Black"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Which country invented the Fortune Cookie?",
+      "options": ["China", "Japan/USA", "Vietnam", "Korea"],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Who is Frankenstein?",
+      "options": ["The Monster", "The Doctor", "The Assistant", "The Castle"],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "How many spiders does the average person swallow in their sleep per year?",
+      "options": ["Zero", "4", "8", "12"],
+      "correct_index": 0,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Botanically speaking, what is a banana?",
+      "options": ["A fruit", "A vegetable", "A berry", "A nut"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What happens if you drop a penny from the Empire State Building?",
+      "options": [
+        "It kills a pedestrian",
+        "It cracks the pavement",
+        "It embeds in the ground",
+        "It bounces off (Not terminal velocity)"
+      ],
+      "correct_index": 3,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Does lightning ever strike the same place twice?",
+      "options": ["No, never", "Rarely", "Yes, frequently", "Only on metal"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Why do chameleons change color?",
+      "options": [
+        "Camouflage only",
+        "To regulate temperature and mood",
+        "To scare predators",
+        "To mimic textures"
+      ],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What does alcohol actually do to your body temperature?",
+      "options": [
+        "Raises it",
+        "Keeps it the same",
+        "Lowers it",
+        "Fluctuates wildly"
+      ],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Does the toilet flush the other way in Australia?",
+      "options": [
+        "Yes, due to Coriolis Effect",
+        "No, it depends on the jet design",
+        "Yes, due to gravity",
+        "No, they don't use water"
+      ],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What causes the noise when you crack your knuckles?",
+      "options": [
+        "Bones rubbing together",
+        "Tendons snapping",
+        "Gas bubbles bursting",
+        "Arthritis forming"
+      ],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "How many senses do humans have?",
+      "options": ["5", "6", "10", "More than 20 (Balance, Pain, Heat, etc.)"],
+      "correct_index": 3,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Does sugar make children hyperactive?",
+      "options": [
+        "Yes, definitely",
+        "No, it's the placebo effect/environment",
+        "Only chocolate does",
+        "Only soda does"
+      ],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Are dogs colorblind?",
+      "options": [
+        "Yes, black and white only",
+        "No, they see blue and yellow",
+        "No, they see red and green",
+        "They see infrared"
+      ],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What does the word 'Sushi' actually mean?",
+      "options": ["Raw Fish", "Seaweed Roll", "Sour Rice", "Tasty Snack"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "In the Bible, what fruit did Eve eat?",
+      "options": ["Apple", "Pomegranate", "Fig", "It just says 'Fruit'"],
+      "correct_index": 3,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Who said 'Let them eat cake'?",
+      "options": [
+        "Marie Antoinette",
+        "Queen Elizabeth I",
+        "Catherine the Great",
+        "Nobody knows (likely propaganda)"
+      ],
+      "correct_index": 3,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Does adding salt to water make it boil faster?",
+      "options": [
+        "Yes, significantly",
+        "No, it takes longer",
+        "Technically yes, but negligible",
+        "It stops the boiling"
+      ],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Does adding oil to pasta water stop it sticking?",
+      "options": [
+        "Yes",
+        "No, it just floats on top",
+        "Only for spaghetti",
+        "Only with olive oil"
+      ],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "How long does swallowed gum stay in your stomach?",
+      "options": [
+        "7 years",
+        "1 month",
+        "24 hours",
+        "It passes normally (few days)"
+      ],
+      "correct_index": 3,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Does Vitamin C prevent colds?",
+      "options": [
+        "Yes, stops them completely",
+        "No, but it might shorten them slightly",
+        "No, it makes them worse",
+        "Only if taken with Zinc"
+      ],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Can you get cramps from swimming right after eating?",
+      "options": [
+        "Yes, you will drown",
+        "No, it's a myth",
+        "Only if you eat spicy food",
+        "Only in the ocean"
+      ],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Do lemmings commit mass suicide off cliffs?",
+      "options": [
+        "Yes, naturally",
+        "No, it was staged for a documentary",
+        "Only when overpopulated",
+        "Yes, to feed predators"
+      ],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Can you get warts from touching a toad?",
+      "options": [
+        "Yes",
+        "No, warts are a virus",
+        "Only if the toad is wet",
+        "Only if you have a cut"
+      ],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What is the tallest mountain on Earth (from base to summit)?",
+      "options": ["Mount Everest", "K2", "Mauna Kea", "Kilimanjaro"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Is a tomato a fruit or a vegetable?",
+      "options": ["Vegetable", "Fruit (Botanically)", "Legume", "Root"],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Is a Killer Whale a whale?",
+      "options": [
+        "Yes",
+        "No, it's a dolphin",
+        "No, it's a shark",
+        "No, it's a seal"
+      ],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What were George Washington's teeth made of?",
+      "options": ["Wood", "Ivory and Gold", "Stone", "Plastic"],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Was the 'Iron Maiden' a real medieval torture device?",
+      "options": [
+        "Yes, used everywhere",
+        "No, it was a 19th-century hoax",
+        "Only used in Spain",
+        "Only used in England"
+      ],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Are Poinsettia plants deadly to pets/kids?",
+      "options": [
+        "Yes, one leaf kills",
+        "No, just mildly irritating",
+        "Only the red leaves",
+        "Only the stems"
+      ],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Are 'Daddy Longlegs' the most venomous spiders?",
+      "options": [
+        "Yes, but fangs too small",
+        "No, that's a myth",
+        "They aren't spiders",
+        "Yes, they kill humans"
+      ],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Do hair and fingernails grow after death?",
+      "options": [
+        "Yes",
+        "No, the skin shrinks back",
+        "Only hair does",
+        "Only nails do"
+      ],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What is inside a camel's hump?",
+      "options": ["Water", "Fat", "Bone", "Muscle"],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Did Sherlock Holmes ever say 'Elementary, my dear Watson' in the books?",
+      "options": ["Yes, constantly", "Once", "Never", "Only in the final book"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Is the sun yellow?",
+      "options": [
+        "Yes",
+        "No, it's actually white",
+        "No, it's red",
+        "No, it's orange"
+      ],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Do vaccines cause autism?",
+      "options": [
+        "Yes",
+        "No (Debunked repeatedly)",
+        "Maybe",
+        "Only the flu shot"
+      ],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    }
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "id": "deck_most_likely_criminal_01",
+  "title": "Partners in Crime",
+  "description": "Who would lead the heist? Who would get caught first? A deck for the adventurous and the rebellious.",
+  "game_engine_id": "most_likely",
+  "game_engine_type": "voting",
+  "is_system": true,
+  "created_at": "2023-01-04T15:00:00Z",
+  "cards": [
+    {
+      "content": "Most likely to accidentally join a cult?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to start a cult?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to fake their own death to escape debt?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to be the getaway driver?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to snitch on the group for a lighter sentence?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to get arrested for doing something incredibly stupid?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to survive a police interrogation without cracking?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to be an international spy?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to hack into a government database?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to marry a stranger for a visa/citizenship?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to sneak into a music festival without paying?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to talk their way out of a speeding ticket?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to flirt with a police officer to get out of trouble?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to get caught because they were live-streaming the crime?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to steal a street sign?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to dine and dash?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to be the 'mastermind' behind a bank heist?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to trip and fall during the getaway?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to apologize while robbing someone?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to own an illegal exotic animal?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to run a pyramid scheme?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to commit tax evasion?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to end up on the FBI's Most Wanted list?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to break out of prison successfully?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to be arrested in a foreign country?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to punch a bouncer?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to steal a glass from a bar?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to start a bar fight?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to catfish someone for money?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to pose as a doctor or pilot without a license?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to accidentally steal a car (thought it was theirs)?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to be a vigilante superhero?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to stow away on a plane or ship?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to survive on a deserted island?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to bribe a public official?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to get banned from an entire country?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to sell fake tickets to a concert?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to run a secret underground gambling ring?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to be the 'muscle' (bodyguard) of the group?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to create a fake ID?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to commit arson (accidentally or on purpose)?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to trespass in a haunted house?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to climb a building without safety gear?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to sleep in a public park?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to jump a fence to get into a VIP area?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to hide a body for a friend (hypothetically)?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to forget the alibi?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to fall in love with their kidnapper (Stockholm Syndrome)?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to lead a revolution?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to be a double agent?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to embezzle money from their workplace?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to commit insurance fraud?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to stalk an ex-partner (digitally or physically)?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to blackmail someone?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to enter Witness Protection?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to get plastic surgery to change their identity?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to know how to pick a lock?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to know how to hotwire a car?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to smuggle snacks into a movie theater?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to smuggle contraband through airport security?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to cry to get out of a ticket?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to spend a night in the 'drunk tank'?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to prank call 911 accidentally?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to use the Dark Web?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to fall for an online scam?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to run an online scam?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to return a stolen item out of guilt?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to leave their fingerprints everywhere?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to accidentally kidnap someone?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to forget the loot behind?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to get caught urinating in public?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to go streaking?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to vandalize public property (graffiti)?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to steal office supplies?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to lie under oath (perjury)?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to escape handcuffs?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to bite a police officer?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to hide in a ventilation shaft?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to have a burner phone?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to fake a pregnancy to smuggle something?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to steal candy from a baby?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to cheat at a casino?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to get caught counting cards?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to start a riot?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to survive in prison by becoming the boss?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to survive in prison by trading cigarettes?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to get a teardrop tattoo?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to hijack a bus?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to be a Pirate?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to sell a bridge or landmark to a tourist?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to convince the jury they are innocent?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to represent themselves in court?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to bribe a bouncer?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to sleep in IKEA overnight?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to sneak a weapon (fake) into a party?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to be an assassin?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to betray the group for money?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to negotiate the hostage release?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to accidentally rob the wrong house?",
+      "meta": {}
+    },
+    {
+      "content": "Most likely to wear a wire for the police?",
+      "meta": {}
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "id": "deck_icebreaker_01",
+  "title": "The Ultimate Icebreaker",
+  "description": "60 fun questions and challenges to get the party started. Perfect for new groups, office parties, or hanging out.",
+  "game_engine_id": "truth_or_dare",
+  "game_engine_type": "flip",
+  "is_system": true,
+  "created_at": "2023-01-02T11:00:00Z",
+  "cards": [
+    {
+      "content": "Truth: What is the weirdest food combination you actually enjoy?",
+      "back": "Dare: Eat a spoonful of a condiment (ketchup, mustard, etc.) on its own.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most embarrassing thing you've done in a Zoom meeting?",
+      "back": "Dare: Pretend your screen froze and hold a weird face for 20 seconds.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: If you could swap lives with anyone in this room, who would it be?",
+      "back": "Dare: Do your best impression of the person to your left.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is a song you love but are embarrassed to admit?",
+      "back": "Dare: Hum a song and keep humming until someone guesses it.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: When was the last time you lied to get out of plans?",
+      "back": "Dare: Text the last person you messaged saying 'I know your secret.'",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Do you believe in ghosts or aliens?",
+      "back": "Dare: Act like an alien trying to communicate with humans for 30 seconds.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the worst haircut you've ever had?",
+      "back": "Dare: Let the group style your hair however they want for the next round.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who was your first celebrity crush?",
+      "back": "Dare: Act out a romantic scene with an invisible partner.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the last thing you Googled?",
+      "back": "Dare: Show your browser history from today to the group.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever practiced an award acceptance speech in the mirror?",
+      "back": "Dare: Give a 1-minute speech about how much you love socks.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is one thing you are irrationally afraid of?",
+      "back": "Dare: Act out your worst fear using only mime (no talking).",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the longest you’ve gone without showering?",
+      "back": "Dare: Let someone draw a fake tattoo on your arm with a pen.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: If you were a superhero, what would your lame power be?",
+      "back": "Dare: Strike a superhero pose and hold it for one minute.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever stalked an ex on social media accidentally?",
+      "back": "Dare: Like the first photo on your Instagram feed, no matter what it is.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the strangest gift you have ever received?",
+      "back": "Dare: Wrap yourself in toilet paper like a mummy.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your biggest pet peeve?",
+      "back": "Dare: Let everyone in the group flick your forehead once.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Do you talk to yourself when you are alone?",
+      "back": "Dare: Have a full argument with a chair.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the worst job you've ever had?",
+      "back": "Dare: Pretend to be a waiter and take everyone's drink order formally.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever peed in a pool?",
+      "back": "Dare: Drink a glass of water without using your hands.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your go-to karaoke song?",
+      "back": "Dare: Belt out the chorus of 'Let It Go' or a Whitney Houston song.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever walked into a glass door?",
+      "back": "Dare: Walk across the room like a supermodel on a runway.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the grossest thing you’ve ever touched?",
+      "back": "Dare: Let the group concoct a 'mystery drink' (non-toxic) for you to sip.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who is your favorite person in this room?",
+      "back": "Dare: Give the person to your right a compliment.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most expensive thing you’ve broken?",
+      "back": "Dare: Do 10 jumping jacks while singing the alphabet.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Do you sleep with a stuffed animal?",
+      "back": "Dare: Curled up in a ball and pretend to be a sleeping cat.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What’s the silliest reason you’ve cried?",
+      "back": "Dare: Make a crying face but laugh at the same time.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever been caught picking your nose?",
+      "back": "Dare: Put your finger in your ear and keep it there for the next turn.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is a movie you pretended to like just to seem cool?",
+      "back": "Dare: Re-enact the famous 'I'm flying' scene from Titanic alone.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever re-gifted a present?",
+      "back": "Dare: Try to sell a random object in the room like a TV infomercial host.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your most useless talent?",
+      "back": "Dare: Try to touch your nose with your tongue.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever cheated on a test?",
+      "back": "Dare: Speak in rhymes for the next 3 rounds.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your favorite smell?",
+      "back": "Dare: Go around and smell everyone's shoe.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever dropped your phone in the toilet?",
+      "back": "Dare: Balance your phone on your head and walk across the room.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most childish thing you still do?",
+      "back": "Dare: Speak in a baby voice for the next minute.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever faked being sick to miss work/school?",
+      "back": "Dare: Do your best fake cough and sneeze performance.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your hidden talent?",
+      "back": "Dare: Perform a magic trick (even if it's terrible).",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who in this room would die first in a horror movie?",
+      "back": "Dare: Let out your most terrifying scream.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever sent a text to the wrong person?",
+      "back": "Dare: Send a gif to the 5th person in your contact list.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the worst fashion trend you participated in?",
+      "back": "Dare: Wear your socks on your hands for the next round.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Do you snore?",
+      "back": "Dare: Pretend to be a chainsaw for 15 seconds.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your dream job?",
+      "back": "Dare: Mime your dream job until someone guesses it.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever been kicked out of somewhere?",
+      "back": "Dare: Stand in the corner and think about what you've done.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your favorite vegetable?",
+      "back": "Dare: Open the fridge and talk to the vegetables.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever had a paranormal experience?",
+      "back": "Dare: Tell a ghost story in a spooky voice.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the worst advice you’ve ever given?",
+      "back": "Dare: Give someone terrible advice about their hair right now.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever laughed so hard you peed?",
+      "back": "Dare: Don't blink for 30 seconds.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your biggest regret from high school?",
+      "back": "Dare: Do the Chicken Dance for 30 seconds.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever eaten food out of the trash?",
+      "back": "Dare: Pretend to be a dog and beg for a treat.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most boring movie you’ve ever watched?",
+      "back": "Dare: Yawn loudly every time someone speaks for the next minute.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever forgotten someone's name immediately after meeting them?",
+      "back": "Dare: Introduce yourself to everyone in the room again.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the last thing you purchased?",
+      "back": "Dare: Try to juggle 3 items of the group's choice.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Do you check yourself out in store windows?",
+      "back": "Dare: Do your best runway walk and pose.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your favorite swear word?",
+      "back": "Dare: Replace that swear word with 'Fluffernutter' in a sentence.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever accidentally insulted someone?",
+      "back": "Dare: Bow to every person in the room.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the longest time you've spent scrolling on TikTok/Reels?",
+      "back": "Dare: Recreate a viral dance trend (badly).",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Do you believe in astrology?",
+      "back": "Dare: Interpret the future of the person to your left by looking at their palm.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever been to a nude beach?",
+      "back": "Dare: Put an ice cube down your back.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the messiest room in your house?",
+      "back": "Dare: Organize the shoes of everyone in the room by size.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever kissed a mirror?",
+      "back": "Dare: Kiss your hand and slap it on your forehead.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your favorite emoji?",
+      "back": "Dare: Make the face of your favorite emoji until your next turn.",
+      "meta": {}
+    }
+  ]
+}

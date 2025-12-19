@@ -1,0 +1,311 @@
+{
+  "id": "deck_deep_cuts_01",
+  "title": "Deep Cuts (Emotional & Real)",
+  "description": "Vulnerable, nostalgic, and bonding. Perfect for best friends at 2 AM, sleepovers, and camping trips.",
+  "game_engine_id": "truth_or_dare",
+  "game_engine_type": "flip",
+  "is_system": true,
+  "created_at": "2023-01-02T15:00:00Z",
+  "cards": [
+    {
+      "content": "Truth: What is a friendship you lost that you still wish you had?",
+      "back": "Dare: Send a text to someone you miss but haven't spoken to in a year. Just say 'Thinking of you.'",
+      "meta": {}
+    },
+    {
+      "content": "Truth: When was the last time you cried, and why?",
+      "back": "Dare: Scroll to the first photo in your camera roll and tell the story behind it.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your biggest regret in life so far?",
+      "back": "Dare: Call a parent or sibling and tell them you love them (without explaining why).",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who in this room makes you feel the most safe?",
+      "back": "Dare: Hug the person to your right for 20 seconds. No talking, just holding.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is one thing you hate about yourself that you wish you could change?",
+      "back": "Dare: Look in a mirror (or selfie camera) and give yourself three genuine compliments out loud.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever been in love with someone who didn't love you back?",
+      "back": "Dare: Show the group the last photo you deleted from your phone.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the hardest goodbye you have ever had to say?",
+      "back": "Dare: Write a short note to your younger self on your phone and read it to the group.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: If you died tomorrow, what would be your biggest unfinished business?",
+      "back": "Dare: Let someone read the last 3 notes in your Notes app.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is a lie you told that hurt someone you care about?",
+      "back": "Dare: Admit a flaw you have that you are trying to work on.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who is the one person you want to make proud the most?",
+      "back": "Dare: Post a photo of you and a friend on your Story with a caption about why you appreciate them.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your happiest memory from childhood?",
+      "back": "Dare: Share a song that makes you cry.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever felt like a failure?",
+      "back": "Dare: Let the group ask you three rapid-fire questions you must answer honestly.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the scariest nightmare you've ever had?",
+      "back": "Dare: Turn off the lights and sit in silence with the group for one minute.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is one thing you have never told your parents?",
+      "back": "Dare: Send a voice note to your best friend (not in the room) telling them why they matter to you.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: If you could apologize to one person from your past, who would it be?",
+      "back": "Dare: Draft an apology text to someone (you don't have to send it, but you must read it).",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most pain (physical or emotional) you have ever been in?",
+      "back": "Dare: Let someone in the group hold your hand for the next round.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Do you think you are a good person?",
+      "back": "Dare: Tell each person in the room one quality you admire about them.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is a secret you are terrified of coming out?",
+      "back": "Dare: Unlock your phone and place it in the center of the circle for 2 minutes.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever sabotaged a relationship because you were scared?",
+      "back": "Dare: Make intense eye contact with the person across from you for 60 seconds without laughing.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the loneliest you have ever felt?",
+      "back": "Dare: Ask for a hug from the person you feel most distant from in the room.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: If you could relive one day of your life, which one would it be?",
+      "back": "Dare: Show a photo of yourself from an 'awkward phase' and explain how you felt back then.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is something you are struggling with right now that no one knows about?",
+      "back": "Dare: Let the person to your left ask you ANY question, and you must answer it.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who was your first true heartbreak?",
+      "back": "Dare: Describe your first heartbreak in three words.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Do you believe in soulmates?",
+      "back": "Dare: Tell the group about a time you felt truly loved.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is a habit you have that you are ashamed of?",
+      "back": "Dare: Let the group look through your YouTube or TikTok watch history.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever broken someone's heart?",
+      "back": "Dare: Call a grandparent or older relative just to say hello.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most expensive mistake you've ever made?",
+      "back": "Dare: Show your bank account balance to the person on your right.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: If you could change one decision from your past, what would it be?",
+      "back": "Dare: Tell a story about a time you failed miserably.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What are you most afraid of losing?",
+      "back": "Dare: Give your phone to the group and let them read the last text you sent to your mom/dad.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever blamed your parents for something that went wrong in your life?",
+      "back": "Dare: Say one thing you forgive your parents for out loud.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the meanest thing anyone has ever said to you?",
+      "back": "Dare: Say three nice things about the person you like least in your life (don't name them).",
+      "meta": {}
+    },
+    {
+      "content": "Truth: When did you last feel truly proud of yourself?",
+      "back": "Dare: Stand up and make a toast to yourself.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Do you think you are easy or hard to love?",
+      "back": "Dare: Ask the group: 'What is my worst trait?' and listen without defending yourself.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is a dream you have given up on?",
+      "back": "Dare: Speak for one minute about what you want your life to look like in 5 years.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever hurt someone physically?",
+      "back": "Dare: Let someone draw a heart on your wrist with a pen.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who do you wish was in this room right now?",
+      "back": "Dare: Close your eyes and describe your 'Happy Place' in detail.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the biggest misunderstanding people have about you?",
+      "back": "Dare: Post a status update saying 'I appreciate my friends' without any context.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever lost a pet that meant the world to you?",
+      "back": "Dare: Show a picture of your childhood home or pet.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most selfish thing you have ever done?",
+      "back": "Dare: Offer to do a favor for everyone in the room (get water, clean up trash) right now.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever ghosted a friend?",
+      "back": "Dare: Text a friend you haven't seen in a while and ask to hang out.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What makes you cry instantly?",
+      "back": "Dare: Watch a sad video clip chosen by the group without looking away.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: If you could know the date of your death, would you want to?",
+      "back": "Dare: Lie on the floor and close your eyes for 2 minutes while the group talks around you.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is a grudge you are still holding onto?",
+      "back": "Dare: Say out loud: 'I forgive [Name]' (even if you don't fully mean it yet, try).",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who was your favorite teacher and why?",
+      "back": "Dare: Email or message an old teacher/mentor thanking them.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever felt invisible?",
+      "back": "Dare: Stand in the center of the room and let everyone give you a high-five.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most embarrassing thing you believed as a child?",
+      "back": "Dare: Sing a lullaby you remember from childhood.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What part of your body are you most insecure about?",
+      "back": "Dare: Point to that body part and say 'Thank you for serving me.'",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever cheated on a test or plagiarized?",
+      "back": "Dare: Confess a small secret you've been keeping from the group.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the best advice you ever received but didn't take?",
+      "back": "Dare: Give the person on your left a piece of genuine life advice.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Do you think you have turned out like your parents?",
+      "back": "Dare: Imitate your mom or dad's most annoying habit.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is a song that reminds you of a breakup?",
+      "back": "Dare: Play that song and explain why it hurts.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever questioned your religion or beliefs?",
+      "back": "Dare: Share one thing you believe in strongly (aliens, ghosts, karma, god).",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the nicest thing a stranger has ever done for you?",
+      "back": "Dare: Close your eyes and trust the person to your right to guide you around the room.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: When was the last time you felt truly happy?",
+      "back": "Dare: Show the group the photo you use as your lock screen and explain it.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is something you want to achieve before you die?",
+      "back": "Dare: Create a bucket list item and commit to doing it this year.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever kept a secret that was eating you alive?",
+      "back": "Dare: Whisper a worry you have to the person on your left.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who in this room do you admire the most and why?",
+      "back": "Dare: Look that person in the eye and tell them why you admire them.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is one thing you wish you could tell your ex?",
+      "back": "Dare: Record a voice memo saying what you wish you could say (then delete it).",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever laughed at a funeral (or inappropriate time)?",
+      "back": "Dare: Tell a story about a time you laughed when you shouldn't have.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most meaningful gift you have ever received?",
+      "back": "Dare: Find an object in the room and 'gift' it to someone with a heartfelt speech.",
+      "meta": {}
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "id": "deck_potluck_01",
+  "title": "General Knowledge",
+  "description": "The ultimate pub quiz mix. A little bit of everything—from science to pop culture—so everyone feels smart at least once.",
+  "game_engine_id": "trivia",
+  "game_engine_type": "quiz",
+  "is_system": true,
+  "created_at": "2023-01-01T10:00:00Z",
+  "cards": [
+    {
+      "content": "Which country has the most vending machines per capita?",
+      "options": ["USA", "Japan", "China", "South Korea"],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What is the only fruit that has its seeds on the outside?",
+      "options": ["Strawberry", "Raspberry", "Fig", "Pineapple"],
+      "correct_index": 0,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "In the TV show 'Friends', what is the name of the coffee shop?",
+      "options": [
+        "Central Perk",
+        "Daily Grind",
+        "Java Joe's",
+        "The Coffee Bean"
+      ],
+      "correct_index": 0,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Which planet is known as the 'Red Planet'?",
+      "options": ["Venus", "Jupiter", "Saturn", "Mars"],
+      "correct_index": 3,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What is the main ingredient in guacamole?",
+      "options": ["Tomato", "Avocado", "Onion", "Pepper"],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Who painted the Mona Lisa?",
+      "options": [
+        "Vincent van Gogh",
+        "Pablo Picasso",
+        "Leonardo da Vinci",
+        "Claude Monet"
+      ],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What is the hardest natural substance on Earth?",
+      "options": ["Gold", "Iron", "Diamond", "Platinum"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Which ocean is the largest?",
+      "options": ["Atlantic", "Indian", "Pacific", "Arctic"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "How many rings are on the Olympic flag?",
+      "options": ["4", "5", "6", "7"],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Which animal is known as the 'King of the Jungle'?",
+      "options": ["Tiger", "Elephant", "Lion", "Gorilla"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What does the 'www' stand for in a website browser?",
+      "options": [
+        "World Wide Web",
+        "World Web Wide",
+        "Wide Web World",
+        "Web World Wide"
+      ],
+      "correct_index": 0,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "In which city would you find the Eiffel Tower?",
+      "options": ["London", "Berlin", "Rome", "Paris"],
+      "correct_index": 3,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What is the chemical symbol for Gold?",
+      "options": ["Go", "Gd", "Au", "Ag"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Who wrote 'Romeo and Juliet'?",
+      "options": [
+        "Charles Dickens",
+        "William Shakespeare",
+        "Jane Austen",
+        "Mark Twain"
+      ],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Which country invented pizza?",
+      "options": ["USA", "France", "Italy", "Greece"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "How many legs does a spider have?",
+      "options": ["6", "8", "10", "12"],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What is the capital city of Australia?",
+      "options": ["Sydney", "Melbourne", "Canberra", "Perth"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Which Disney princess has a raccoon as a sidekick?",
+      "options": ["Cinderella", "Mulan", "Pocahontas", "Ariel"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What is the largest organ in the human body?",
+      "options": ["Heart", "Liver", "Skin", "Lungs"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Which band released the song 'Bohemian Rhapsody'?",
+      "options": ["The Beatles", "Led Zeppelin", "Queen", "Pink Floyd"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What is the currency of Japan?",
+      "options": ["Won", "Yuan", "Yen", "Dollar"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Which superhero is known as the 'Man of Steel'?",
+      "options": ["Batman", "Iron Man", "Superman", "Captain America"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "How many days are there in a leap year?",
+      "options": ["364", "365", "366", "367"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What is the primary ingredient in hummus?",
+      "options": ["Lentils", "Chickpeas", "Black Beans", "Peas"],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Which planet is closest to the Sun?",
+      "options": ["Venus", "Earth", "Mercury", "Mars"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "In 'Harry Potter', what house is Harry sorted into?",
+      "options": ["Slytherin", "Hufflepuff", "Ravenclaw", "Gryffindor"],
+      "correct_index": 3,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What connects your muscles to your bones?",
+      "options": ["Skin", "Ligaments", "Tendons", "Cartilage"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Which famous ship sank in 1912?",
+      "options": [
+        "The Titanic",
+        "The Olympic",
+        "The Britannica",
+        "The Santa Maria"
+      ],
+      "correct_index": 0,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What color is a giraffe's tongue?",
+      "options": ["Pink", "Blue/Purple", "Red", "Green"],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Which company owns the Xbox brand?",
+      "options": ["Sony", "Nintendo", "Microsoft", "Sega"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What is the boiling point of water?",
+      "options": ["90°C", "100°C", "110°C", "120°C"],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Which country has the largest population in the world (as of 2023)?",
+      "options": ["China", "USA", "India", "Indonesia"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What represents the letter 'O' in Morse Code?",
+      "options": [
+        "Three dots",
+        "Three dashes",
+        "Dot Dash Dot",
+        "Dash Dot Dash"
+      ],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Who was the first person to walk on the moon?",
+      "options": [
+        "Buzz Aldrin",
+        "Yuri Gagarin",
+        "Neil Armstrong",
+        "Michael Collins"
+      ],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Which fruit is known for keeping the doctor away?",
+      "options": ["Orange", "Banana", "Apple", "Grape"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What is the name of the toy cowboy in 'Toy Story'?",
+      "options": ["Buzz", "Woody", "Andy", "Jessie"],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Which board game features properties like Boardwalk and Park Place?",
+      "options": ["Risk", "Clue", "Monopoly", "Life"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What is the tallest mammal in the world?",
+      "options": ["Elephant", "Giraffe", "Blue Whale", "Horse"],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Which fast food chain is famous for the 'Big Mac'?",
+      "options": ["Burger King", "Wendy's", "McDonald's", "KFC"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What gas do plants breathe in that humans breathe out?",
+      "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Who is known as the 'King of Pop'?",
+      "options": [
+        "Elvis Presley",
+        "Michael Jackson",
+        "Prince",
+        "Justin Timberlake"
+      ],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "How many players are on a soccer team (on the field)?",
+      "options": ["9", "10", "11", "12"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What is the smallest continent by land area?",
+      "options": ["Europe", "Antarctica", "Australia", "South America"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Which nut is used to make marzipan?",
+      "options": ["Peanut", "Walnut", "Almond", "Cashew"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What is the national animal of Scotland?",
+      "options": ["Lion", "Unicorn", "Sheep", "Dragon"],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "In which city is the Statue of Liberty located?",
+      "options": ["Washington D.C.", "Boston", "New York City", "Philadelphia"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Which blood type is known as the universal donor?",
+      "options": ["A", "B", "AB", "O Negative"],
+      "correct_index": 3,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Who discovered gravity when an apple fell on his head?",
+      "options": [
+        "Albert Einstein",
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Nikola Tesla"
+      ],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What is the main language spoken in Brazil?",
+      "options": ["Spanish", "Portuguese", "French", "English"],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Which car brand has a logo with four interlocking rings?",
+      "options": ["BMW", "Mercedes", "Audi", "Toyota"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "How many stripes are on the US flag?",
+      "options": ["10", "11", "12", "13"],
+      "correct_index": 3,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What is the name of the fairy in 'Peter Pan'?",
+      "options": ["Flora", "Fauna", "Tinkerbell", "Merryweather"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Which mammal is known to lay eggs?",
+      "options": ["Bat", "Platypus", "Dolphin", "Kangaroo"],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What is the freezing point of water?",
+      "options": ["0°C", "32°C", "-10°C", "10°C"],
+      "correct_index": 0,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Who painted 'The Starry Night'?",
+      "options": ["Salvador Dali", "Vincent van Gogh", "Picasso", "Rembrandt"],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Which social media app has a ghost as its logo?",
+      "options": ["TikTok", "Instagram", "Snapchat", "Twitter"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What is the largest bone in the human body?",
+      "options": ["Skull", "Femur (Thigh bone)", "Rib", "Spine"],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "Which country gave the Statue of Liberty to the USA?",
+      "options": ["England", "Spain", "France", "Germany"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "How many years are in a millennium?",
+      "options": ["100", "500", "1000", "10000"],
+      "correct_index": 2,
+      "meta": { "timer": 15 }
+    },
+    {
+      "content": "What is the name of the fictional city where Batman lives?",
+      "options": ["Metropolis", "Gotham City", "Star City", "Central City"],
+      "correct_index": 1,
+      "meta": { "timer": 15 }
+    }
+  ]
+}

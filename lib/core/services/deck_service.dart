@@ -1,16 +1,13 @@
 import 'dart:convert';
-import 'package:flutter/services.dart' show rootBundle;
+import 'package:flutter/services.dart' show AssetManifest, rootBundle;
 import 'package:social_shuffle/core/models/deck.dart';
 
 class DeckService {
   Future<List<Deck>> loadSeedDecks() async {
     // Hardcoded list of seed deck paths
-    final List<String> deckAssetPaths = [
-      'assets/decks/quiz_deck.json',
-      'assets/decks/flip_deck.json',
-      'assets/decks/task_deck.json',
-      'assets/decks/voting_deck.json',
-    ];
+    final assetManifest = await AssetManifest.loadFromAssetBundle(rootBundle);
+    final assets = assetManifest.listAssets();
+    final List<String> deckAssetPaths = assets.where((asset)=>asset.contains('assets/decks')).toList();
 
     List<Deck> decks = [];
     for (String path in deckAssetPaths) {
