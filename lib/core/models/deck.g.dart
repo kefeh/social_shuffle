@@ -20,17 +20,18 @@ class DeckAdapter extends TypeAdapter<Deck> {
       id: fields[0] as String?,
       title: fields[1] as String,
       gameEngineId: fields[2] as String,
-      isSystem: fields[3] as bool,
-      createdAt: fields[4] as DateTime?,
-      cards: (fields[5] as List).cast<Card>(),
-      description: fields[6] as String?,
+      gameEngineType: fields[3] as String,
+      isSystem: fields[4] as bool,
+      createdAt: fields[5] as DateTime?,
+      cards: (fields[6] as List).cast<Card>(),
+      description: fields[7] as String?,
     );
   }
 
   @override
   void write(BinaryWriter writer, Deck obj) {
     writer
-      ..writeByte(7)
+      ..writeByte(8)
       ..writeByte(0)
       ..write(obj.id)
       ..writeByte(1)
@@ -38,12 +39,14 @@ class DeckAdapter extends TypeAdapter<Deck> {
       ..writeByte(2)
       ..write(obj.gameEngineId)
       ..writeByte(3)
-      ..write(obj.isSystem)
+      ..write(obj.gameEngineType)
       ..writeByte(4)
-      ..write(obj.createdAt)
+      ..write(obj.isSystem)
       ..writeByte(5)
-      ..write(obj.cards)
+      ..write(obj.createdAt)
       ..writeByte(6)
+      ..write(obj.cards)
+      ..writeByte(7)
       ..write(obj.description);
   }
 

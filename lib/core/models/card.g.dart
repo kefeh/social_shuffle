@@ -18,23 +18,26 @@ class CardAdapter extends TypeAdapter<Card> {
     };
     return Card(
       content: fields[0] as String,
-      options: (fields[1] as List?)?.cast<String>(),
-      correctIndex: fields[2] as int?,
-      meta: (fields[3] as Map?)?.cast<String, dynamic>(),
+      back: fields[1] as String?,
+      options: (fields[2] as List?)?.cast<String>(),
+      correctIndex: fields[3] as int?,
+      meta: (fields[4] as Map?)?.cast<String, dynamic>(),
     );
   }
 
   @override
   void write(BinaryWriter writer, Card obj) {
     writer
-      ..writeByte(4)
+      ..writeByte(5)
       ..writeByte(0)
       ..write(obj.content)
       ..writeByte(1)
-      ..write(obj.options)
+      ..write(obj.back)
       ..writeByte(2)
-      ..write(obj.correctIndex)
+      ..write(obj.options)
       ..writeByte(3)
+      ..write(obj.correctIndex)
+      ..writeByte(4)
       ..write(obj.meta);
   }
 

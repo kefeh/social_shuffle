@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:social_shuffle/core/models/deck.dart';
 import 'package:social_shuffle/core/providers/deck_provider.dart';
 import 'package:social_shuffle/core/providers/game_provider.dart';
 import 'package:social_shuffle/features/deck_library/widgets/deck_card.dart';
-import 'package:social_shuffle/features/game_config/game_config_screen.dart';
 import 'package:social_shuffle/features/game_loop/game_loop_screen.dart';
 
 class DeckLibrarySheet extends ConsumerWidget {
@@ -56,10 +54,6 @@ class DeckLibrarySheet extends ConsumerWidget {
     }
   }
 
-  bool _doesDeckNeedConfiguration(Deck deck) {
-    return deck.cards.any((card) => card.meta?.containsKey('timer') ?? false);
-  }
-
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final decksAsyncValue = ref.watch(decksProvider(gameEngineId));
@@ -97,19 +91,11 @@ class DeckLibrarySheet extends ConsumerWidget {
                         onTap: () {
                           ref.read(currentDeckProvider.notifier).state = deck;
                           Navigator.pop(context); // Close details sheet
-                          if (_doesDeckNeedConfiguration(deck)) {
-                            Navigator.of(context).push(
-                              MaterialPageRoute(
-                                builder: (context) => const GameConfigScreen(),
-                              ),
-                            );
-                          } else {
-                            Navigator.of(context).push(
-                              MaterialPageRoute(
-                                builder: (context) => const GameLoopScreen(),
-                              ),
-                            );
-                          }
+                          Navigator.of(context).push(
+                            MaterialPageRoute(
+                              builder: (context) => const GameLoopScreen(),
+                            ),
+                          );
                         },
                         onDelete: deck.isSystem
                             ? null

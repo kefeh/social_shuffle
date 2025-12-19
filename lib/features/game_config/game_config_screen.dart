@@ -48,7 +48,6 @@ class _GameConfigScreenState extends ConsumerState<GameConfigScreen> {
             ElevatedButton(
               onPressed: () {
                 if (deck != null) {
-                  // TODO: Pass the config to the game loop
                   Navigator.of(context).pushReplacement(
                     MaterialPageRoute(
                       builder: (context) => const GameLoopScreen(),

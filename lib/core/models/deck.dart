@@ -13,30 +13,34 @@ class Deck {
   @HiveField(2)
   final String gameEngineId;
   @HiveField(3)
-  final bool isSystem;
+  final String gameEngineType;
   @HiveField(4)
-  final DateTime createdAt;
+  final bool isSystem;
   @HiveField(5)
-  final List<Card> cards;
+  final DateTime createdAt;
   @HiveField(6)
+  final List<Card> cards;
+  @HiveField(7)
   final String? description;
 
   Deck({
     String? id,
     required this.title,
     required this.gameEngineId,
+    required this.gameEngineType,
     this.isSystem = false,
     DateTime? createdAt,
     required this.cards,
     this.description,
-  })  : id = id ?? const Uuid().v4(),
-        createdAt = createdAt ?? DateTime.now();
+  }) : id = id ?? const Uuid().v4(),
+       createdAt = createdAt ?? DateTime.now();
 
   factory Deck.fromJson(Map<String, dynamic> json) {
     return Deck(
       id: json['id'] as String?,
       title: json['title'] as String,
       gameEngineId: json['game_engine_id'] as String,
+      gameEngineType: json['game_engine_type'] as String,
       isSystem: json['is_system'] as bool? ?? false,
       createdAt: json['created_at'] != null
           ? DateTime.parse(json['created_at'] as String)
@@ -53,6 +57,7 @@ class Deck {
       'id': id,
       'title': title,
       'game_engine_id': gameEngineId,
+      'game_engine_Type': gameEngineType,
       'is_system': isSystem,
       'created_at': createdAt.toIso8601String(),
       'cards': cards.map((e) => e.toJson()).toList(),

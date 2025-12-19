@@ -158,12 +158,15 @@ class _DashboardScreenState extends State<DashboardScreen> {
                           opacity: opacity.ceil().toDouble(),
                           child: Transform.translate(
                             offset: Offset(0, 50 * (1 - opacity)),
-                            child: Text(
-                              mode['title'],
-                              textAlign: TextAlign.center,
-                              style: const TextStyle(
-                                fontSize: 40,
-                                fontWeight: FontWeight.bold,
+                            child: Padding(
+                              padding: const EdgeInsets.only(top: 10.0),
+                              child: Text(
+                                mode['title'],
+                                textAlign: TextAlign.center,
+                                style: const TextStyle(
+                                  fontSize: 40,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
                             ),
                           ),

@@ -14,7 +14,7 @@ class GameLoopScreen extends ConsumerWidget {
       case 'quiz':
         return const QuizEngineScreen();
       case 'flip':
-        return const FlipEngineScreen();
+        return const FlipEngineScreen(hideChoiceBeforeDeck: true);
       case 'task':
         return const TaskEngineScreen();
       case 'voting':
@@ -28,6 +28,6 @@ class GameLoopScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final gameLoopState = ref.watch(gameLoopProvider);
 
-    return _getEngineWidget(gameLoopState.currentDeck.gameEngineId);
+    return _getEngineWidget(gameLoopState.currentDeck.gameEngineType);
   }
 }
