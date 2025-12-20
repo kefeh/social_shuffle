@@ -14,7 +14,7 @@ class GameLoopScreen extends ConsumerWidget {
       case 'quiz':
         return const QuizEngineScreen();
       case 'flip':
-        return const FlipEngineScreen(hideChoiceBeforeDeck: true);
+        return const FlipEngineScreen();
       case 'task':
         return const TaskEngineScreen();
       case 'voting':

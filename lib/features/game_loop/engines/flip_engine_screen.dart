@@ -5,8 +5,7 @@ import 'package:social_shuffle/core/providers/game_provider.dart';
 import 'package:social_shuffle/features/summary/summary_screen.dart';
 
 class FlipEngineScreen extends ConsumerStatefulWidget {
-  const FlipEngineScreen({super.key, required this.hideChoiceBeforeDeck});
-  final bool hideChoiceBeforeDeck;
+  const FlipEngineScreen({super.key});
 
   @override
   ConsumerState<FlipEngineScreen> createState() => _FlipEngineScreenState();
@@ -28,13 +27,13 @@ class _FlipEngineScreenState extends ConsumerState<FlipEngineScreen>
       vsync: this,
       duration: const Duration(milliseconds: 600),
     );
-    _hasChosen = widget.hideChoiceBeforeDeck;
-    _isTruth = widget.hideChoiceBeforeDeck;
+    _hasChosen = ref.read(gameLoopProvider).currentCard.back?.isEmpty ?? true;
+    _isTruth = ref.read(gameLoopProvider).currentCard.back?.isEmpty ?? true;
     _flipAnimation = Tween<double>(begin: 0, end: 1).animate(
       CurvedAnimation(parent: _flipController, curve: Curves.easeInOutBack),
     );
     Future.microtask(() {
-      if (widget.hideChoiceBeforeDeck) {
+      if (ref.read(gameLoopProvider).currentCard.back?.isEmpty ?? true) {
         _flipController.forward();
       }
     });
@@ -66,7 +65,7 @@ class _FlipEngineScreenState extends ConsumerState<FlipEngineScreen>
       );
     } else {
       ref.watch(gameLoopProvider.notifier).nextCard();
-      if (widget.hideChoiceBeforeDeck) {
+      if (ref.read(gameLoopProvider).currentCard.back?.isEmpty ?? true) {
         setState(() {
           _hasChosen = true;
           _flipController.reset();
