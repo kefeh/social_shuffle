@@ -112,20 +112,20 @@ class _QuizEngineScreenState extends ConsumerState<QuizEngineScreen>
 
     return Scaffold(
       backgroundColor: Colors.grey[900],
-      body: SafeArea(
-        child: DecoratedBox(
-          decoration: BoxDecoration(
-            gradient: LinearGradient(
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-              colors: [
-                engineBackgroundColor[gameLoopState.currentDeck.gameEngineId] ??
-                    Color(0xFFA91079),
-                Color(0xFF2E0249),
-                Color(0xFF570A57),
-              ],
-            ),
+      body: DecoratedBox(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [
+              engineBackgroundColor[gameLoopState.currentDeck.gameEngineId] ??
+                  Color(0xFFA91079),
+              Color(0xFF2E0249),
+              Color(0xFF570A57),
+            ],
           ),
+        ),
+        child: SafeArea(
           child: Column(
             children: [
               Row(

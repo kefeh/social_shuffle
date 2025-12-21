@@ -14,21 +14,20 @@ class TaskEngineScreen extends ConsumerWidget {
 
     return Scaffold(
       backgroundColor: Colors.transparent,
-      body: SafeArea(
-        child: Container(
-          padding: const EdgeInsets.all(16.0),
-          decoration: BoxDecoration(
-            gradient: LinearGradient(
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-              colors: [
-                engineBackgroundColor[gameLoopState.currentDeck.gameEngineId] ??
-                    Color(0xFFA91079),
-                Color(0xFF2E0249),
-                Color(0xFF570A57),
-              ],
-            ),
+      body: Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [
+              engineBackgroundColor[gameLoopState.currentDeck.gameEngineId] ??
+                  Color(0xFFA91079),
+              Color(0xFF2E0249),
+              Color(0xFF570A57),
+            ],
           ),
+        ),
+        child: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
