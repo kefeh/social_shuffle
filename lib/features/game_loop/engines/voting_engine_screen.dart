@@ -55,58 +55,92 @@ class _VotingEngineScreenState extends ConsumerState<VotingEngineScreen> {
     final currentCard = gameLoopState.currentCard;
 
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Voting Engine'),
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.arrow_forward),
-            onPressed: () {
-              if (gameLoopState.isLastCard) {
-                final Color backgroundColor =
-                    engineBackgroundColor[ref
-                        .read(gameLoopProvider)
-                        .currentDeck
-                        .gameEngineId] ??
-                    Color(0xFFA91079);
-                Navigator.of(context).pushReplacement(
-                  MaterialPageRoute(
-                    builder: (context) => SummaryScreen(color: backgroundColor),
-                  ),
-                );
-              } else {
-                ref.read(gameLoopProvider.notifier).nextCard();
-              }
-            },
+      body: Container(
+        alignment: Alignment.center,
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [
+              engineBackgroundColor[gameLoopState.currentDeck.gameEngineId] ??
+                  Color(0xFFA91079),
+              Color(0xFF2E0249),
+              Color(0xFF570A57),
+            ],
           ),
-        ],
-      ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            // Statement Text
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 16.0),
-              child: Text(
-                currentCard.content,
-                textAlign: TextAlign.center,
-                style: const TextStyle(
-                  fontSize: 32,
-                  fontWeight: FontWeight.bold,
+        ),
+        child: SafeArea(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Row(
+                children: [
+                  Expanded(child: BackButton()),
+                  Expanded(
+                    flex: 3,
+                    child: Center(
+                      child: Text(
+                        gameLoopState.currentDeck.title,
+                        style: Theme.of(context).textTheme.titleMedium,
+                      ),
+                    ),
+                  ),
+                  Expanded(
+                    child: IconButton(
+                      icon: const Icon(Icons.arrow_forward),
+                      onPressed: () {
+                        if (gameLoopState.isLastCard) {
+                          final Color backgroundColor =
+                              engineBackgroundColor[ref
+                                  .read(gameLoopProvider)
+                                  .currentDeck
+                                  .gameEngineId] ??
+                              Color(0xFFA91079);
+                          Navigator.of(context).pushReplacement(
+                            MaterialPageRoute(
+                              builder: (context) =>
+                                  SummaryScreen(color: backgroundColor),
+                            ),
+                          );
+                        } else {
+                          ref.read(gameLoopProvider.notifier).nextCard();
+                        }
+                      },
+                    ),
+                  ),
+                ],
+              ),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: .center,
+                  mainAxisAlignment: .center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                      child: Text(
+                        currentCard.content,
+                        textAlign: TextAlign.center,
+                        style: const TextStyle(
+                          fontSize: 32,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: 64),
+                    // Countdown Display
+                    Text(
+                      '$_countdown',
+                      style: const TextStyle(
+                        fontSize: 96,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.amber,
+                      ),
+                    ),
+                  ],
                 ),
               ),
-            ),
-            const SizedBox(height: 64),
-            // Countdown Display
-            Text(
-              '$_countdown',
-              style: const TextStyle(
-                fontSize: 96,
-                fontWeight: FontWeight.bold,
-                color: Colors.amber,
-              ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );

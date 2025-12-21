@@ -112,215 +112,241 @@ class _QuizEngineScreenState extends ConsumerState<QuizEngineScreen>
 
     return Scaffold(
       backgroundColor: Colors.grey[900],
-      appBar: AppBar(
-        title: Text(gameLoopState.currentDeck.title),
-        backgroundColor: Colors.transparent,
-        elevation: 0,
-        centerTitle: true,
-      ),
       body: SafeArea(
-        child: Column(
-          children: [
-            Padding(
-              padding: const EdgeInsets.symmetric(
-                horizontal: 20,
-                vertical: 20,
-              ), // More vertical space for the icon
-              child: LayoutBuilder(
-                builder: (context, constraints) {
-                  final double totalWidth = constraints.maxWidth;
-                  final int totalCards = gameLoopState.currentDeck.cards.length;
-                  final int currentIndex = gameLoopState.currentCardIndex;
-                  final double progress = (currentIndex + 1) / totalCards;
-
-                  // Calculate position.
-                  // Subtract 24 (half icon width) so it centers on the end of the line
-                  double iconLeftPos = (totalWidth * progress) - 24;
-                  if (iconLeftPos < 0) iconLeftPos = 0;
-                  if (iconLeftPos > totalWidth - 30)
-                    iconLeftPos = totalWidth - 30;
-
-                  return Stack(
-                    clipBehavior: Clip.none, // Allow icon to overflow slightly
-                    alignment: Alignment.centerLeft,
-                    children: [
-                      // Background Track
-                      Container(
-                        height: 10,
-                        width: totalWidth,
-                        decoration: BoxDecoration(
-                          color: Colors.grey[800],
-                          borderRadius: BorderRadius.circular(10),
-                        ),
-                      ),
-                      // Fill Track
-                      AnimatedContainer(
-                        duration: const Duration(milliseconds: 500),
-                        curve: Curves.easeOutBack,
-                        height: 10,
-                        width: totalWidth * progress,
-                        decoration: BoxDecoration(
-                          gradient: const LinearGradient(
-                            colors: [Colors.greenAccent, Colors.cyan],
-                          ),
-                          borderRadius: BorderRadius.circular(10),
-                        ),
-                      ),
-                      // The Runner Icon
-                      AnimatedPositioned(
-                        duration: const Duration(milliseconds: 500),
-                        curve: Curves.easeOutBack,
-                        left: iconLeftPos,
-                        top: -12, // Pull it up to sit on top of the bar
-                        child: Container(
-                          padding: const EdgeInsets.all(4),
-                          decoration: BoxDecoration(
-                            color: Colors.cyanAccent,
-                            shape: BoxShape.circle,
-                            border: Border.all(color: Colors.black, width: 2),
-                            boxShadow: const [
-                              BoxShadow(
-                                color: Colors.black45,
-                                blurRadius: 4,
-                                offset: Offset(0, 2),
-                              ),
-                            ],
-                          ),
-                          child: const Icon(
-                            Icons.local_fire_department,
-                            size: 16,
-                            color: Colors.black,
-                          ),
-                        ),
-                      ),
-                    ],
-                  );
-                },
-              ),
+        child: DecoratedBox(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                engineBackgroundColor[gameLoopState.currentDeck.gameEngineId] ??
+                    Color(0xFFA91079),
+                Color(0xFF2E0249),
+                Color(0xFF570A57),
+              ],
             ),
-
-            const Spacer(flex: 1),
-
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 24.0),
-              child: Text(
-                currentCard.content,
-                textAlign: TextAlign.center,
-                style: const TextStyle(
-                  fontSize: 28,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.white,
-                  height: 1.3,
-                ),
-              ),
-            ),
-            const Spacer(flex: 1),
-            if (currentCard.options != null)
-              Padding(
-                padding: const EdgeInsets.all(16.0),
-                child: GridView.builder(
-                  shrinkWrap: true,
-                  physics: const NeverScrollableScrollPhysics(),
-                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 2,
-                    childAspectRatio: 1.6,
-                    crossAxisSpacing: 12,
-                    mainAxisSpacing: 12,
+          ),
+          child: Column(
+            children: [
+              Row(
+                children: [
+                  Expanded(child: BackButton()),
+                  Expanded(
+                    flex: 3,
+                    child: Center(
+                      child: Text(
+                        gameLoopState.currentDeck.title,
+                        style: Theme.of(context).textTheme.titleMedium,
+                      ),
+                    ),
                   ),
-                  itemCount: currentCard.options!.length,
-                  itemBuilder: (context, index) {
-                    final optionText = currentCard.options![index];
-                    final isCorrect = index == currentCard.correctIndex;
+                  Spacer(),
+                ],
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 20,
+                  vertical: 20,
+                ), // More vertical space for the icon
+                child: LayoutBuilder(
+                  builder: (context, constraints) {
+                    final double totalWidth = constraints.maxWidth;
+                    final int totalCards =
+                        gameLoopState.currentDeck.cards.length;
+                    final int currentIndex = gameLoopState.currentCardIndex;
+                    final double progress = (currentIndex + 1) / totalCards;
 
-                    final bool shouldAnimate = _hasAnswered && isCorrect;
+                    // Calculate position.
+                    // Subtract 24 (half icon width) so it centers on the end of the line
+                    double iconLeftPos = (totalWidth * progress) - 24;
+                    if (iconLeftPos < 0) iconLeftPos = 0;
+                    if (iconLeftPos > totalWidth - 30)
+                      iconLeftPos = totalWidth - 30;
 
-                    return ScaleTransition(
-                      scale: shouldAnimate
-                          ? _scaleAnimation
-                          : const AlwaysStoppedAnimation(1.0),
-                      child: GestureDetector(
-                        onTap: () => _handleAnswerSelection(
-                          index,
-                          currentCard.correctIndex!,
-                        ),
-                        child: AnimatedContainer(
-                          duration: const Duration(milliseconds: 300),
+                    return Stack(
+                      clipBehavior:
+                          Clip.none, // Allow icon to overflow slightly
+                      alignment: Alignment.centerLeft,
+                      children: [
+                        // Background Track
+                        Container(
+                          height: 10,
+                          width: totalWidth,
                           decoration: BoxDecoration(
-                            color: _getButtonColor(
-                              index,
-                              currentCard.correctIndex!,
-                            ),
-                            borderRadius: BorderRadius.circular(16),
-                            boxShadow: [
-                              BoxShadow(
-                                color: Colors.black.withOpacity(0.2),
-                                blurRadius: 4,
-                                offset: const Offset(0, 4),
-                              ),
-                            ],
-                            border:
-                                _hasAnswered && index == _selectedAnswerIndex
-                                ? Border.all(color: Colors.white, width: 2)
-                                : null,
+                            color: Colors.grey[800],
+                            borderRadius: BorderRadius.circular(10),
                           ),
-                          alignment: Alignment.center,
-                          padding: const EdgeInsets.all(8),
-                          child: Text(
-                            optionText,
-                            textAlign: TextAlign.center,
-                            style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.w600,
-                              color: _hasAnswered
-                                  ? (index == currentCard.correctIndex
-                                        ? Colors.black
-                                        : Colors.black87)
-                                  : Colors.black87,
+                        ),
+                        // Fill Track
+                        AnimatedContainer(
+                          duration: const Duration(milliseconds: 500),
+                          curve: Curves.easeOutBack,
+                          height: 10,
+                          width: totalWidth * progress,
+                          decoration: BoxDecoration(
+                            gradient: const LinearGradient(
+                              colors: [Colors.greenAccent, Colors.cyan],
+                            ),
+                            borderRadius: BorderRadius.circular(10),
+                          ),
+                        ),
+                        // The Runner Icon
+                        AnimatedPositioned(
+                          duration: const Duration(milliseconds: 500),
+                          curve: Curves.easeOutBack,
+                          left: iconLeftPos,
+                          top: -12, // Pull it up to sit on top of the bar
+                          child: Container(
+                            padding: const EdgeInsets.all(4),
+                            decoration: BoxDecoration(
+                              color: Colors.cyanAccent,
+                              shape: BoxShape.circle,
+                              border: Border.all(color: Colors.black, width: 2),
+                              boxShadow: const [
+                                BoxShadow(
+                                  color: Colors.black45,
+                                  blurRadius: 4,
+                                  offset: Offset(0, 2),
+                                ),
+                              ],
+                            ),
+                            child: const Icon(
+                              Icons.local_fire_department,
+                              size: 16,
+                              color: Colors.black,
                             ),
                           ),
                         ),
-                      ),
+                      ],
                     );
                   },
                 ),
               ),
 
-            const SizedBox(height: 20),
+              const Spacer(flex: 1),
 
-            SizedBox(
-              height: 80,
-              child: _hasAnswered
-                  ? Center(
-                      child: ElevatedButton.icon(
-                        onPressed: _handleNext,
-                        style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors.cyan,
-                          foregroundColor: Colors.black,
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: 32,
-                            vertical: 16,
-                          ),
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(30),
-                          ),
-                          elevation: 5,
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 24.0),
+                child: Text(
+                  currentCard.content,
+                  textAlign: TextAlign.center,
+                  style: const TextStyle(
+                    fontSize: 28,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
+                    height: 1.3,
+                  ),
+                ),
+              ),
+              const Spacer(flex: 1),
+              if (currentCard.options != null)
+                Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: GridView.builder(
+                    shrinkWrap: true,
+                    physics: const NeverScrollableScrollPhysics(),
+                    gridDelegate:
+                        const SliverGridDelegateWithFixedCrossAxisCount(
+                          crossAxisCount: 2,
+                          childAspectRatio: 1.6,
+                          crossAxisSpacing: 12,
+                          mainAxisSpacing: 12,
                         ),
-                        icon: const Icon(Icons.arrow_forward_rounded),
-                        label: Text(
-                          gameLoopState.isLastCard
-                              ? "Finish Quiz"
-                              : "Next Question",
-                          style: const TextStyle(
-                            fontSize: 18,
-                            fontWeight: FontWeight.bold,
+                    itemCount: currentCard.options!.length,
+                    itemBuilder: (context, index) {
+                      final optionText = currentCard.options![index];
+                      final isCorrect = index == currentCard.correctIndex;
+
+                      final bool shouldAnimate = _hasAnswered && isCorrect;
+
+                      return ScaleTransition(
+                        scale: shouldAnimate
+                            ? _scaleAnimation
+                            : const AlwaysStoppedAnimation(1.0),
+                        child: GestureDetector(
+                          onTap: () => _handleAnswerSelection(
+                            index,
+                            currentCard.correctIndex!,
+                          ),
+                          child: AnimatedContainer(
+                            duration: const Duration(milliseconds: 300),
+                            decoration: BoxDecoration(
+                              color: _getButtonColor(
+                                index,
+                                currentCard.correctIndex!,
+                              ),
+                              borderRadius: BorderRadius.circular(16),
+                              boxShadow: [
+                                BoxShadow(
+                                  color: Colors.black.withOpacity(0.2),
+                                  blurRadius: 4,
+                                  offset: const Offset(0, 4),
+                                ),
+                              ],
+                              border:
+                                  _hasAnswered && index == _selectedAnswerIndex
+                                  ? Border.all(color: Colors.white, width: 2)
+                                  : null,
+                            ),
+                            alignment: Alignment.center,
+                            padding: const EdgeInsets.all(8),
+                            child: Text(
+                              optionText,
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                fontSize: 18,
+                                fontWeight: FontWeight.w600,
+                                color: _hasAnswered
+                                    ? (index == currentCard.correctIndex
+                                          ? Colors.black
+                                          : Colors.black87)
+                                    : Colors.black87,
+                              ),
+                            ),
                           ),
                         ),
-                      ),
-                    )
-                  : const SizedBox.shrink(),
-            ),
-            const SizedBox(height: 20),
-          ],
+                      );
+                    },
+                  ),
+                ),
+
+              const SizedBox(height: 20),
+
+              SizedBox(
+                height: 80,
+                child: _hasAnswered
+                    ? Center(
+                        child: ElevatedButton.icon(
+                          onPressed: _handleNext,
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.cyan,
+                            foregroundColor: Colors.black,
+                            padding: const EdgeInsets.symmetric(
+                              horizontal: 32,
+                              vertical: 16,
+                            ),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(30),
+                            ),
+                            elevation: 5,
+                          ),
+                          icon: const Icon(Icons.arrow_forward_rounded),
+                          label: Text(
+                            gameLoopState.isLastCard
+                                ? "Finish Quiz"
+                                : "Next Question",
+                            style: const TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ),
+                      )
+                    : const SizedBox.shrink(),
+              ),
+              const SizedBox(height: 20),
+            ],
+          ),
         ),
       ),
     );

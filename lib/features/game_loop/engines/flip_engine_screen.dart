@@ -93,53 +93,80 @@ class _FlipEngineScreenState extends ConsumerState<FlipEngineScreen>
   Widget build(BuildContext context) {
     final gameLoopState = ref.watch(gameLoopProvider);
     return Scaffold(
-      backgroundColor: Colors.grey[900],
-      appBar: AppBar(
-        title: Text(gameLoopState.currentDeck.title),
-        backgroundColor: Colors.transparent,
-      ),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Expanded(
-            child: Center(
-              child: _hasChosen
-                  ? _buildRevealedCard() // State C: The Card
-                  : _buildChoiceButtons(), // State A: The Buttons
-            ),
+      backgroundColor: Colors.transparent,
+      body: Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [
+              engineBackgroundColor[gameLoopState.currentDeck.gameEngineId] ??
+                  Color(0xFFA91079),
+              Color(0xFF2E0249),
+              Color(0xFF570A57),
+            ],
           ),
-
-          if (_hasChosen)
-            Padding(
-              padding: const EdgeInsets.all(30.0),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        ),
+        child: SafeArea(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Row(
                 children: [
-                  ElevatedButton(
-                    onPressed: _nextCard,
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.red,
-                    ),
-                    child: const Text(
-                      "Forfeit (Drink!)",
-                      style: TextStyle(color: Colors.white),
-                    ),
-                  ),
-                  ElevatedButton(
-                    onPressed: _nextCard,
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.green,
-                    ),
-                    child: const Text(
-                      "Challenge Done",
-                      style: TextStyle(color: Colors.white),
+                  Expanded(child: BackButton()),
+                  Expanded(
+                    flex: 3,
+                    child: Center(
+                      child: Text(
+                        gameLoopState.currentDeck.title,
+                        style: Theme.of(context).textTheme.titleMedium,
+                      ),
                     ),
                   ),
+                  Spacer(),
                 ],
               ),
-            ),
-          const SizedBox(height: 20),
-        ],
+              Expanded(
+                child: Center(
+                  child: _hasChosen
+                      ? _buildRevealedCard() // State C: The Card
+                      : _buildChoiceButtons(), // State A: The Buttons
+                ),
+              ),
+
+              if (_hasChosen)
+                Padding(
+                  padding: const EdgeInsets.all(30.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      ElevatedButton(
+                        onPressed: _nextCard,
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: Colors.red,
+                        ),
+                        child: const Text(
+                          "Forfeit (Drink!)",
+                          style: TextStyle(color: Colors.white),
+                        ),
+                      ),
+                      ElevatedButton(
+                        onPressed: _nextCard,
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: Colors.green,
+                        ),
+                        child: const Text(
+                          "Challenge Done",
+                          style: TextStyle(color: Colors.white),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              const SizedBox(height: 20),
+            ],
+          ),
+        ),
       ),
     );
   }
