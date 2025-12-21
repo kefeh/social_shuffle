@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:social_shuffle/core/providers/game_provider.dart';
 import 'package:social_shuffle/features/summary/summary_screen.dart';
+import 'package:social_shuffle/shared/constants.dart';
 
 class FlipEngineScreen extends ConsumerStatefulWidget {
   const FlipEngineScreen({super.key});
@@ -60,8 +61,16 @@ class _FlipEngineScreenState extends ConsumerState<FlipEngineScreen>
 
   void _nextCard() {
     if (ref.watch(gameLoopProvider).isLastCard) {
+      final Color backgroundColor =
+          engineBackgroundColor[ref
+              .read(gameLoopProvider)
+              .currentDeck
+              .gameEngineId] ??
+          Color(0xFFA91079);
       Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (context) => const SummaryScreen()),
+        MaterialPageRoute(
+          builder: (context) => SummaryScreen(color: backgroundColor),
+        ),
       );
     } else {
       ref.watch(gameLoopProvider.notifier).nextCard();

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:social_shuffle/core/providers/game_provider.dart';
 import 'package:social_shuffle/features/summary/summary_screen.dart';
+import 'package:social_shuffle/shared/constants.dart';
 
 class VotingEngineScreen extends ConsumerStatefulWidget {
   const VotingEngineScreen({super.key});
@@ -30,8 +31,16 @@ class _VotingEngineScreenState extends ConsumerState<VotingEngineScreen> {
       } else {
         final gameLoopState = ref.read(gameLoopProvider);
         if (gameLoopState.isLastCard) {
+          final Color backgroundColor =
+              engineBackgroundColor[ref
+                  .read(gameLoopProvider)
+                  .currentDeck
+                  .gameEngineId] ??
+              Color(0xFFA91079);
           Navigator.of(context).pushReplacement(
-            MaterialPageRoute(builder: (context) => const SummaryScreen()),
+            MaterialPageRoute(
+              builder: (context) => SummaryScreen(color: backgroundColor),
+            ),
           );
         } else {
           ref.read(gameLoopProvider.notifier).nextCard();
@@ -53,8 +62,16 @@ class _VotingEngineScreenState extends ConsumerState<VotingEngineScreen> {
             icon: const Icon(Icons.arrow_forward),
             onPressed: () {
               if (gameLoopState.isLastCard) {
+                final Color backgroundColor =
+                    engineBackgroundColor[ref
+                        .read(gameLoopProvider)
+                        .currentDeck
+                        .gameEngineId] ??
+                    Color(0xFFA91079);
                 Navigator.of(context).pushReplacement(
-                  MaterialPageRoute(builder: (context) => const SummaryScreen()),
+                  MaterialPageRoute(
+                    builder: (context) => SummaryScreen(color: backgroundColor),
+                  ),
                 );
               } else {
                 ref.read(gameLoopProvider.notifier).nextCard();
@@ -73,14 +90,21 @@ class _VotingEngineScreenState extends ConsumerState<VotingEngineScreen> {
               child: Text(
                 currentCard.content,
                 textAlign: TextAlign.center,
-                style: const TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+                style: const TextStyle(
+                  fontSize: 32,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ),
             const SizedBox(height: 64),
             // Countdown Display
             Text(
               '$_countdown',
-              style: const TextStyle(fontSize: 96, fontWeight: FontWeight.bold, color: Colors.amber),
+              style: const TextStyle(
+                fontSize: 96,
+                fontWeight: FontWeight.bold,
+                color: Colors.amber,
+              ),
             ),
           ],
         ),
