@@ -31,6 +31,7 @@ class _VotingEngineScreenState extends ConsumerState<VotingEngineScreen> {
       } else {
         final gameLoopState = ref.read(gameLoopProvider);
         if (gameLoopState.isLastCard) {
+          ref.read(gameLoopProvider.notifier).finishGame();
           final Color backgroundColor =
               engineBackgroundColor[ref
                   .read(gameLoopProvider)
@@ -85,29 +86,7 @@ class _VotingEngineScreenState extends ConsumerState<VotingEngineScreen> {
                       ),
                     ),
                   ),
-                  Expanded(
-                    child: IconButton(
-                      icon: const Icon(Icons.arrow_forward),
-                      onPressed: () {
-                        if (gameLoopState.isLastCard) {
-                          final Color backgroundColor =
-                              engineBackgroundColor[ref
-                                  .read(gameLoopProvider)
-                                  .currentDeck
-                                  .gameEngineId] ??
-                              Color(0xFFA91079);
-                          Navigator.of(context).pushReplacement(
-                            MaterialPageRoute(
-                              builder: (context) =>
-                                  SummaryScreen(color: backgroundColor),
-                            ),
-                          );
-                        } else {
-                          ref.read(gameLoopProvider.notifier).nextCard();
-                        }
-                      },
-                    ),
-                  ),
+                  Spacer(),
                 ],
               ),
               Expanded(

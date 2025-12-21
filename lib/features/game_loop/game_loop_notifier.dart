@@ -37,6 +37,6 @@ class GameLoopNotifier extends Notifier<GameLoopState> {
   }
 
   void finishGame() {
-    // Logic to handle game completion, e.g., navigate to summary
+    state = state.copyWith(currentCardIndex: 0);
   }
 }

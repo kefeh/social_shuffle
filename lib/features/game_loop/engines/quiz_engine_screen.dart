@@ -74,6 +74,7 @@ class _QuizEngineScreenState extends ConsumerState<QuizEngineScreen>
       final score =
           numCorrectAnswers /
           ref.read(gameLoopProvider).currentDeck.cards.length;
+      ref.read(gameLoopProvider.notifier).finishGame();
       final Color backgroundColor =
           engineBackgroundColor[ref
               .read(gameLoopProvider)

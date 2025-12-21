@@ -10,14 +10,14 @@
     {
       "content": "Elephant",
       "meta": {
-        "timer": 60,
+        "timer": 15,
         "forbidden_words": ["Trunk", "Grey", "Large", "Africa"]
       }
     },
     {
       "content": "Guitar",
       "meta": {
-        "timer": 60,
+        "timer": 15,
         "forbidden_words": ["String", "Play", "Music", "Strum"]
       }
     }
