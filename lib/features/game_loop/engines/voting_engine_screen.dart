@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:social_shuffle/core/providers/game_provider.dart';
 import 'package:social_shuffle/features/deck_library/widgets/card_engine_header.dart';
+import 'package:social_shuffle/features/deck_library/widgets/rounded_button.dart';
 import 'package:social_shuffle/features/summary/summary_screen.dart';
 import 'package:social_shuffle/shared/constants.dart';
 
@@ -302,25 +303,7 @@ class VotingControls extends StatelessWidget {
             ),
             const SizedBox(width: 20),
 
-            ElevatedButton.icon(
-              onPressed: onNext,
-              icon: const Icon(Icons.arrow_forward_rounded),
-              label: const Text("NEXT CARD"),
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.white,
-                foregroundColor: const Color(0xFF2E0249),
-                elevation: 5,
-                shape: const StadiumBorder(),
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 40,
-                  vertical: 16,
-                ),
-                textStyle: const TextStyle(
-                  fontSize: 16,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-            ),
+            RoundedButton(label: 'Next Card', onPressed: onNext),
           ],
         ),
       ],

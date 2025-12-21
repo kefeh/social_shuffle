@@ -1,6 +1,7 @@
 import 'dart:math';
 import 'dart:ui';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:social_shuffle/features/dashboard/widgets/game_mode_card.dart';
 import 'package:social_shuffle/features/deck_library/deck_library_sheet.dart';
 
@@ -15,72 +16,83 @@ class _DashboardScreenState extends State<DashboardScreen> {
   bool _isCarouselView = true;
   late PageController _pageController;
   double _currentPage = 0.0;
-  Color _backgroundColor = Colors.redAccent;
+
+  final Color _baseColor = const Color(0xFF1A1A2E);
 
   final List<Map<String, dynamic>> _gameModes = [
     {
       'title': 'Trivia',
-      'color': Colors.redAccent,
+      'color': const Color(0xFFE94560),
       'game_engine_id': 'trivia',
       'game_engine_type': 'quiz',
+      'icon': Icons.lightbulb,
       'image': 'assets/images/trivia.png',
+      'subtitle': 'Test your knowledge',
     },
     {
       'title': 'Charades',
-      'color': Colors.lightBlue,
+      'color': const Color(0xFF4ECCA3),
       'game_engine_id': 'charades',
-      'game_engine_type': 'task',
+      'game_engine_type': 'charades',
+      'icon': Icons.accessibility_new,
       'image': 'assets/images/charades.png',
+      'subtitle': 'Act it out',
     },
     {
       'title': 'Truth or Dare',
-      'color': Colors.pink,
+      'color': const Color(0xFFFF2E63),
       'game_engine_id': 'truth_or_dare',
       'game_engine_type': 'flip',
+      'icon': Icons.whatshot,
       'image': 'assets/images/truth-or-dare.png',
+      'subtitle': 'No secrets allowed',
     },
     {
       'title': 'Debate',
-      'color': Colors.green,
+      'color': const Color(0xFFF9D342),
       'game_engine_id': 'debate',
       'game_engine_type': 'voting',
+      'icon': Icons.mic,
       'image': 'assets/images/trivia.png',
+      'subtitle': 'Pick a side',
     },
     {
-      'title': 'Never Have I Ever',
-      'color': Colors.orange,
+      'title': 'Never Have I',
+      'color': const Color(0xFFFF9A3C),
       'game_engine_id': 'nhie',
       'game_engine_type': 'flip',
+      'icon': Icons.local_bar,
       'image': 'assets/images/never-have.png',
+      'subtitle': 'Spill the tea',
     },
     {
-      'title': 'Most Likely To',
-      'color': Colors.purple,
+      'title': 'Most Likely',
+      'color': const Color(0xFF9D4EDD),
       'game_engine_id': 'most_likely',
       'game_engine_type': 'voting',
+      'icon': Icons.people,
       'image': 'assets/images/trivia.png',
+      'subtitle': 'Point fingers',
     },
   ];
 
   @override
   void initState() {
     super.initState();
-    _pageController = PageController(viewportFraction: 0.6, initialPage: 0)
-      ..addListener(() {
-        setState(() {
-          _currentPage = _pageController.page!;
-          _updateBackgroundColor();
-        });
-      });
+    _pageController = PageController(viewportFraction: 0.75, initialPage: 0);
+    _pageController.addListener(_onScroll);
   }
 
-  void _updateBackgroundColor() {
-    int page = _pageController.page!.round();
-    if (page < _gameModes.length) {
-      setState(() {
-        _backgroundColor = _gameModes[page]['color'];
-      });
-    }
+  void _onScroll() {
+    setState(() {
+      _currentPage = _pageController.page!;
+    });
+  }
+
+  Color get _activeColor {
+    if (_gameModes.isEmpty) return Colors.blue;
+    final int index = _currentPage.round().clamp(0, _gameModes.length - 1);
+    return _gameModes[index]['color'];
   }
 
   void _showDeckLibrary(
@@ -89,18 +101,25 @@ class _DashboardScreenState extends State<DashboardScreen> {
     String gameEngineId,
     Color color,
   ) {
+    HapticFeedback.lightImpact();
     showModalBottomSheet(
       context: context,
       isScrollControlled: true,
-      useSafeArea: true,
-      builder: (context) => Wrap(
-        children: [
-          DeckLibrarySheet(
-            gameModeTitle: gameModeTitle,
-            gameEngineId: gameEngineId,
-            backgroundColor: color,
-          ),
-        ],
+      backgroundColor: Colors.transparent,
+      builder: (context) => Container(
+        decoration: const BoxDecoration(
+          color: Color(0xFF1A1A2E),
+          borderRadius: BorderRadius.vertical(top: Radius.circular(25.0)),
+        ),
+        child: Wrap(
+          children: [
+            DeckLibrarySheet(
+              gameModeTitle: gameModeTitle,
+              gameEngineId: gameEngineId,
+              backgroundColor: color,
+            ),
+          ],
+        ),
       ),
     );
   }
@@ -108,126 +127,181 @@ class _DashboardScreenState extends State<DashboardScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: _backgroundColor,
+      extendBodyBehindAppBar: true,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
-        title: const Text('Social Shuffle'),
+        flexibleSpace: ClipRRect(
+          child: BackdropFilter(
+            filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
+            child: Container(color: Colors.black.withOpacity(0.2)),
+          ),
+        ),
+        title: Row(
+          children: [
+            Icon(Icons.style, color: _activeColor),
+            const SizedBox(width: 10),
+            const Text(
+              'Social Shuffle',
+              style: TextStyle(fontWeight: FontWeight.w900, letterSpacing: 1.0),
+            ),
+          ],
+        ),
         actions: [
-          IconButton(
-            icon: Icon(_isCarouselView ? Icons.grid_on : Icons.view_carousel),
-            onPressed: () {
-              if (_isCarouselView) {
-                _pageController.jumpTo(0.0);
-              }
-              setState(() {
-                _currentPage = 0;
-                _isCarouselView = !_isCarouselView;
-              });
-            },
+          Container(
+            margin: const EdgeInsets.only(right: 16),
+            decoration: BoxDecoration(
+              color: Colors.white.withOpacity(0.1),
+              borderRadius: BorderRadius.circular(12),
+            ),
+            child: IconButton(
+              icon: AnimatedSwitcher(
+                duration: const Duration(milliseconds: 300),
+                child: Icon(
+                  _isCarouselView
+                      ? Icons.grid_view_rounded
+                      : Icons.view_carousel_rounded,
+                  key: ValueKey(_isCarouselView),
+                  color: Colors.white,
+                ),
+              ),
+              onPressed: () {
+                HapticFeedback.selectionClick();
+                setState(() {
+                  _isCarouselView = !_isCarouselView;
+
+                  if (_isCarouselView) {
+                    WidgetsBinding.instance.addPostFrameCallback((_) {
+                      if (_pageController.hasClients) {
+                        _pageController.jumpToPage(_currentPage.round());
+                      }
+                    });
+                  }
+                });
+              },
+            ),
           ),
         ],
       ),
-      body: _isCarouselView
-          ? PageView.builder(
-              key: ValueKey('PageView'),
-              controller: _pageController,
-              itemCount: _gameModes.length,
-              itemBuilder: (context, index) {
-                double scale = max(0.6, (1.4 - (_currentPage - index).abs()));
-                final mode = _gameModes[index];
-                double pagePos = _pageController.position.haveDimensions
-                    ? _pageController.page!
-                    : 0.0;
-                double distanceFromCenter = (index - pagePos).abs();
+      body: AnimatedContainer(
+        duration: const Duration(milliseconds: 500),
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+            colors: [_activeColor.withOpacity(0.6), _baseColor, _baseColor],
+            stops: const [0.0, 0.6, 1.0],
+          ),
+        ),
+        child: SafeArea(
+          child: Column(
+            children: [
+              const SizedBox(height: 20),
 
-                double opacity = 0.0;
-
-                if (distanceFromCenter < 0.5) {
-                  opacity = (0.5 - distanceFromCenter) * 2;
-
-                  opacity = opacity.clamp(0.0, 1.0);
-                }
-                return Column(
-                  children: [
-                    Expanded(
-                      flex: 1,
-                      child: Align(
-                        alignment: Alignment.topCenter,
-                        child: Opacity(
-                          opacity: opacity.ceil().toDouble(),
-                          child: Transform.translate(
-                            offset: Offset(0, 50 * (1 - opacity)),
-                            child: Padding(
-                              padding: const EdgeInsets.only(top: 10.0),
-                              child: Text(
-                                mode['title'],
-                                textAlign: TextAlign.center,
-                                style: const TextStyle(
-                                  fontSize: 40,
-                                  fontWeight: FontWeight.bold,
-                                ),
-                              ),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                    Expanded(
-                      flex: 2,
-                      child: Transform.scale(
-                        scale: scale,
-                        child: GameModeCard(
-                          title: mode['title'],
-                          image: mode['image'],
-                          color: (mode['color'] as Color).withOpacity(
-                            opacity == 0
-                                ? 0.5
-                                : clampDouble(opacity + 0.5, 0.5, 1.0),
-                          ),
-                          onTap: () => _showDeckLibrary(
-                            context,
-                            mode['title'],
-                            mode['game_engine_id'],
-                            mode['color'],
-                          ),
-                          isGridView: false,
-                        ),
-                      ),
-                    ),
-                    Expanded(flex: 1, child: Container()),
-                  ],
-                );
-              },
-            )
-          : Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: GridView.builder(
-                key: ValueKey('GridView'),
-                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: 2,
-                  childAspectRatio: 0.5,
-                  mainAxisSpacing: 8,
-                  crossAxisSpacing: 8,
+              AnimatedOpacity(
+                duration: const Duration(milliseconds: 300),
+                opacity: 1.0,
+                child: Text(
+                  _isCarouselView ? "Choose Your Vibe" : "All Games",
+                  style: const TextStyle(
+                    color: Colors.white70,
+                    fontSize: 16,
+                    fontWeight: FontWeight.w600,
+                    letterSpacing: 1.2,
+                  ),
                 ),
-                itemCount: _gameModes.length,
-                itemBuilder: (context, index) {
-                  final mode = _gameModes[index];
-                  return GameModeCard(
-                    title: mode['title'],
-                    color: mode['color'],
-                    image: mode['image'],
-                    onTap: () => _showDeckLibrary(
-                      context,
-                      mode['title'],
-                      mode['game_engine_id'],
-                      mode['color'],
-                    ),
-                    isGridView: true,
-                  );
-                },
+              ),
+              const SizedBox(height: 20),
+
+              Expanded(
+                child: AnimatedSwitcher(
+                  duration: const Duration(milliseconds: 400),
+                  child: _isCarouselView
+                      ? _buildCarouselView()
+                      : _buildGridView(),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildCarouselView() {
+    return PageView.builder(
+      key: const ValueKey('Carousel'),
+      controller: _pageController,
+      physics: const BouncingScrollPhysics(),
+      itemCount: _gameModes.length,
+      itemBuilder: (context, index) {
+        final mode = _gameModes[index];
+
+        double pagePos = _pageController.position.haveDimensions
+            ? _pageController.page!
+            : _pageController.initialPage.toDouble();
+
+        double distance = (index - pagePos).abs();
+
+        double scale = max(0.83, 1.0 - (distance * 0.3));
+
+        double opacity = max(0.4, 1.0 - (distance * 0.6));
+
+        return Center(
+          child: Transform.scale(
+            scale: scale,
+            child: Opacity(
+              opacity: opacity,
+              child: GameModeCard(
+                heroTag: "card_${mode['game_engine_id']}",
+                title: mode['title'],
+                subtitle: mode['subtitle'],
+                icon: mode['icon'],
+                color: mode['color'],
+                isActive: distance < 0.5,
+                onTap: () => _showDeckLibrary(
+                  context,
+                  mode['title'],
+                  mode['game_engine_id'],
+                  mode['color'],
+                ),
               ),
             ),
+          ),
+        );
+      },
+    );
+  }
+
+  Widget _buildGridView() {
+    return GridView.builder(
+      key: const ValueKey('Grid'),
+      padding: const EdgeInsets.all(16),
+      physics: const BouncingScrollPhysics(),
+      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+        crossAxisCount: 2,
+        childAspectRatio: 0.75,
+        mainAxisSpacing: 16,
+        crossAxisSpacing: 16,
+      ),
+      itemCount: _gameModes.length,
+      itemBuilder: (context, index) {
+        final mode = _gameModes[index];
+        return GameModeCard(
+          heroTag: "card_${mode['game_engine_id']}",
+          title: mode['title'],
+          subtitle: mode['subtitle'],
+          color: mode['color'],
+          icon: mode['icon'],
+          isActive: true,
+          onTap: () => _showDeckLibrary(
+            context,
+            mode['title'],
+            mode['game_engine_id'],
+            mode['color'],
+          ),
+        );
+      },
     );
   }
 

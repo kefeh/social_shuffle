@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:social_shuffle/core/providers/game_provider.dart';
 import 'package:social_shuffle/features/deck_library/widgets/card_engine_header.dart';
+import 'package:social_shuffle/features/deck_library/widgets/rounded_button.dart';
 import 'package:social_shuffle/features/summary/summary_screen.dart';
 import 'package:social_shuffle/shared/constants.dart';
 
@@ -300,32 +301,11 @@ class _QuizEngineScreenState extends ConsumerState<QuizEngineScreen>
               SizedBox(
                 height: 80,
                 child: _hasAnswered
-                    ? Center(
-                        child: ElevatedButton.icon(
-                          onPressed: _handleNext,
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: Colors.cyan,
-                            foregroundColor: Colors.black,
-                            padding: const EdgeInsets.symmetric(
-                              horizontal: 32,
-                              vertical: 16,
-                            ),
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(30),
-                            ),
-                            elevation: 5,
-                          ),
-                          icon: const Icon(Icons.arrow_forward_rounded),
-                          label: Text(
-                            gameLoopState.isLastCard
-                                ? "Finish Quiz"
-                                : "Next Question",
-                            style: const TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                        ),
+                    ? RoundedButton(
+                        label: gameLoopState.isLastCard
+                            ? "Finish Quiz"
+                            : "Next Question",
+                        onPressed: _handleNext,
                       )
                     : const SizedBox.shrink(),
               ),

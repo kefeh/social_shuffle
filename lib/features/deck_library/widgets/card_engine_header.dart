@@ -12,7 +12,7 @@ class CardEngineHeader extends ConsumerWidget {
   const CardEngineHeader({
     super.key,
     this.onBack,
-    this.showProgress = true,
+    this.showProgress = false,
     this.titleOverride,
   });
 
