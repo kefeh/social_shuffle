@@ -136,28 +136,64 @@ class _FlipEngineScreenState extends ConsumerState<FlipEngineScreen>
 
               if (_hasChosen)
                 Padding(
-                  padding: const EdgeInsets.all(30.0),
+                  padding: const EdgeInsets.fromLTRB(24, 0, 24, 30),
                   child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
-                      ElevatedButton(
-                        onPressed: _nextCard,
-                        style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors.red,
-                        ),
-                        child: const Text(
-                          "Forfeit (Drink!)",
-                          style: TextStyle(color: Colors.white),
+                      Expanded(
+                        child: SizedBox(
+                          height: 70,
+                          child: ElevatedButton(
+                            onPressed: () => _nextCard(),
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: Colors.red,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(20),
+                              ),
+                              elevation: 0,
+                            ),
+                            child: const Text(
+                              "Forfeit (Drink!)",
+                              style: TextStyle(
+                                fontSize: 18,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.white,
+                              ),
+                            ),
+                          ),
                         ),
                       ),
-                      ElevatedButton(
-                        onPressed: _nextCard,
-                        style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors.green,
-                        ),
-                        child: const Text(
-                          "Challenge Done",
-                          style: TextStyle(color: Colors.white),
+
+                      const SizedBox(width: 20),
+
+                      Expanded(
+                        child: SizedBox(
+                          height: 70,
+                          child: ElevatedButton(
+                            onPressed: () => _nextCard(),
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: Colors.greenAccent.shade400,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(20),
+                              ),
+                              elevation: 10,
+                              shadowColor: Colors.greenAccent.withOpacity(0.4),
+                            ),
+                            child: const Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Text(
+                                  "DONE",
+                                  style: TextStyle(
+                                    fontSize: 22,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.black87,
+                                  ),
+                                ),
+                                SizedBox(width: 8),
+                                Icon(Icons.check_circle, color: Colors.black87),
+                              ],
+                            ),
+                          ),
                         ),
                       ),
                     ],
