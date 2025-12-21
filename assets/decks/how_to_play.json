@@ -1,0 +1,123 @@
+{
+  "truth_or_dare": {
+    "description": "A classic game of choices. Do you want to be honest, or do you want to be bold?",
+    "steps": [
+      {
+        "title": "Make Your Choice",
+        "description": "The player must choose 'Truth' or 'Dare' before seeing the card.",
+        "icon_name": "touch_app_rounded",
+        "color_hex": "#2979FF"
+      },
+      {
+        "title": "Reveal the Card",
+        "description": "Tap the button to reveal the question or challenge.",
+        "icon_name": "visibility_rounded",
+        "color_hex": "#00E676"
+      },
+      {
+        "title": "Perform or Forfeit",
+        "description": "Answer the question honestly or do the dare. If you refuse, take a drink!",
+        "icon_name": "local_fire_department_rounded",
+        "color_hex": "#FF1744"
+      }
+    ]
+  },
+  "trivia": {
+    "description": "Test your brain power against the clock.",
+    "steps": [
+      {
+        "title": "Read Question",
+        "description": "A question will appear with multiple choices.",
+        "icon_name": "quiz_rounded",
+        "color_hex": "#AB47BC"
+      },
+      {
+        "title": "Beat the Clock",
+        "description": "Select the correct answer before the timer runs out.",
+        "icon_name": "timer_rounded",
+        "color_hex": "#FF9800"
+      },
+      {
+        "title": "Score Points",
+        "description": "Pass the phone around. Whoever gets the most right wins!",
+        "icon_name": "emoji_events_rounded",
+        "color_hex": "#FFD600"
+      }
+    ]
+  },
+  "charades": {
+    "description": "Guess the word on the screen based on your friends' acting!",
+    "steps": [
+      {
+        "title": "Place on Forehead",
+        "description": "Hold the phone against your forehead so friends can see the screen, but you can't.",
+        "icon_name": "phone_android_rounded",
+        "color_hex": "#2196F3"
+      },
+      {
+        "title": "Friends Act",
+        "description": "Your friends act out the word. No talking allowed!",
+        "icon_name": "theater_comedy_rounded",
+        "color_hex": "#4CAF50"
+      },
+      {
+        "title": "Tilt to Score",
+        "description": "Tilt phone DOWN if you guess right. Tilt UP to pass.",
+        "icon_name": "screen_rotation_rounded",
+        "color_hex": "#FFC107"
+      }
+    ]
+  },
+  "nhie": {
+    "description": "Expose your friends' secrets. If you've done it, you drink!",
+    "steps": [
+      {
+        "title": "Read the Statement",
+        "description": "Read the 'Never Have I Ever...' card out loud.",
+        "icon_name": "record_voice_over_rounded",
+        "color_hex": "#448AFF"
+      },
+      {
+        "title": "Guilty?",
+        "description": "If you HAVE done the thing on the card, take a sip of your drink.",
+        "icon_name": "local_drink_rounded",
+        "color_hex": "#FF5252"
+      },
+      {
+        "title": "Story Time",
+        "description": "If only one person drinks, they have to tell the story!",
+        "icon_name": "forum_rounded",
+        "color_hex": "#7C4DFF"
+      }
+    ]
+  },
+  "most_likely": {
+    "description": "Gather around and find out who fits the description best.",
+    "steps": [
+      {
+        "title": "Read Aloud",
+        "description": "One person reads the card on the screen out loud to the group.",
+        "icon_name": "record_voice_over_rounded",
+        "color_hex": "#448AFF"
+      },
+      {
+        "title": "Think & Wait",
+        "description": "Everyone thinks of who fits the description best. Wait for the countdown...",
+        "icon_name": "timer_outlined",
+        "color_hex": "#FFAB00"
+      },
+      {
+        "title": "3.. 2.. 1.. Point!",
+        "description": "When the timer hits zero, everyone points at the person they chose.",
+        "icon_name": "fingerprint",
+        "color_hex": "#FF5252"
+      },
+      {
+        "title": "The Verdict",
+        "description": "The person with the most fingers pointing at them takes a penalty!",
+        "icon_name": "local_bar_rounded",
+        "color_hex": "#E040FB"
+      }
+    ]
+  }
+}

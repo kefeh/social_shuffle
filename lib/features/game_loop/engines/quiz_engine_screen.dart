@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:social_shuffle/core/providers/game_provider.dart';
+import 'package:social_shuffle/features/deck_library/widgets/card_engine_header.dart';
 import 'package:social_shuffle/features/summary/summary_screen.dart';
 import 'package:social_shuffle/shared/constants.dart';
 
@@ -129,26 +130,12 @@ class _QuizEngineScreenState extends ConsumerState<QuizEngineScreen>
         child: SafeArea(
           child: Column(
             children: [
-              Row(
-                children: [
-                  Expanded(child: BackButton()),
-                  Expanded(
-                    flex: 3,
-                    child: Center(
-                      child: Text(
-                        gameLoopState.currentDeck.title,
-                        style: Theme.of(context).textTheme.titleMedium,
-                      ),
-                    ),
-                  ),
-                  Spacer(),
-                ],
-              ),
+              CardEngineHeader(),
               Padding(
                 padding: const EdgeInsets.symmetric(
                   horizontal: 20,
                   vertical: 20,
-                ), // More vertical space for the icon
+                ),
                 child: LayoutBuilder(
                   builder: (context, constraints) {
                     final double totalWidth = constraints.maxWidth;
@@ -157,19 +144,16 @@ class _QuizEngineScreenState extends ConsumerState<QuizEngineScreen>
                     final int currentIndex = gameLoopState.currentCardIndex;
                     final double progress = (currentIndex + 1) / totalCards;
 
-                    // Calculate position.
-                    // Subtract 24 (half icon width) so it centers on the end of the line
                     double iconLeftPos = (totalWidth * progress) - 24;
                     if (iconLeftPos < 0) iconLeftPos = 0;
-                    if (iconLeftPos > totalWidth - 30)
+                    if (iconLeftPos > totalWidth - 30) {
                       iconLeftPos = totalWidth - 30;
+                    }
 
                     return Stack(
-                      clipBehavior:
-                          Clip.none, // Allow icon to overflow slightly
+                      clipBehavior: Clip.none,
                       alignment: Alignment.centerLeft,
                       children: [
-                        // Background Track
                         Container(
                           height: 10,
                           width: totalWidth,
@@ -178,7 +162,7 @@ class _QuizEngineScreenState extends ConsumerState<QuizEngineScreen>
                             borderRadius: BorderRadius.circular(10),
                           ),
                         ),
-                        // Fill Track
+
                         AnimatedContainer(
                           duration: const Duration(milliseconds: 500),
                           curve: Curves.easeOutBack,
@@ -191,12 +175,12 @@ class _QuizEngineScreenState extends ConsumerState<QuizEngineScreen>
                             borderRadius: BorderRadius.circular(10),
                           ),
                         ),
-                        // The Runner Icon
+
                         AnimatedPositioned(
                           duration: const Duration(milliseconds: 500),
                           curve: Curves.easeOutBack,
                           left: iconLeftPos,
-                          top: -12, // Pull it up to sit on top of the bar
+                          top: -12,
                           child: Container(
                             padding: const EdgeInsets.all(4),
                             decoration: BoxDecoration(

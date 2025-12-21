@@ -1,23 +1,23 @@
 import 'package:flutter/material.dart';
 
-class InstructionStep {
+class GameInstructionStep {
   final String title;
   final String description;
   final IconData icon;
-  final Color color;
+  Color color;
 
-  const InstructionStep({
+  GameInstructionStep({
     required this.title,
     required this.description,
     required this.icon,
-    required this.color,
+    this.color = Colors.purple,
   });
 }
 
 class GameInstructionsSheet extends StatelessWidget {
   final String gameTitle;
   final String description;
-  final List<InstructionStep> steps;
+  final List<GameInstructionStep> steps;
 
   const GameInstructionsSheet({
     super.key,
@@ -30,7 +30,7 @@ class GameInstructionsSheet extends StatelessWidget {
     BuildContext context, {
     required String gameTitle,
     required String description,
-    required List<InstructionStep> steps,
+    required List<GameInstructionStep> steps,
   }) {
     showModalBottomSheet(
       context: context,
@@ -143,7 +143,7 @@ class GameInstructionsSheet extends StatelessWidget {
 
   Widget _buildStep({
     required String stepNumber,
-    required InstructionStep step,
+    required GameInstructionStep step,
   }) {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,

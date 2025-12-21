@@ -26,7 +26,6 @@ class _SplashScreenState extends State<SplashScreen> {
     return Scaffold(
       body: Stack(
         children: [
-          // Background assets
           Positioned(
             top: -50,
             left: -50,
@@ -37,12 +36,9 @@ class _SplashScreenState extends State<SplashScreen> {
             right: -50,
             child: SvgPicture.asset('assets/images/blob2.svg', width: 200),
           ),
-          // Background painter
-          CustomPaint(
-            painter: _BackgroundPainter(),
-            child: Container(),
-          ),
-          // Content
+
+          CustomPaint(painter: _BackgroundPainter(), child: Container()),
+
           Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -91,7 +87,8 @@ class _BackgroundPainter extends CustomPainter {
     );
     canvas.drawPath(path, paint);
 
-    final shapePaint = Paint()..color = const Color(0xFFC3A4F4).withOpacity(0.5);
+    final shapePaint = Paint()
+      ..color = const Color(0xFFC3A4F4).withOpacity(0.5);
     final shapePath = Path();
     shapePath.moveTo(size.width, size.height * 0.85);
     shapePath.quadraticBezierTo(
@@ -113,14 +110,20 @@ class _BackgroundPainter extends CustomPainter {
     final heartPath = Path();
     heartPath.moveTo(size.width * 0.82, size.height * 0.93);
     heartPath.cubicTo(
-      size.width * 0.8, size.height * 0.9,
-      size.width * 0.75, size.height * 0.9,
-      size.width * 0.78, size.height * 0.95,
+      size.width * 0.8,
+      size.height * 0.9,
+      size.width * 0.75,
+      size.height * 0.9,
+      size.width * 0.78,
+      size.height * 0.95,
     );
     heartPath.cubicTo(
-      size.width * 0.81, size.height * 1,
-      size.width * 0.88, size.height * 1,
-      size.width * 0.85, size.height * 0.95,
+      size.width * 0.81,
+      size.height * 1,
+      size.width * 0.88,
+      size.height * 1,
+      size.width * 0.85,
+      size.height * 0.95,
     );
     canvas.drawPath(heartPath, heartPaint);
   }

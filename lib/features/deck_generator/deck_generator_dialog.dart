@@ -8,7 +8,8 @@ class DeckGeneratorDialog extends ConsumerStatefulWidget {
   const DeckGeneratorDialog({super.key});
 
   @override
-  ConsumerState<DeckGeneratorDialog> createState() => _DeckGeneratorDialogState();
+  ConsumerState<DeckGeneratorDialog> createState() =>
+      _DeckGeneratorDialogState();
 }
 
 class _DeckGeneratorDialogState extends ConsumerState<DeckGeneratorDialog> {
@@ -18,9 +19,9 @@ class _DeckGeneratorDialogState extends ConsumerState<DeckGeneratorDialog> {
 
   Future<void> _generateDeck() async {
     if (_topicController.text.isEmpty) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Please enter a topic.')),
-      );
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(const SnackBar(content: Text('Please enter a topic.')));
       return;
     }
 
@@ -35,10 +36,12 @@ class _DeckGeneratorDialogState extends ConsumerState<DeckGeneratorDialog> {
         _vibeController.text,
       );
       await ref.read(allDecksProvider.notifier).addDeck(generatedDeck);
-      Navigator.of(context).pop(); // Close the dialog
+      Navigator.of(context).pop();
     } catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('The bartender dropped the cards. Try again.')),
+        const SnackBar(
+          content: Text('The bartender dropped the cards. Try again.'),
+        ),
       );
     } finally {
       if (mounted) {

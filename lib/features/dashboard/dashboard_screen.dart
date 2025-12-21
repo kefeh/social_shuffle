@@ -206,7 +206,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                 key: ValueKey('GridView'),
                 gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2,
-                  childAspectRatio: 0.5, // Adjusted for 2x4 layout
+                  childAspectRatio: 0.5,
                   mainAxisSpacing: 8,
                   crossAxisSpacing: 8,
                 ),
@@ -223,7 +223,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                       mode['game_engine_id'],
                       mode['color'],
                     ),
-                    isGridView: true, // Apply 40% opacity for grid view
+                    isGridView: true,
                   );
                 },
               ),

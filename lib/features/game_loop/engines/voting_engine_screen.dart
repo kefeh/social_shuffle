@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:social_shuffle/core/providers/game_provider.dart';
-import 'package:social_shuffle/features/deck_library/widgets/game_instructions_sheet.dart';
+import 'package:social_shuffle/features/deck_library/widgets/card_engine_header.dart';
 import 'package:social_shuffle/features/summary/summary_screen.dart';
 import 'package:social_shuffle/shared/constants.dart';
 
@@ -100,12 +100,7 @@ class _VotingEngineScreenState extends ConsumerState<VotingEngineScreen>
         child: SafeArea(
           child: Column(
             children: [
-              VotingHeader(
-                currentIndex: gameLoopState.currentCardIndex + 1,
-                totalCards: gameLoopState.currentDeck.cards.length,
-                onBack: () => Navigator.of(context).pop(),
-              ),
-
+              CardEngineHeader(showProgress: true),
               Expanded(
                 child: Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 24.0),
@@ -136,119 +131,6 @@ class _VotingEngineScreenState extends ConsumerState<VotingEngineScreen>
             ],
           ),
         ),
-      ),
-    );
-  }
-}
-
-class VotingHeader extends StatelessWidget {
-  final int currentIndex;
-  final int totalCards;
-  final VoidCallback onBack;
-  final String gameTitle; // Added title for context
-
-  const VotingHeader({
-    super.key,
-    required this.currentIndex,
-    required this.totalCards,
-    required this.onBack,
-    this.gameTitle = "Most Likely To...",
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 10),
-      child: Row(
-        children: [
-          // 1. Back Button
-          Container(
-            decoration: BoxDecoration(
-              color: Colors.black12,
-              borderRadius: BorderRadius.circular(12),
-            ),
-            child: IconButton(
-              icon: const Icon(Icons.close, color: Colors.white, size: 24),
-              onPressed: onBack,
-              tooltip: 'Exit Game',
-            ),
-          ),
-
-          const SizedBox(width: 12),
-
-          // 2. Progress Bar & Counter
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Text(
-                      gameTitle.toUpperCase(),
-                      style: const TextStyle(
-                        color: Colors.white70,
-                        fontSize: 10,
-                        fontWeight: FontWeight.w900,
-                        letterSpacing: 1.0,
-                      ),
-                    ),
-                    Text(
-                      "$currentIndex/$totalCards",
-                      style: const TextStyle(
-                        color: Colors.white,
-                        fontSize: 12,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                  ],
-                ),
-                const SizedBox(height: 6),
-                ClipRRect(
-                  borderRadius: BorderRadius.circular(10),
-                  child: LinearProgressIndicator(
-                    value: currentIndex / totalCards,
-                    backgroundColor: Colors.black26,
-                    color: Colors.amberAccent, // Popping color
-                    minHeight: 6,
-                  ),
-                ),
-              ],
-            ),
-          ),
-
-          const SizedBox(width: 12),
-
-          // 3. NEW: How to Play Button
-          Container(
-            decoration: BoxDecoration(
-              color: Colors.white.withOpacity(0.1),
-              borderRadius: BorderRadius.circular(12),
-              border: Border.all(color: Colors.white24),
-            ),
-            child: IconButton(
-              icon: const Icon(
-                Icons.question_mark_rounded,
-                color: Colors.white,
-                size: 20,
-              ),
-              onPressed: () => GameInstructionsSheet.show(
-                context,
-                gameTitle: gameTitle,
-                description: 'description',
-                steps: [
-                  InstructionStep(
-                    title: 'title',
-                    description: 'description',
-                    icon: Icons.arrow_forward,
-                    color: Colors.pink,
-                  ),
-                ],
-              ),
-              tooltip: 'How to Play',
-            ),
-          ),
-        ],
       ),
     );
   }

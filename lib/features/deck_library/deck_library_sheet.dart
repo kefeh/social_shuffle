@@ -17,15 +17,6 @@ class DeckLibrarySheet extends ConsumerWidget {
     required this.backgroundColor,
   });
 
-  // void _showGeneratorDialog(BuildContext context, String initialGameEngineId) {
-  //   showDialog(
-  //     context: context,
-  //     builder: (context) => DeckGeneratorDialog(
-  //       initialGameEngineId: initialGameEngineId,
-  //     ),
-  //   );
-  // }
-
   Future<void> _confirmDelete(
     BuildContext context,
     WidgetRef ref,
@@ -90,7 +81,7 @@ class DeckLibrarySheet extends ConsumerWidget {
                         deck: deck,
                         onTap: () {
                           ref.read(currentDeckProvider.notifier).state = deck;
-                          Navigator.pop(context); // Close details sheet
+                          Navigator.pop(context);
                           Navigator.of(context).push(
                             MaterialPageRoute(
                               builder: (context) => const GameLoopScreen(),
@@ -113,18 +104,15 @@ class DeckLibrarySheet extends ConsumerWidget {
                 ),
               ),
               loading: () => const Flexible(
-                // Changed Expanded to Flexible
                 child: Center(child: CircularProgressIndicator()),
               ),
-              error: (err, stack) => Flexible(
-                child: Center(child: Text('Error: $err')),
-              ), // Changed Expanded to Flexible
+              error: (err, stack) =>
+                  Flexible(child: Center(child: Text('Error: $err'))),
             ),
             const SizedBox(height: 16),
             SizedBox(
               width: double.infinity,
               child: ElevatedButton.icon(
-                // onPressed: () => _showGeneratorDialog(context, gameEngineId),
                 onPressed: () {},
                 icon: const Icon(Icons.add),
                 label: const Text('Create New'),

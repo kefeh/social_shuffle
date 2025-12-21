@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:social_shuffle/core/providers/game_provider.dart';
+import 'package:social_shuffle/features/deck_library/widgets/card_engine_header.dart';
 import 'package:social_shuffle/features/summary/summary_screen.dart';
 import 'package:social_shuffle/shared/constants.dart';
 
@@ -153,24 +154,7 @@ class _TaskEngineScreenState extends ConsumerState<TaskEngineScreen>
         child: SafeArea(
           child: Column(
             children: [
-              Row(
-                children: [
-                  Expanded(child: BackButton()),
-                  Expanded(
-                    flex: 3,
-                    child: Center(
-                      child: Text(
-                        gameLoopState.currentDeck.title,
-                        style: Theme.of(context).textTheme.titleMedium,
-                      ),
-                    ),
-                  ),
-                  IconButton(
-                    icon: const Icon(Icons.close, color: Colors.white54),
-                    onPressed: () => Navigator.of(context).pop(),
-                  ),
-                ],
-              ),
+              CardEngineHeader(),
               SizedBox(height: 40),
               ScaleTransition(
                 scale: _isTimeUp

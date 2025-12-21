@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart'; // For Haptics
+import 'package:flutter/services.dart';
 
 class SummaryScreen extends StatefulWidget {
-  // Score is optional. 0.0 to 1.0
   final double? score;
   final Color color;
 
@@ -20,7 +19,7 @@ class _SummaryScreenState extends State<SummaryScreen>
   @override
   void initState() {
     super.initState();
-    // Simple "Pop" animation for the main card
+
     _controller = AnimationController(
       vsync: this,
       duration: const Duration(milliseconds: 800),
@@ -31,7 +30,6 @@ class _SummaryScreenState extends State<SummaryScreen>
     );
     _controller.forward();
 
-    // Play a success haptic on load
     HapticFeedback.mediumImpact();
   }
 
@@ -41,7 +39,6 @@ class _SummaryScreenState extends State<SummaryScreen>
     super.dispose();
   }
 
-  // Helper to determine the text based on score
   String _getScoreTitle(double score) {
     if (score >= 0.9) return "LEGENDARY!";
     if (score >= 0.7) return "AWESOME!";
@@ -57,7 +54,6 @@ class _SummaryScreenState extends State<SummaryScreen>
 
   @override
   Widget build(BuildContext context) {
-    // Background Gradient
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: AppBar(
@@ -76,11 +72,7 @@ class _SummaryScreenState extends State<SummaryScreen>
           gradient: LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
-            colors: [
-              Color(0xFF2E0249), // Dark Purple
-              Color(0xFF570A57), // Purple
-              widget.color,
-            ],
+            colors: [Color(0xFF2E0249), Color(0xFF570A57), widget.color],
           ),
         ),
         child: SafeArea(
@@ -92,14 +84,13 @@ class _SummaryScreenState extends State<SummaryScreen>
                 children: [
                   const Spacer(),
 
-                  // --- MAIN CARD ---
                   Container(
                     padding: const EdgeInsets.symmetric(
                       horizontal: 20,
                       vertical: 40,
                     ),
                     decoration: BoxDecoration(
-                      color: Colors.white.withOpacity(0.1), // Glassmorphism
+                      color: Colors.white.withOpacity(0.1),
                       borderRadius: BorderRadius.circular(30),
                       border: Border.all(color: Colors.white.withOpacity(0.2)),
                       boxShadow: [
@@ -113,7 +104,6 @@ class _SummaryScreenState extends State<SummaryScreen>
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        // LOGIC: Show Score or Appreciation
                         if (widget.score != null)
                           _buildScoreView(widget.score!)
                         else
@@ -124,7 +114,6 @@ class _SummaryScreenState extends State<SummaryScreen>
 
                   const Spacer(),
 
-                  // --- ACTION BUTTONS ---
                   Row(
                     children: [
                       Expanded(
@@ -147,7 +136,7 @@ class _SummaryScreenState extends State<SummaryScreen>
                         child: _ActionButton(
                           icon: Icons.shuffle,
                           label: "Remix",
-                          color: const Color(0xFFFF0080), // Vibrant Pink
+                          color: const Color(0xFFFF0080),
                           textColor: Colors.white,
                           onPressed: () {
                             ScaffoldMessenger.of(context).showSnackBar(
@@ -180,11 +169,9 @@ class _SummaryScreenState extends State<SummaryScreen>
     );
   }
 
-  // WIDGET: Logic for when Score exists
   Widget _buildScoreView(double score) {
     return Column(
       children: [
-        // Circular Progress with Animation
         SizedBox(
           height: 150,
           width: 150,
@@ -241,14 +228,13 @@ class _SummaryScreenState extends State<SummaryScreen>
         ),
         const SizedBox(height: 8),
         Text(
-          "You crushed it!", // This could be dynamic based on score too
+          "You crushed it!",
           style: TextStyle(fontSize: 16, color: Colors.white.withOpacity(0.8)),
         ),
       ],
     );
   }
 
-  // WIDGET: Logic for when it's just a completion (no score)
   Widget _buildCompletionView() {
     return Column(
       children: [
@@ -285,7 +271,6 @@ class _SummaryScreenState extends State<SummaryScreen>
   }
 }
 
-// Helper Widget for beautiful Buttons
 class _ActionButton extends StatelessWidget {
   final IconData icon;
   final String label;

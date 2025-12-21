@@ -20,7 +20,7 @@ class GameLoopScreen extends ConsumerWidget {
       case 'voting':
         return const VotingEngineScreen();
       default:
-        return const QuizEngineScreen(); // Fallback
+        return const QuizEngineScreen();
     }
   }
 

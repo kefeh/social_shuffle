@@ -3,25 +3,23 @@ import 'package:google_generative_ai/google_generative_ai.dart';
 import 'package:social_shuffle/core/models/deck.dart';
 
 class AIService {
-  // TODO: Replace with your actual API key.
-  // Consider using environment variables for sensitive information.
   final String _apiKey = "YOUR_GEMINI_API_KEY";
 
   late final GenerativeModel _model;
 
   AIService() {
-    _model = GenerativeModel(
-      model: 'gemini-1.5-flash',
-      apiKey: _apiKey,
-    );
+    _model = GenerativeModel(model: 'gemini-1.5-flash', apiKey: _apiKey);
   }
 
   Future<Deck> generateDeck(String topic, String vibe) async {
     if (_apiKey.isEmpty || _apiKey == "YOUR_GEMINI_API_KEY") {
-      throw Exception("Gemini API Key is not set. Please set it in lib/core/services/ai_service.dart");
+      throw Exception(
+        "Gemini API Key is not set. Please set it in lib/core/services/ai_service.dart",
+      );
     }
 
-    final prompt = """
+    final prompt =
+        """
     Generate a JSON object for a party game deck based on the following topic and vibe.
     The output should strictly adhere to the Deck and Card object schema provided below.
     Ensure that the game_engine_id is one of 'quiz', 'flip', 'task', or 'voting'.
@@ -89,21 +87,23 @@ class AIService {
     if (response.text == null) {
       throw Exception("Failed to generate content from Gemini API.");
     }
-    
-    // Attempt to parse the JSON string from the response
+
     Map<String, dynamic> jsonMap;
     try {
       jsonMap = json.decode(response.text!) as Map<String, dynamic>;
     } catch (e) {
-      throw Exception("Failed to parse JSON from Gemini API response: $e \nResponse text: ${response.text}");
+      throw Exception(
+        "Failed to parse JSON from Gemini API response: $e \nResponse text: ${response.text}",
+      );
     }
 
-    // Validate JSON schema and convert to Deck object
     try {
       final deck = Deck.fromJson(jsonMap);
       return deck;
     } catch (e) {
-      throw Exception("Failed to validate or convert Gemini API response to Deck object: $e");
+      throw Exception(
+        "Failed to validate or convert Gemini API response to Deck object: $e",
+      );
     }
   }
 }

@@ -2,6 +2,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:social_shuffle/core/providers/game_provider.dart';
+import 'package:social_shuffle/features/deck_library/widgets/card_engine_header.dart';
 import 'package:social_shuffle/features/summary/summary_screen.dart';
 import 'package:social_shuffle/shared/constants.dart';
 
@@ -111,26 +112,12 @@ class _FlipEngineScreenState extends ConsumerState<FlipEngineScreen>
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Row(
-                children: [
-                  Expanded(child: BackButton()),
-                  Expanded(
-                    flex: 3,
-                    child: Center(
-                      child: Text(
-                        gameLoopState.currentDeck.title,
-                        style: Theme.of(context).textTheme.titleMedium,
-                      ),
-                    ),
-                  ),
-                  Spacer(),
-                ],
-              ),
+              CardEngineHeader(),
               Expanded(
                 child: Center(
                   child: _hasChosen
-                      ? _buildRevealedCard() // State C: The Card
-                      : _buildChoiceButtons(), // State A: The Buttons
+                      ? _buildRevealedCard()
+                      : _buildChoiceButtons(),
                 ),
               ),
 
@@ -240,7 +227,7 @@ class _FlipEngineScreenState extends ConsumerState<FlipEngineScreen>
             ),
           ),
         ),
-        // DARE BUTTON
+
         Expanded(
           child: GestureDetector(
             onTap: () => _makeChoice(false),
