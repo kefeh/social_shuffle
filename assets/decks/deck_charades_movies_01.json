@@ -1,0 +1,356 @@
+{
+  "id": "deck_charades_movies_01",
+  "title": "Blockbuster Hits",
+  "description": "Superheroes, villains, and icons. Act out the most famous characters in history.",
+  "game_engine_id": "charades",
+  "game_engine_type": "task",
+  "is_system": true,
+  "created_at": "2023-01-07T13:00:00Z",
+
+  "cards": [
+    {
+      "content": "Spider-Man",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Web", "Hero", "Climb", "Peter"]
+      }
+    },
+    {
+      "content": "Harry Potter",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Wizard", "Magic", "Scar", "Wand"]
+      }
+    },
+    {
+      "content": "Darth Vader",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Star Wars", "Force", "Father", "Breath"]
+      }
+    },
+    {
+      "content": "Titanic",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Ship", "Iceberg", "Rose", "Jack"]
+      }
+    },
+    {
+      "content": "The Hulk",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Green", "Angry", "Smash", "Strong"]
+      }
+    },
+    {
+      "content": "Frozen (Elsa)",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Ice", "Let it Go", "Princess", "Cold"]
+      }
+    },
+    {
+      "content": "Superman",
+      "meta": { "timer": 60, "forbidden_words": ["Fly", "Cape", "Hero", "S"] }
+    },
+    {
+      "content": "Batman",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Bat", "Hero", "Joker", "Robin"]
+      }
+    },
+    {
+      "content": "James Bond",
+      "meta": { "timer": 60, "forbidden_words": ["Spy", "007", "Gun", "Suit"] }
+    },
+    {
+      "content": "Wonder Woman",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Hero", "Lasso", "Girl", "Amazon"]
+      }
+    },
+    {
+      "content": "Jaws",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Shark", "Water", "Boat", "Teeth"]
+      }
+    },
+    {
+      "content": "Mickey Mouse",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Disney", "Ears", "Mouse", "Cartoon"]
+      }
+    },
+    {
+      "content": "Frankenstein",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Monster", "Walk", "Green", "Scary"]
+      }
+    },
+    {
+      "content": "Zombie",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Dead", "Brain", "Walk", "Eat"]
+      }
+    },
+    {
+      "content": "Santa Claus",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Christmas", "Gift", "Ho Ho Ho", "Beard"]
+      }
+    },
+    {
+      "content": "The Lion King",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Simba", "Circle", "Animal", "Roar"]
+      }
+    },
+    {
+      "content": "Toy Story",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Woody", "Buzz", "Cowboy", "Play"]
+      }
+    },
+    {
+      "content": "Jurassic Park",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Dinosaur", "T-Rex", "Run", "Scary"]
+      }
+    },
+    {
+      "content": "Pirates of the Caribbean",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Johnny Depp", "Ship", "Sparrow", "Sea"]
+      }
+    },
+    {
+      "content": "Shrek",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Ogre", "Green", "Donkey", "Swamp"]
+      }
+    },
+    {
+      "content": "SpongeBob",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Square", "Yellow", "Sea", "Patrick"]
+      }
+    },
+    {
+      "content": "The Joker",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Smile", "Batman", "Clown", "Villain"]
+      }
+    },
+    {
+      "content": "Iron Man",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Suit", "Fly", "Hero", "Marvel"]
+      }
+    },
+    {
+      "content": "Captain America",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Shield", "Hero", "USA", "Soldier"]
+      }
+    },
+    {
+      "content": "Wolverine",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Claws", "X-Men", "Hero", "Wolf"]
+      }
+    },
+    {
+      "content": "Ghostbusters",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Ghost", "Who you gonna call", "Trap", "Scary"]
+      }
+    },
+    {
+      "content": "The Matrix",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Neo", "Slow", "Bullet", "Dodge"]
+      }
+    },
+    {
+      "content": "Rocky",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Boxer", "Fight", "Punch", "Adrian"]
+      }
+    },
+    {
+      "content": "Forrest Gump",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Run", "Chocolates", "Box", "Tom Hanks"]
+      }
+    },
+    {
+      "content": "E.T.",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Alien", "Home", "Finger", "Phone"]
+      }
+    },
+    {
+      "content": "Thor",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Hammer", "God", "Hero", "Thunder"]
+      }
+    },
+    {
+      "content": "Dracula",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Vampire", "Blood", "Bite", "Cape"]
+      }
+    },
+    {
+      "content": "Godzilla",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Monster", "Lizard", "Japan", "Roar"]
+      }
+    },
+    {
+      "content": "King Kong",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Monkey", "Empire State", "Big", "Chest"]
+      }
+    },
+    {
+      "content": "Indiana Jones",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Whip", "Hat", "Adventure", "Snake"]
+      }
+    },
+    {
+      "content": "Witch",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Broom", "Hat", "Spell", "Green"]
+      }
+    },
+    {
+      "content": "Mermaid",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Ariel", "Swim", "Tail", "Ocean"]
+      }
+    },
+    {
+      "content": "Cinderella",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Shoe", "Princess", "Ball", "Glass"]
+      }
+    },
+    {
+      "content": "Aladdin",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Genie", "Carpet", "Lamp", "Wish"]
+      }
+    },
+    {
+      "content": "Pikachu",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Pokemon", "Yellow", "Electric", "Cute"]
+      }
+    },
+    {
+      "content": "Mario",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Game", "Jump", "Luigi", "Plumber"]
+      }
+    },
+    {
+      "content": "Sonic",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Hedgehog", "Blue", "Fast", "Ring"]
+      }
+    },
+    {
+      "content": "Minions",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Yellow", "Small", "Banana", "Gru"]
+      }
+    },
+    {
+      "content": "Home Alone",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Scream", "Kid", "House", "Face"]
+      }
+    },
+    {
+      "content": "Top Gun",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Plane", "Pilot", "Maverick", "Fly"]
+      }
+    },
+    {
+      "content": "Men in Black",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Alien", "Suit", "Flash", "Memory"]
+      }
+    },
+    {
+      "content": "Deadpool",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Red", "Funny", "Hero", "Sword"]
+      }
+    },
+    {
+      "content": "Avatar",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Blue", "Alien", "Pandora", "Tall"]
+      }
+    },
+    {
+      "content": "Barbie",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Doll", "Pink", "Ken", "Blonde"]
+      }
+    },
+    {
+      "content": "Terminator",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Robot", "Back", "Arnold", "Gun"]
+      }
+    }
+  ]
+}

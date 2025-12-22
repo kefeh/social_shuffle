@@ -1,0 +1,361 @@
+{
+  "id": "deck_charades_jobs_01",
+  "title": "Hard at Work",
+  "description": "From Doctors to DJs. Guess the job or hobby!",
+  "game_engine_id": "charades",
+  "game_engine_type": "task",
+  "is_system": true,
+  "created_at": "2023-01-07T12:00:00Z",
+  "cards": [
+    {
+      "content": "Doctor",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Hospital", "Sick", "Medicine", "Stethoscope"]
+      }
+    },
+    {
+      "content": "Police Officer",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Arrest", "Gun", "Badge", "Cop"]
+      }
+    },
+    {
+      "content": "Firefighter",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Hose", "Fire", "Truck", "Ladder"]
+      }
+    },
+    {
+      "content": "Chef",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Cook", "Food", "Hat", "Kitchen"]
+      }
+    },
+    {
+      "content": "DJ",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Music", "Headphones", "Spin", "Club"]
+      }
+    },
+    {
+      "content": "Ballerina",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Dance", "Toes", "Spin", "Tutu"]
+      }
+    },
+    {
+      "content": "Boxer",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Punch", "Gloves", "Ring", "Fight"]
+      }
+    },
+    {
+      "content": "Teacher",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["School", "Class", "Board", "Student"]
+      }
+    },
+    {
+      "content": "Astronaut",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Space", "Moon", "Float", "Helmet"]
+      }
+    },
+    {
+      "content": "Farmer",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Animals", "Crops", "Tractor", "Barn"]
+      }
+    },
+    {
+      "content": "Photographer",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Camera", "Picture", "Flash", "Smile"]
+      }
+    },
+    {
+      "content": "Mime",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Silent", "Box", "Act", "White"]
+      }
+    },
+    {
+      "content": "Dentist",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Teeth", "Drill", "Mouth", "Open"]
+      }
+    },
+    {
+      "content": "Pilot",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Plane", "Fly", "Sky", "Airport"]
+      }
+    },
+    {
+      "content": "Artist",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Paint", "Draw", "Brush", "Canvas"]
+      }
+    },
+    {
+      "content": "Clown",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Funny", "Circus", "Nose", "Makeup"]
+      }
+    },
+    {
+      "content": "Surgeon",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Operation", "Cut", "Hospital", "Knife"]
+      }
+    },
+    {
+      "content": "Magician",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Trick", "Hat", "Rabbit", "Wand"]
+      }
+    },
+    {
+      "content": "Lifeguard",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Pool", "Swim", "Save", "Whistle"]
+      }
+    },
+    {
+      "content": "Construction Worker",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Build", "Hammer", "Hat", "Drill"]
+      }
+    },
+    {
+      "content": "Waiter",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Food", "Order", "Tray", "Restaurant"]
+      }
+    },
+    {
+      "content": "Rockstar",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Guitar", "Sing", "Band", "Famous"]
+      }
+    },
+    {
+      "content": "Scientist",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Lab", "Experiment", "Chemical", "Coat"]
+      }
+    },
+    {
+      "content": "Detective",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Mystery", "Magnifying", "Search", "Sherlock"]
+      }
+    },
+    {
+      "content": "Ninja",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Sneak", "Fight", "Mask", "Sword"]
+      }
+    },
+    {
+      "content": "Pirate",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Ship", "Eye Patch", "Treasure", "Hook"]
+      }
+    },
+    {
+      "content": "Judge",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Court", "Gavel", "Law", "Guilty"]
+      }
+    },
+    {
+      "content": "Soldier",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Army", "Gun", "March", "Salute"]
+      }
+    },
+    {
+      "content": "Hairdresser",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Cut", "Hair", "Scissors", "Salon"]
+      }
+    },
+    {
+      "content": "Plumber",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Pipe", "Toilet", "Fix", "Water"]
+      }
+    },
+    {
+      "content": "Mechanic",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Car", "Fix", "Engine", "Oil"]
+      }
+    },
+    {
+      "content": "Model",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Walk", "Pose", "Fashion", "Camera"]
+      }
+    },
+    {
+      "content": "Flight Attendant",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Plane", "Safety", "Drink", "Seat"]
+      }
+    },
+    {
+      "content": "Librarian",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Book", "Quiet", "Read", "Shh"]
+      }
+    },
+    {
+      "content": "Gardener",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Plant", "Flower", "Water", "Dig"]
+      }
+    },
+    {
+      "content": "Taxi Driver",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Car", "Drive", "Passenger", "Money"]
+      }
+    },
+    {
+      "content": "Sumo Wrestler",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Japan", "Big", "Push", "Fight"]
+      }
+    },
+    {
+      "content": "Yoga Instructor",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Stretch", "Pose", "Mat", "Breathe"]
+      }
+    },
+    {
+      "content": "Gymnast",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Flip", "Balance", "Flexible", "Gold"]
+      }
+    },
+    {
+      "content": "Goalie",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Soccer", "Save", "Ball", "Hands"]
+      }
+    },
+    {
+      "content": "Baseball Player",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Bat", "Hit", "Home Run", "Pitch"]
+      }
+    },
+    {
+      "content": "Basketball Player",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Shoot", "Dribble", "Hoop", "Dunk"]
+      }
+    },
+    {
+      "content": "Swimmer",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Pool", "Water", "Stroke", "Race"]
+      }
+    },
+    {
+      "content": "Skiing",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Snow", "Mountain", "Cold", "Slide"]
+      }
+    },
+    {
+      "content": "Cowboy",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Horse", "Hat", "Lasso", "Western"]
+      }
+    },
+    {
+      "content": "Spy",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Secret", "Sneak", "Bond", "Agent"]
+      }
+    },
+    {
+      "content": "Ghost Hunter",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Scary", "Spirit", "Camera", "Find"]
+      }
+    },
+    {
+      "content": "Mail Carrier",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Letter", "Post", "Box", "Deliver"]
+      }
+    },
+    {
+      "content": "King/Queen",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Crown", "Royal", "Throne", "Rule"]
+      }
+    },
+    {
+      "content": "Robot",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Machine", "Metal", "Beep", "Future"]
+      }
+    }
+  ]
+}

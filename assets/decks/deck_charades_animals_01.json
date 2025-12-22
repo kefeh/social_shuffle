@@ -1,0 +1,361 @@
+{
+  "id": "deck_charades_animals_01",
+  "title": "Animal Kingdom",
+  "description": "Roar, squeak, and jump! Act out these creatures from around the world.",
+  "game_engine_id": "charades",
+  "game_engine_type": "task",
+  "is_system": true,
+  "created_at": "2023-01-07T11:00:00Z",
+  "cards": [
+    {
+      "content": "T-Rex",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Dinosaur", "Arms", "Jurassic", "Roar"]
+      }
+    },
+    {
+      "content": "Penguin",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Waddle", "Cold", "Ice", "Bird"]
+      }
+    },
+    {
+      "content": "Monkey",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Banana", "Climb", "Tree", "Ape"]
+      }
+    },
+    {
+      "content": "Sloth",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Slow", "Tree", "Sleep", "Climb"]
+      }
+    },
+    {
+      "content": "Kangaroo",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Jump", "Pouch", "Australia", "Hop"]
+      }
+    },
+    {
+      "content": "Elephant",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Trunk", "Big", "Grey", "Ears"]
+      }
+    },
+    {
+      "content": "Giraffe",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Neck", "Tall", "Spots", "Leaf"]
+      }
+    },
+    {
+      "content": "Snake",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Slither", "Hiss", "Long", "Reptile"]
+      }
+    },
+    {
+      "content": "Chicken",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Egg", "Cluck", "Farm", "Bird"]
+      }
+    },
+    {
+      "content": "Lion",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["King", "Roar", "Mane", "Cat"]
+      }
+    },
+    {
+      "content": "Frog",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Jump", "Green", "Ribbit", "Fly"]
+      }
+    },
+    {
+      "content": "Shark",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Fish", "Teeth", "Ocean", "Fin"]
+      }
+    },
+    {
+      "content": "Dog",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Bark", "Pet", "Puppy", "Tail"]
+      }
+    },
+    {
+      "content": "Cat",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Meow", "Purr", "Pet", "Kitten"]
+      }
+    },
+    {
+      "content": "Bunny",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Hop", "Ears", "Carrot", "Easter"]
+      }
+    },
+    {
+      "content": "Gorilla",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Chest", "King Kong", "Ape", "Big"]
+      }
+    },
+    {
+      "content": "Pig",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Oink", "Mud", "Pink", "Tail"]
+      }
+    },
+    {
+      "content": "Cow",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Moo", "Milk", "Farm", "Black"]
+      }
+    },
+    {
+      "content": "Duck",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Quack", "Water", "Bird", "Bill"]
+      }
+    },
+    {
+      "content": "Bear",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Honey", "Cave", "Hibernation", "Grizzly"]
+      }
+    },
+    {
+      "content": "Owl",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Hoot", "Neck", "Night", "Wise"]
+      }
+    },
+    {
+      "content": "Bat",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Cave", "Upside down", "Vampire", "Fly"]
+      }
+    },
+    {
+      "content": "Dolphin",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Swim", "Ocean", "Jump", "Smart"]
+      }
+    },
+    {
+      "content": "Crab",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Pinch", "Sideways", "Beach", "Shell"]
+      }
+    },
+    {
+      "content": "Spider",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Web", "Legs", "Scary", "Insects"]
+      }
+    },
+    {
+      "content": "Butterfly",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Fly", "Wings", "Beautiful", "Caterpillar"]
+      }
+    },
+    {
+      "content": "Bee",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Sting", "Honey", "Buzz", "Yellow"]
+      }
+    },
+    {
+      "content": "Turtle",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Shell", "Slow", "Green", "Ocean"]
+      }
+    },
+    {
+      "content": "Flamingo",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Pink", "Stand", "One Leg", "Bird"]
+      }
+    },
+    {
+      "content": "Wolf",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Howl", "Moon", "Pack", "Dog"]
+      }
+    },
+    {
+      "content": "Mouse",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Squeak", "Cheese", "Small", "Trap"]
+      }
+    },
+    {
+      "content": "Whale",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Big", "Ocean", "Blowhole", "Blue"]
+      }
+    },
+    {
+      "content": "Camel",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Hump", "Desert", "Sand", "Spit"]
+      }
+    },
+    {
+      "content": "Octopus",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Legs", "Ink", "Ocean", "Tentacles"]
+      }
+    },
+    {
+      "content": "Rhino",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Horn", "Big", "Grey", "Charge"]
+      }
+    },
+    {
+      "content": "Squirrel",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Nut", "Tree", "Tail", "Park"]
+      }
+    },
+    {
+      "content": "Parrot",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Talk", "Bird", "Pirate", "Colorful"]
+      }
+    },
+    {
+      "content": "Mosquito",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Bite", "Itch", "Fly", "Blood"]
+      }
+    },
+    {
+      "content": "Seal",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Clap", "Bark", "Ocean", "Ball"]
+      }
+    },
+    {
+      "content": "Zebra",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Stripes", "Black", "White", "Horse"]
+      }
+    },
+    {
+      "content": "Peacock",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Feathers", "Colorful", "Bird", "Show"]
+      }
+    },
+    {
+      "content": "Ostrich",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Head", "Sand", "Fast", "Bird"]
+      }
+    },
+    {
+      "content": "Cheetah",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Fast", "Spots", "Run", "Cat"]
+      }
+    },
+    {
+      "content": "Panda",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Bamboo", "Bear", "Black", "White"]
+      }
+    },
+    {
+      "content": "Raccoon",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Trash", "Mask", "Bandit", "Night"]
+      }
+    },
+    {
+      "content": "Snail",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Slow", "Shell", "Slime", "Garden"]
+      }
+    },
+    {
+      "content": "Hippo",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Water", "Big", "Mouth", "Hungry"]
+      }
+    },
+    {
+      "content": "Goat",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Yoga", "Mountain", "Milk", "Horns"]
+      }
+    },
+    {
+      "content": "Donkey",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Shrek", "Hee-Haw", "Kick", "Horse"]
+      }
+    },
+    {
+      "content": "Worm",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Dirt", "Wiggle", "Ground", "Rain"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "id": "deck_charades_everyday_01",
+  "title": "Act It Out: Everyday Life",
+  "description": "Hilarious daily scenarios. Mime these actions without speaking!",
+  "game_engine_id": "charades",
+  "game_engine_type": "task",
+  "is_system": true,
+  "created_at": "2023-01-07T10:00:00Z",
+  "cards": [
+    {
+      "content": "Brushing Teeth",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Toothbrush", "Paste", "Clean", "Mouth"]
+      }
+    },
+    {
+      "content": "Taking a Selfie",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Photo", "Phone", "Camera", "Smile"]
+      }
+    },
+    {
+      "content": "Walking a Dog",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Leash", "Puppy", "Animal", "Pet"]
+      }
+    },
+    {
+      "content": "Changing a Diaper",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Baby", "Smell", "Poop", "Wipe"]
+      }
+    },
+    {
+      "content": "Stepping on Lego",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Ouch", "Pain", "Toy", "Block"]
+      }
+    },
+    {
+      "content": "Parallel Parking",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Car", "Drive", "Reverse", "Spot"]
+      }
+    },
+    {
+      "content": "Riding a Rollercoaster",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Scream", "Fast", "Loop", "Park"]
+      }
+    },
+    {
+      "content": "Mowing the Lawn",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Grass", "Cut", "Garden", "Push"]
+      }
+    },
+    {
+      "content": "Ironing a Shirt",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Hot", "Steam", "Clothes", "Board"]
+      }
+    },
+    {
+      "content": "Proposing",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Marry", "Ring", "Knee", "Wife"]
+      }
+    },
+    {
+      "content": "Blow drying Hair",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Heat", "Salon", "Wet", "Style"]
+      }
+    },
+    {
+      "content": "Eating Spaghetti",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Pasta", "Fork", "Slurp", "Italy"]
+      }
+    },
+    {
+      "content": "Fishing",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Rod", "Hook", "Water", "Catch"]
+      }
+    },
+    {
+      "content": "Yoga",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Stretch", "Pose", "Mat", "Breath"]
+      }
+    },
+    {
+      "content": "Hiccups",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Sound", "Jump", "Water", "Breath"]
+      }
+    },
+    {
+      "content": "Washing Dishes",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Sink", "Soap", "Scrub", "Plate"]
+      }
+    },
+    {
+      "content": "Typing",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Computer", "Keyboard", "Work", "Email"]
+      }
+    },
+    {
+      "content": "Sneezing",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Bless you", "Tissue", "Nose", "Cold"]
+      }
+    },
+    {
+      "content": "Putting on Makeup",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Lipstick", "Face", "Mirror", "Brush"]
+      }
+    },
+    {
+      "content": "Playing Guitar",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Music", "Strum", "Rock", "Band"]
+      }
+    },
+    {
+      "content": "Opening a Jar",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Tight", "Lid", "Stuck", "Twist"]
+      }
+    },
+    {
+      "content": "Ice Skating",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Cold", "Slide", "Winter", "Blade"]
+      }
+    },
+    {
+      "content": "Swatting a Fly",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Bug", "Hit", "Annoying", "Buzz"]
+      }
+    },
+    {
+      "content": "Whistling",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Lips", "Sound", "Tune", "Blow"]
+      }
+    },
+    {
+      "content": "Playing Video Games",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Controller", "Console", "Screen", "Button"]
+      }
+    },
+    {
+      "content": "Painting a Wall",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Brush", "Roller", "Color", "Wet"]
+      }
+    },
+    {
+      "content": "Showering",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Water", "Soap", "Wash", "Sing"]
+      }
+    },
+    {
+      "content": "Tying Shoelaces",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Knot", "Foot", "Sneaker", "Loop"]
+      }
+    },
+    {
+      "content": "Hailing a Taxi",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Car", "Wave", "Whistle", "Yellow"]
+      }
+    },
+    {
+      "content": "Building a Sandcastle",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Beach", "Bucket", "Shovel", "Sand"]
+      }
+    },
+    {
+      "content": "Flipping Pancakes",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Pan", "Breakfast", "Cook", "Spatula"]
+      }
+    },
+    {
+      "content": "Walking in Heels",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Shoes", "Balance", "Tall", "Trip"]
+      }
+    },
+    {
+      "content": "Brain Freeze",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Ice Cream", "Cold", "Head", "Ouch"]
+      }
+    },
+    {
+      "content": "Riding a Horse",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Gallop", "Saddle", "Cowboy", "Animal"]
+      }
+    },
+    {
+      "content": "Surfing",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Wave", "Board", "Ocean", "Balance"]
+      }
+    },
+    {
+      "content": "Stubbing a Toe",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Foot", "Pain", "Furniture", "Hurt"]
+      }
+    },
+    {
+      "content": "Getting a Haircut",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Scissors", "Barber", "Salon", "Trim"]
+      }
+    },
+    {
+      "content": "Watching a Scary Movie",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Scream", "Hide", "Eyes", "Horror"]
+      }
+    },
+    {
+      "content": "Lifting Weights",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Gym", "Heavy", "Strong", "Muscle"]
+      }
+    },
+    {
+      "content": "Vacuuming",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Clean", "Floor", "Dust", "Carpet"]
+      }
+    },
+    {
+      "content": "Karaoke",
+      "meta": { "timer": 60, "forbidden_words": ["Sing", "Mic", "Song", "Bar"] }
+    },
+    {
+      "content": "Bowling",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Ball", "Pins", "Strike", "Lane"]
+      }
+    },
+    {
+      "content": "Slipping on Ice",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Fall", "Winter", "Cold", "Slide"]
+      }
+    },
+    {
+      "content": "Waking Up",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Morning", "Stretch", "Yawn", "Alarm"]
+      }
+    },
+    {
+      "content": "Playing Drums",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Beat", "Sticks", "Bang", "Band"]
+      }
+    },
+    {
+      "content": "Shaving",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Razor", "Face", "Cream", "Cut"]
+      }
+    },
+    {
+      "content": "Putting on Contact Lenses",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Eye", "See", "Finger", "Vision"]
+      }
+    },
+    {
+      "content": "Walking Like a Zombie",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Dead", "Brain", "Slow", "Monster"]
+      }
+    },
+    {
+      "content": "Conducting an Orchestra",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Music", "Baton", "Leader", "Band"]
+      }
+    },
+    {
+      "content": "Playing Tennis",
+      "meta": {
+        "timer": 60,
+        "forbidden_words": ["Racket", "Ball", "Net", "Serve"]
+      }
+    }
+  ]
+}
