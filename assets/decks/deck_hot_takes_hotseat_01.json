@@ -1,0 +1,383 @@
+{
+  "id": "deck_hotseat_01",
+  "title": "Hot Seat: The Grill",
+  "description": "One player sits in the Hot Seat. The group passes the phone and asks them rapid-fire questions. Honesty is mandatory.",
+  "game_engine_id": "hot_takes",
+  "game_engine_type": "simple_flip",
+  "is_system": true,
+  "created_at": "2023-01-28T10:00:00Z",
+  "cards": [
+    {
+      "content": "Who in this room do you trust the least with a secret?",
+      "meta": {}
+    },
+    {
+      "content": "What is the most illegal thing you have ever done?",
+      "meta": {}
+    },
+    {
+      "content": "Rate your own physical attractiveness on a scale of 1-10.",
+      "meta": {}
+    },
+    {
+      "content": "If you had to date one person in this room, who would it be?",
+      "meta": {}
+    },
+    {
+      "content": "What is the pettiest reason you have broken up with someone?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever looked through a partner's phone without them knowing?",
+      "meta": {}
+    },
+    {
+      "content": "What is the grossest habit you have when you are alone?",
+      "meta": {}
+    },
+    {
+      "content": "If you could kill someone and get away with it, would you?",
+      "meta": {}
+    },
+    {
+      "content": "Who was your worst kiss ever?",
+      "meta": {}
+    },
+    {
+      "content": "What is the biggest lie you have told your parents?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever stalked an ex on social media using a fake account?",
+      "meta": {}
+    },
+    {
+      "content": "Who in this room has the worst fashion sense?",
+      "meta": {}
+    },
+    {
+      "content": "What is the most embarrassing thing in your search history right now?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever peed in a pool?",
+      "meta": {}
+    },
+    {
+      "content": "What is the biggest lie you ever told to get out of trouble?",
+      "meta": {}
+    },
+    {
+      "content": "If you had to trade lives with one person in this room, who would it be?",
+      "meta": {}
+    },
+    {
+      "content": "What is your most toxic trait?",
+      "meta": {}
+    },
+    {
+      "content": "Who is your favorite person in this room?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever stolen something? What was it?",
+      "meta": {}
+    },
+    {
+      "content": "How many people have you slept with?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever been fired from a job? Why?",
+      "meta": {}
+    },
+    {
+      "content": "What is the most expensive thing you have broken and hidden?",
+      "meta": {}
+    },
+    {
+      "content": "Who in this room is most likely to end up in jail?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever been in love with someone who didn't love you back?",
+      "meta": {}
+    },
+    {
+      "content": "What is your biggest insecurity?",
+      "meta": {}
+    },
+    {
+      "content": "If you had to delete one app from your phone forever, what would it be?",
+      "meta": {}
+    },
+    {
+      "content": "What is the meanest thing you have ever said to someone's face?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever hooked up with a coworker?",
+      "meta": {}
+    },
+    {
+      "content": "What is a rumor you spread that turned out to be false?",
+      "meta": {}
+    },
+    {
+      "content": "If you could erase one past relationship, which one would it be?",
+      "meta": {}
+    },
+    {
+      "content": "What is the longest you have gone without showering?",
+      "meta": {}
+    },
+    {
+      "content": "Who in this room makes you laugh the hardest?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever cheated on a test?",
+      "meta": {}
+    },
+    {
+      "content": "What is your biggest turn-off?",
+      "meta": {}
+    },
+    {
+      "content": "If you won the lottery, who in this room would you NOT give money to?",
+      "meta": {}
+    },
+    {
+      "content": "What is the most embarrassing photo of you that exists?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever ghosted someone you were dating?",
+      "meta": {}
+    },
+    {
+      "content": "What is one thing you pretend to like but actually hate?",
+      "meta": {}
+    },
+    {
+      "content": "Who in this room would you want with you on a deserted island?",
+      "meta": {}
+    },
+    {
+      "content": "What is the worst gift you have ever received?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever laughed at a funeral?",
+      "meta": {}
+    },
+    {
+      "content": "What is your guilty pleasure TV show?",
+      "meta": {}
+    },
+    {
+      "content": "If you could change your name, what would you change it to?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever sent a text to the wrong person about them?",
+      "meta": {}
+    },
+    {
+      "content": "What is the weirdest dream you have ever had?",
+      "meta": {}
+    },
+    {
+      "content": "If you had to marry the last person you texted, would you be happy?",
+      "meta": {}
+    },
+    {
+      "content": "What is your most useless talent?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever blamed a fart on someone else?",
+      "meta": {}
+    },
+    {
+      "content": "What is the most money you have ever lost?",
+      "meta": {}
+    },
+    {
+      "content": "Who was your first celebrity crush?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever used a fake ID?",
+      "meta": {}
+    },
+    {
+      "content": "What is the worst haircut you have ever had?",
+      "meta": {}
+    },
+    {
+      "content": "If you were an animal, what would you be?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever eaten food out of the trash?",
+      "meta": {}
+    },
+    {
+      "content": "What is one thing you are irrationally afraid of?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever been rejected publicly?",
+      "meta": {}
+    },
+    {
+      "content": "What is the worst advice you have ever given?",
+      "meta": {}
+    },
+    {
+      "content": "Who in this room do you think is the smartest?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever broken a bone doing something stupid?",
+      "meta": {}
+    },
+    {
+      "content": "What is the last thing you Googled?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever accidentally insulted someone?",
+      "meta": {}
+    },
+    {
+      "content": "What is one thing you would save from a fire?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever dropped your phone in the toilet?",
+      "meta": {}
+    },
+    {
+      "content": "What is the weirdest food combination you enjoy?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever snooped in someone's medicine cabinet?",
+      "meta": {}
+    },
+    {
+      "content": "What is the most cringe thing you posted on social media?",
+      "meta": {}
+    },
+    {
+      "content": "If you could be famous for one thing, what would it be?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever had a paranormal experience?",
+      "meta": {}
+    },
+    {
+      "content": "What is the worst date you have ever been on?",
+      "meta": {}
+    },
+    {
+      "content": "Who is the most dramatic person you know?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever lied about your age?",
+      "meta": {}
+    },
+    {
+      "content": "What is one habit you wish you could break?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever worn the same underwear two days in a row?",
+      "meta": {}
+    },
+    {
+      "content": "What is the most romantic thing someone has done for you?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever forgotten a close friend's birthday?",
+      "meta": {}
+    },
+    {
+      "content": "What is your biggest pet peeve?",
+      "meta": {}
+    },
+    {
+      "content": "If you could swap lives with anyone in this room, who would it be?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever dined and dashed?",
+      "meta": {}
+    },
+    {
+      "content": "What is a skill you lie about having?",
+      "meta": {}
+    },
+    {
+      "content": "Who in this room do you think will get married first?",
+      "meta": {}
+    },
+    {
+      "content": "If you were arrested, what would it be for?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever peed in the shower?",
+      "meta": {}
+    },
+    {
+      "content": "Do you pick your nose?",
+      "meta": {}
+    },
+    {
+      "content": "What is the longest you have gone without brushing your teeth?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever regifted a gift to the person who gave it to you?",
+      "meta": {}
+    },
+    {
+      "content": "What is the most trouble you got into at school?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever had a crush on a friend's parent?",
+      "meta": {}
+    },
+    {
+      "content": "What is the meanest rumor you've heard about yourself?",
+      "meta": {}
+    },
+    {
+      "content": "If you could punch one celebrity, who would it be?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever blocked a friend on social media?",
+      "meta": {}
+    },
+    {
+      "content": "What is your favorite smell?",
+      "meta": {}
+    },
+    {
+      "content": "Have you ever pretended to be sick to cancel plans?",
+      "meta": {}
+    },
+    {
+      "content": "If you had to eat one meal for the rest of your life, what would it be?",
+      "meta": {}
+    }
+  ]
+}

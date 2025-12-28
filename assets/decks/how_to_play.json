@@ -142,5 +142,28 @@
         "color_hex": "#E91E63"
       }
     ]
+  },
+  "hot_takes": {
+    "description": "Spark the conversation. Debate red flags, grill your friends, or solve ethical dilemmas.",
+    "steps": [
+      {
+        "title": "Reveal the Topic",
+        "description": "Tap the card to flip it and reveal the question, scenario, or dilemma.",
+        "icon_name": "touch_app_rounded",
+        "color_hex": "#F9C80E"
+      },
+      {
+        "title": "Discuss & Debate",
+        "description": "The group discusses the card. Fight for your opinion or roast the person in the Hot Seat.",
+        "icon_name": "campaign_rounded",
+        "color_hex": "#FF5722"
+      },
+      {
+        "title": "Next Round",
+        "description": "Once the debate settles, tap Next to keep the energy moving.",
+        "icon_name": "arrow_forward_rounded",
+        "color_hex": "#00E676"
+      }
+    ]
   }
 }

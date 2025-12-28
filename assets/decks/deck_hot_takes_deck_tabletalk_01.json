@@ -1,0 +1,263 @@
+{
+  "id": "deck_tabletalk_01",
+  "title": "Table Talk: Dinner Party",
+  "description": "No awkward silences. Interesting hypotheticals and stories to keep the conversation flowing.",
+  "game_engine_id": "hot_takes",
+  "game_engine_type": "simple_flip",
+  "is_system": true,
+  "created_at": "2023-01-28T11:00:00Z",
+  "cards": [
+    {
+      "content": "If you could instantly download one skill into your brain (Matrix style), what would it be?",
+      "meta": {}
+    },
+    {
+      "content": "What is a book or movie that fundamentally changed how you see the world?",
+      "meta": {}
+    },
+    {
+      "content": "If you could invite any 3 people (dead or alive) to this dinner, who would they be?",
+      "meta": {}
+    },
+    {
+      "content": "What is the weirdest food you have ever tried?",
+      "meta": {}
+    },
+    {
+      "content": "Do you believe in aliens? Why or why not?",
+      "meta": {}
+    },
+    {
+      "content": "What is the most expensive thing you’ve broken?",
+      "meta": {}
+    },
+    {
+      "content": "If money was no object, what would your dream job be?",
+      "meta": {}
+    },
+    {
+      "content": "What is a fashion trend you hope never comes back?",
+      "meta": {}
+    },
+    {
+      "content": "If you had to live in a different era of history, which one would you choose?",
+      "meta": {}
+    },
+    {
+      "content": "What is your biggest pet peeve in a friendship?",
+      "meta": {}
+    },
+    {
+      "content": "If you could only listen to one album for the rest of your life, what would it be?",
+      "meta": {}
+    },
+    {
+      "content": "What is a small act of kindness you were shown that you will never forget?",
+      "meta": {}
+    },
+    {
+      "content": "Would you rather explore the deep ocean or outer space?",
+      "meta": {}
+    },
+    {
+      "content": "What is the best piece of advice you’ve ever received?",
+      "meta": {}
+    },
+    {
+      "content": "If you could rename yourself, what name would you pick?",
+      "meta": {}
+    },
+    {
+      "content": "What is your favorite holiday and why?",
+      "meta": {}
+    },
+    {
+      "content": "If you could teleport anywhere right now, where would you go?",
+      "meta": {}
+    },
+    {
+      "content": "What is the most beautiful place you have ever visited?",
+      "meta": {}
+    },
+    {
+      "content": "Do you think social media has done more good or harm?",
+      "meta": {}
+    },
+    {
+      "content": "If you opened a restaurant, what kind of food would you serve?",
+      "meta": {}
+    },
+    {
+      "content": "What is a childhood toy you miss?",
+      "meta": {}
+    },
+    {
+      "content": "If you could be an Olympic athlete in any sport, which would it be?",
+      "meta": {}
+    },
+    {
+      "content": "What is the scariest movie you have ever seen?",
+      "meta": {}
+    },
+    {
+      "content": "If animals could talk, which one would be the rudest?",
+      "meta": {}
+    },
+    {
+      "content": "What is your favorite smell?",
+      "meta": {}
+    },
+    {
+      "content": "If you could live in any fictional universe (Harry Potter, Star Wars, etc.), which one?",
+      "meta": {}
+    },
+    {
+      "content": "What is the best gift you have ever given someone?",
+      "meta": {}
+    },
+    {
+      "content": "Do you believe in ghosts?",
+      "meta": {}
+    },
+    {
+      "content": "What is a talent you wish you had?",
+      "meta": {}
+    },
+    {
+      "content": "If you were a superhero, what would your power be?",
+      "meta": {}
+    },
+    {
+      "content": "What is the worst job you have ever had?",
+      "meta": {}
+    },
+    {
+      "content": "If you could eliminate one thing from the world, what would it be?",
+      "meta": {}
+    },
+    {
+      "content": "What is your go-to karaoke song?",
+      "meta": {}
+    },
+    {
+      "content": "If you could speak to your younger self, what would you say?",
+      "meta": {}
+    },
+    {
+      "content": "What is the most daring thing you have ever done?",
+      "meta": {}
+    },
+    {
+      "content": "Do you prefer the city or the countryside?",
+      "meta": {}
+    },
+    {
+      "content": "What is a habit you are trying to break?",
+      "meta": {}
+    },
+    {
+      "content": "If you had a warning label, what would it say?",
+      "meta": {}
+    },
+    {
+      "content": "What is the best compliment you have ever received?",
+      "meta": {}
+    },
+    {
+      "content": "If you could swap lives with a celebrity for a day, who would it be?",
+      "meta": {}
+    },
+    {
+      "content": "What is your biggest fear?",
+      "meta": {}
+    },
+    {
+      "content": "If you found $100 on the ground, what would you do with it?",
+      "meta": {}
+    },
+    {
+      "content": "What is a subject you wish you learned in school?",
+      "meta": {}
+    },
+    {
+      "content": "Do you believe in soulmates?",
+      "meta": {}
+    },
+    {
+      "content": "What is the funniest joke you know?",
+      "meta": {}
+    },
+    {
+      "content": "If you were a color, which one would you be?",
+      "meta": {}
+    },
+    {
+      "content": "What is your favorite season?",
+      "meta": {}
+    },
+    {
+      "content": "If you could have an unlimited supply of one thing, what would it be?",
+      "meta": {}
+    },
+    {
+      "content": "What is something you are looking forward to this week?",
+      "meta": {}
+    },
+    {
+      "content": "If you wrote a book, what would it be about?",
+      "meta": {}
+    },
+    {
+      "content": "What is the most useful app on your phone?",
+      "meta": {}
+    },
+    {
+      "content": "If you could understand any language instantly, which one?",
+      "meta": {}
+    },
+    {
+      "content": "What is your favorite way to relax?",
+      "meta": {}
+    },
+    {
+      "content": "If you could be famous for anything, what would it be?",
+      "meta": {}
+    },
+    {
+      "content": "What is a conspiracy theory you think might be true?",
+      "meta": {}
+    },
+    {
+      "content": "If you could change one law, what would it be?",
+      "meta": {}
+    },
+    {
+      "content": "What is the most interesting documentary you've watched?",
+      "meta": {}
+    },
+    {
+      "content": "If you were a ghost, who would you haunt?",
+      "meta": {}
+    },
+    {
+      "content": "What is your favorite dessert?",
+      "meta": {}
+    },
+    {
+      "content": "If you could have any animal as a pet (tame), what would it be?",
+      "meta": {}
+    },
+    {
+      "content": "What is the first thing you would do during a zombie apocalypse?",
+      "meta": {}
+    },
+    {
+      "content": "If you could see 10 years into the future, would you look?",
+      "meta": {}
+    },
+    {
+      "content": "What is something you are proud of?",
+      "meta": {}
+    }
+  ]
+}

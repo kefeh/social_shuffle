@@ -1,0 +1,251 @@
+{
+  "id": "deck_moral_01",
+  "title": "Moral Compass",
+  "description": "What would you do? Difficult ethical dilemmas to test your values and spark debate.",
+  "game_engine_id": "hot_takes",
+  "game_engine_type": "simple_flip",
+  "is_system": true,
+  "created_at": "2023-01-28T13:00:00Z",
+  "cards": [
+    {
+      "content": "You find a wallet with $1,000 cash and an ID inside. The address is a huge mansion. Do you keep the cash?",
+      "meta": {}
+    },
+    {
+      "content": "You accidentally scratch a luxury car in a parking lot. No one saw you. Do you leave a note?",
+      "meta": {}
+    },
+    {
+      "content": "You find out your best friend's partner is cheating. Do you tell your friend?",
+      "meta": {}
+    },
+    {
+      "content": "A cashier gives you $20 extra change by mistake. Do you return it?",
+      "meta": {}
+    },
+    {
+      "content": "You can save 1 person you love or 5 strangers. Who do you save?",
+      "meta": {}
+    },
+    {
+      "content": "If you could get away with a crime that would make you rich but hurt no one physically, would you do it?",
+      "meta": {}
+    },
+    {
+      "content": "Would you lie in court to save a friend from going to jail for a crime they committed?",
+      "meta": {}
+    },
+    {
+      "content": "You have the power to turn invisible. Do you use it to spy on people?",
+      "meta": {}
+    },
+    {
+      "content": "You are offered $1 million to never speak to your best friend again. Do you take it?",
+      "meta": {}
+    },
+    {
+      "content": "Is it ever okay to steal food to feed a starving family?",
+      "meta": {}
+    },
+    {
+      "content": "Would you read your partner's diary if you knew they would never find out?",
+      "meta": {}
+    },
+    {
+      "content": "If you could peek into the future to see when you die, would you look?",
+      "meta": {}
+    },
+    {
+      "content": "You see a coworker stealing office supplies. Do you report them?",
+      "meta": {}
+    },
+    {
+      "content": "Would you cheat on a test if you knew you wouldn't get caught and it guaranteed you a scholarship?",
+      "meta": {}
+    },
+    {
+      "content": "If you could change the past by killing baby Hitler, would you do it?",
+      "meta": {}
+    },
+    {
+      "content": "A stranger leaves their phone at a cafe. Do you try to find them or keep it?",
+      "meta": {}
+    },
+    {
+      "content": "You are driving and hit a dog. It runs off. Do you stop to look for it or keep driving?",
+      "meta": {}
+    },
+    {
+      "content": "Would you accept a job that pays double your salary but supports a cause you hate?",
+      "meta": {}
+    },
+    {
+      "content": "You find out your sibling committed a serious crime. Do you turn them in?",
+      "meta": {}
+    },
+    {
+      "content": "Would you forgive a partner who cheated once if they were truly sorry?",
+      "meta": {}
+    },
+    {
+      "content": "Is it okay to lie to a child about Santa Claus?",
+      "meta": {}
+    },
+    {
+      "content": "You can save 100 people but you have to sacrifice yourself. Do you do it?",
+      "meta": {}
+    },
+    {
+      "content": "Would you tell a white lie to avoid hurting someone's feelings?",
+      "meta": {}
+    },
+    {
+      "content": "If you could live forever but never fall in love, would you?",
+      "meta": {}
+    },
+    {
+      "content": "You see someone drop $20. They look wealthy. Do you keep it?",
+      "meta": {}
+    },
+    {
+      "content": "Would you betray a friend to become famous?",
+      "meta": {}
+    },
+    {
+      "content": "Is it wrong to use someone else's WiFi if it's not password protected?",
+      "meta": {}
+    },
+    {
+      "content": "You find a bag of money that belongs to drug dealers. Do you keep it?",
+      "meta": {}
+    },
+    {
+      "content": "Would you help a friend bury a body? (Hypothetically)",
+      "meta": {}
+    },
+    {
+      "content": "Is it okay to test products on animals if it cures cancer?",
+      "meta": {}
+    },
+    {
+      "content": "Would you date your best friend's ex if they gave you permission?",
+      "meta": {}
+    },
+    {
+      "content": "You are given the power to end world hunger, but 50% of the population dies. Do you do it?",
+      "meta": {}
+    },
+    {
+      "content": "Would you tell someone they have spinach in their teeth?",
+      "meta": {}
+    },
+    {
+      "content": "Is it cheating if you flirt online but never meet?",
+      "meta": {}
+    },
+    {
+      "content": "Would you take credit for a coworker's idea if it got you a promotion?",
+      "meta": {}
+    },
+    {
+      "content": "You can save your pet or a random stranger. Who do you save?",
+      "meta": {}
+    },
+    {
+      "content": "Would you reveal a friend's secret if it saved their life?",
+      "meta": {}
+    },
+    {
+      "content": "Is it okay to re-gift a present?",
+      "meta": {}
+    },
+    {
+      "content": "Would you marry for money if you liked the person but didn't love them?",
+      "meta": {}
+    },
+    {
+      "content": "If you could upload your brain to a computer to live forever, would you?",
+      "meta": {}
+    },
+    {
+      "content": "Would you bully someone if it stopped you from being bullied?",
+      "meta": {}
+    },
+    {
+      "content": "You see a parent hitting their child in public. Do you intervene?",
+      "meta": {}
+    },
+    {
+      "content": "Would you rather be happy and poor, or rich and lonely?",
+      "meta": {}
+    },
+    {
+      "content": "Is it okay to ghost someone after one date?",
+      "meta": {}
+    },
+    {
+      "content": "Would you accept a bribe to look the other way?",
+      "meta": {}
+    },
+    {
+      "content": "If you knew your friend's partner was planning to break up with them, would you tell your friend?",
+      "meta": {}
+    },
+    {
+      "content": "Would you plant evidence to convict a known murderer who might walk free?",
+      "meta": {}
+    },
+    {
+      "content": "Is it ethical to eat meat?",
+      "meta": {}
+    },
+    {
+      "content": "Would you sacrifice your privacy for total safety?",
+      "meta": {}
+    },
+    {
+      "content": "You break an expensive vase at a party. No one saw. Do you confess?",
+      "meta": {}
+    },
+    {
+      "content": "Would you tell a dying person a lie to make them happy?",
+      "meta": {}
+    },
+    {
+      "content": "Is it okay to break a law if you think the law is unjust?",
+      "meta": {}
+    },
+    {
+      "content": "Would you choose to know the date of your death?",
+      "meta": {}
+    },
+    {
+      "content": "You are a doctor. You can save 5 patients by killing 1 healthy patient for organs. Do you do it?",
+      "meta": {}
+    },
+    {
+      "content": "Would you hook up with a friend's crush?",
+      "meta": {}
+    },
+    {
+      "content": "If you could sell 5 years of your life for $5 million, would you?",
+      "meta": {}
+    },
+    {
+      "content": "Would you tell your friend if their outfit looked bad?",
+      "meta": {}
+    },
+    {
+      "content": "Is it okay to keep a lost dog if it has no collar/chip?",
+      "meta": {}
+    },
+    {
+      "content": "Would you snitch on a friend to save yourself from jail?",
+      "meta": {}
+    },
+    {
+      "content": "If you could erase a bad memory from someone else's mind, would you?",
+      "meta": {}
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "id": "deck_redflag_01",
+  "title": "Red or Green Flag?",
+  "description": "Read the behavior. The group debates: Is it a Red Flag (Toxic), Green Flag (Good), or Beige Flag (Weird)?",
+  "game_engine_id": "hot_takes",
+  "game_engine_type": "simple_flip",
+  "is_system": true,
+  "created_at": "2023-01-28T12:00:00Z",
+  "cards": [
+    {
+      "content": "They still share a Netflix account with their ex.",
+      "meta": {}
+    },
+    {
+      "content": "They clap when the movie ends in the theater.",
+      "meta": {}
+    },
+    {
+      "content": "They are rude to waiters.",
+      "meta": {}
+    },
+    {
+      "content": "They have zero social media presence.",
+      "meta": {}
+    },
+    {
+      "content": "They refer to themselves as an 'Alpha'.",
+      "meta": {}
+    },
+    {
+      "content": "They ask for a bite of your food without asking first.",
+      "meta": {}
+    },
+    {
+      "content": "They text 'Good Morning' every single day.",
+      "meta": {}
+    },
+    {
+      "content": "They sleep with a mattress on the floor (no bed frame).",
+      "meta": {}
+    },
+    {
+      "content": "They own a snake.",
+      "meta": {}
+    },
+    {
+      "content": "They talk about their mom on the first date.",
+      "meta": {}
+    },
+    {
+      "content": "They have never seen Star Wars.",
+      "meta": {}
+    },
+    {
+      "content": "They tip 25% minimum, even for bad service.",
+      "meta": {}
+    },
+    {
+      "content": "They bring a guitar to a party uninvited.",
+      "meta": {}
+    },
+    {
+      "content": "They call their pets their 'children'.",
+      "meta": {}
+    },
+    {
+      "content": "They drink milk with dinner.",
+      "meta": {}
+    },
+    {
+      "content": "They follow more than 1,000 people on Instagram.",
+      "meta": {}
+    },
+    {
+      "content": "They don't like music.",
+      "meta": {}
+    },
+    {
+      "content": "They are friends with all of their exes.",
+      "meta": {}
+    },
+    {
+      "content": "They wear sunglasses indoors.",
+      "meta": {}
+    },
+    {
+      "content": "They order for you at the restaurant without asking.",
+      "meta": {}
+    },
+    {
+      "content": "They text back immediately, always.",
+      "meta": {}
+    },
+    {
+      "content": "They take 24 hours to reply to a text.",
+      "meta": {}
+    },
+    {
+      "content": "They have a picture of themselves as their phone wallpaper.",
+      "meta": {}
+    },
+    {
+      "content": "They don't drink alcohol.",
+      "meta": {}
+    },
+    {
+      "content": "They prefer cats over dogs.",
+      "meta": {}
+    },
+    {
+      "content": "They hate reading.",
+      "meta": {}
+    },
+    {
+      "content": "They have never traveled outside their country.",
+      "meta": {}
+    },
+    {
+      "content": "They want to share their location with you after 1 week.",
+      "meta": {}
+    },
+    {
+      "content": "They laugh at their own jokes.",
+      "meta": {}
+    },
+    {
+      "content": "They correct your grammar in texts.",
+      "meta": {}
+    },
+    {
+      "content": "They insist on splitting the bill 50/50 exactly.",
+      "meta": {}
+    },
+    {
+      "content": "They chew with their mouth open.",
+      "meta": {}
+    },
+    {
+      "content": "They have over 10,000 unread emails.",
+      "meta": {}
+    },
+    {
+      "content": "They use a 3-in-1 shampoo/conditioner/body wash.",
+      "meta": {}
+    },
+    {
+      "content": "They don't like chocolate.",
+      "meta": {}
+    },
+    {
+      "content": "They ask for your zodiac sign immediately.",
+      "meta": {}
+    },
+    {
+      "content": "They don't like watching sports.",
+      "meta": {}
+    },
+    {
+      "content": "They quote memes in real life conversation.",
+      "meta": {}
+    },
+    {
+      "content": "They want to move in together after 2 months.",
+      "meta": {}
+    },
+    {
+      "content": "They talk bad about all their exes.",
+      "meta": {}
+    },
+    {
+      "content": "They invite you to a wedding on the second date.",
+      "meta": {}
+    },
+    {
+      "content": "They don't eat crust on pizza.",
+      "meta": {}
+    },
+    {
+      "content": "They put pineapple on pizza.",
+      "meta": {}
+    },
+    {
+      "content": "They kiss with their eyes open.",
+      "meta": {}
+    },
+    {
+      "content": "They have a 'Live, Laugh, Love' sign in their house.",
+      "meta": {}
+    },
+    {
+      "content": "They drive a really loud car.",
+      "meta": {}
+    },
+    {
+      "content": "They refuse to dance at weddings.",
+      "meta": {}
+    },
+    {
+      "content": "They don't use turn signals.",
+      "meta": {}
+    },
+    {
+      "content": "They are always 15 minutes late.",
+      "meta": {}
+    },
+    {
+      "content": "They are always 15 minutes early.",
+      "meta": {}
+    },
+    {
+      "content": "They check their phone during dinner.",
+      "meta": {}
+    },
+    {
+      "content": "They never check their phone when with you.",
+      "meta": {}
+    },
+    {
+      "content": "They like their steak well-done.",
+      "meta": {}
+    },
+    {
+      "content": "They track their macros/calories religiously.",
+      "meta": {}
+    },
+    {
+      "content": "They have a joint bank account with their parents.",
+      "meta": {}
+    },
+    {
+      "content": "They say 'I love you' to their friends.",
+      "meta": {}
+    },
+    {
+      "content": "They don't own a TV.",
+      "meta": {}
+    },
+    {
+      "content": "They refuse to kill bugs and carry them outside instead.",
+      "meta": {}
+    },
+    {
+      "content": "They own more shoes than you.",
+      "meta": {}
+    },
+    {
+      "content": "They have a nickname for their car.",
+      "meta": {}
+    },
+    {
+      "content": "They watch movies with subtitles on.",
+      "meta": {}
+    },
+    {
+      "content": "They wear socks to bed.",
+      "meta": {}
+    },
+    {
+      "content": "They have a tattoo of a partner's name.",
+      "meta": {}
+    },
+    {
+      "content": "They are brutally honest at all times.",
+      "meta": {}
+    },
+    {
+      "content": "They hate surprises.",
+      "meta": {}
+    }
+  ]
+}
