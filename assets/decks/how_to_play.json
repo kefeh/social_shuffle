@@ -119,5 +119,28 @@
         "color_hex": "#E040FB"
       }
     ]
+  },
+  "deep_dive": {
+    "description": "Skip the small talk. A game about connection, perception, and vulnerability.",
+    "steps": [
+      {
+        "title": "Ask & Answer",
+        "description": "Read the card aloud. Be honest. There are no wrong answers, just real ones.",
+        "icon_name": "record_voice_over_rounded",
+        "color_hex": "#4361EE"
+      },
+      {
+        "title": "Watch for Wildcards",
+        "description": "Tap to flip. If it's a Wildcard on the back, you must perform the action immediately.",
+        "icon_name": "star_rounded",
+        "color_hex": "#FFAB00"
+      },
+      {
+        "title": "Connect",
+        "description": "Listen to understand, not just to reply. This game is about knowing people better.",
+        "icon_name": "favorite_rounded",
+        "color_hex": "#E91E63"
+      }
+    ]
   }
 }

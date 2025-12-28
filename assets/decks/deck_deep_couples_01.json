@@ -1,0 +1,246 @@
+{
+  "id": "deck_deep_couples_01",
+  "title": "Date Night: Intimacy",
+  "description": "For COUPLES. Deepen your romantic bond and rediscover each other.",
+  "game_engine_id": "deep_dive",
+  "game_engine_type": "flip",
+  "is_system": true,
+  "created_at": "2023-01-10T12:00:00Z",
+  "cards": [
+    {
+      "content": "What is your favorite memory of us?",
+      "back": "Describe it in detail.",
+      "meta": {}
+    },
+    {
+      "content": "When did you first realize you liked/loved me?",
+      "back": "What was the moment?",
+      "meta": {}
+    },
+    {
+      "content": "What is one thing I do that makes you feel loved?",
+      "back": "Be specific.",
+      "meta": {}
+    },
+    {
+      "content": "What is a fear you have about our relationship?",
+      "back": "Be vulnerable.",
+      "meta": {}
+    },
+    {
+      "content": "WILDCARD",
+      "back": "Give your partner a 1-minute massage.",
+      "meta": {}
+    },
+    {
+      "content": "What is something you want us to achieve together?",
+      "back": "Short term or long term.",
+      "meta": {}
+    },
+    {
+      "content": "What is your favorite physical feature of mine?",
+      "back": "Compliments only.",
+      "meta": {}
+    },
+    {
+      "content": "How do you think we have changed since we met?",
+      "back": "Have we grown together?",
+      "meta": {}
+    },
+    {
+      "content": "What is something you've been hesitant to tell me?",
+      "back": "Safe space.",
+      "meta": {}
+    },
+    {
+      "content": "What song reminds you of me?",
+      "back": "Play it if you can.",
+      "meta": {}
+    },
+    {
+      "content": "If we could travel anywhere tomorrow, where would we go?",
+      "back": "Plan a dream trip.",
+      "meta": {}
+    },
+    {
+      "content": "What is one way I can support you better?",
+      "back": "Practical advice.",
+      "meta": {}
+    },
+    {
+      "content": "What is your favorite date we've ever been on?",
+      "back": "Why was it the best?",
+      "meta": {}
+    },
+    {
+      "content": "WILDCARD",
+      "back": "Kiss for 10 seconds without stopping.",
+      "meta": {}
+    },
+    {
+      "content": "Do you think we communicate well?",
+      "back": "How can we improve?",
+      "meta": {}
+    },
+    {
+      "content": "What is a habit of mine you find cute?",
+      "back": "Not annoying, cute.",
+      "meta": {}
+    },
+    {
+      "content": "When do you feel most connected to me?",
+      "back": "Morning? Night? When talking?",
+      "meta": {}
+    },
+    {
+      "content": "What is a secret fantasy you have?",
+      "back": "Doesn't have to be sexual.",
+      "meta": {}
+    },
+    {
+      "content": "If you could relive one day of our relationship, which one?",
+      "back": "Walk me through it.",
+      "meta": {}
+    },
+    {
+      "content": "What do I do that makes you laugh the hardest?",
+      "back": "Share a funny moment.",
+      "meta": {}
+    },
+    {
+      "content": "How do you describe me to your friends?",
+      "back": "Be honest!",
+      "meta": {}
+    },
+    {
+      "content": "What is the biggest challenge we have overcome?",
+      "back": "Celebrate it.",
+      "meta": {}
+    },
+    {
+      "content": "WILDCARD",
+      "back": "Whisper something you love about me in my ear.",
+      "meta": {}
+    },
+    {
+      "content": "Do you feel appreciated by me?",
+      "back": "Give examples.",
+      "meta": {}
+    },
+    {
+      "content": "What is one thing you want to do with me before we die?",
+      "back": "Bucket list item.",
+      "meta": {}
+    },
+    {
+      "content": "What is your favorite non-sexual intimacy?",
+      "back": "Holding hands? Cuddling? Talking?",
+      "meta": {}
+    },
+    {
+      "content": "Do you think we are soulmates?",
+      "back": "Define soulmate.",
+      "meta": {}
+    },
+    {
+      "content": "What is something you learned from me?",
+      "back": "A skill or a perspective.",
+      "meta": {}
+    },
+    {
+      "content": "When am I at my best?",
+      "back": "Describe that version of me.",
+      "meta": {}
+    },
+    {
+      "content": "What is one thing you would never want to change about us?",
+      "back": "Keep this forever.",
+      "meta": {}
+    },
+    {
+      "content": "How do you want to be loved?",
+      "back": "Words? Acts? Touch?",
+      "meta": {}
+    },
+    {
+      "content": "WILDCARD",
+      "back": "Take a selfie together right now.",
+      "meta": {}
+    },
+    {
+      "content": "What is a misunderstanding we had that you want to clear up?",
+      "back": "Fix it now.",
+      "meta": {}
+    },
+    {
+      "content": "What is the most romantic thing I've ever done for you?",
+      "back": "Remind me.",
+      "meta": {}
+    },
+    {
+      "content": "Do you feel safe with me?",
+      "back": "Emotionally and physically.",
+      "meta": {}
+    },
+    {
+      "content": "What is a goal I can help you reach?",
+      "back": "Be my partner.",
+      "meta": {}
+    },
+    {
+      "content": "What makes you proud to be my partner?",
+      "back": "Brag about us.",
+      "meta": {}
+    },
+    {
+      "content": "If we had a theme song, what would it be?",
+      "back": "Sing the chorus.",
+      "meta": {}
+    },
+    {
+      "content": "What is something you want to tell me but haven't found the right time?",
+      "back": "Now is the time.",
+      "meta": {}
+    },
+    {
+      "content": "WILDCARD",
+      "back": "Slow dance to no music for 1 minute.",
+      "meta": {}
+    },
+    {
+      "content": "What is your favorite time of day with me?",
+      "back": "Morning coffee? Bedtime?",
+      "meta": {}
+    },
+    {
+      "content": "Are you satisfied with the amount of time we spend together?",
+      "back": "More or less?",
+      "meta": {}
+    },
+    {
+      "content": "What is one thing you admire about my family?",
+      "back": "Find a positive.",
+      "meta": {}
+    },
+    {
+      "content": "What is a small thing I do that annoys you?",
+      "back": "Keep it light.",
+      "meta": {}
+    },
+    {
+      "content": "How do you know I love you?",
+      "back": "What signals do I send?",
+      "meta": {}
+    },
+    {
+      "content": "What are you most excited for in our future?",
+      "back": "Look ahead.",
+      "meta": {}
+    },
+    {
+      "content": "Why did you choose me?",
+      "back": "Deep appreciation.",
+      "meta": {}
+    }
+  ]
+}

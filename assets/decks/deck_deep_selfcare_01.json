@@ -1,0 +1,311 @@
+{
+  "id": "deck_deep_selfcare_01",
+  "title": "Self Care: Reflection",
+  "description": "For YOU. Questions to ask yourself. Use this for journaling, meditation, or a quiet moment alone.",
+  "game_engine_id": "deep_dive",
+  "game_engine_type": "flip",
+  "is_system": true,
+  "created_at": "2023-01-10T14:00:00Z",
+  "cards": [
+    {
+      "content": "How am I really feeling right now?",
+      "back": "Don't say 'fine'. Be specific.",
+      "meta": {}
+    },
+    {
+      "content": "What is draining my energy the most lately?",
+      "back": "Can you change it?",
+      "meta": {}
+    },
+    {
+      "content": "What is giving me energy right now?",
+      "back": "How can you get more of this?",
+      "meta": {}
+    },
+    {
+      "content": "What is one thing I need to forgive myself for?",
+      "back": "Let it go.",
+      "meta": {}
+    },
+    {
+      "content": "Who am I trying to please?",
+      "back": "Is it worth it?",
+      "meta": {}
+    },
+    {
+      "content": "What would I do today if I wasn't afraid?",
+      "back": "Write it down.",
+      "meta": {}
+    },
+    {
+      "content": "What does my ideal morning look like?",
+      "back": "Visualize it.",
+      "meta": {}
+    },
+    {
+      "content": "Am I holding onto a relationship that hurts me?",
+      "back": "Be honest.",
+      "meta": {}
+    },
+    {
+      "content": "What is a boundary I need to set?",
+      "back": "With work, friends, or family.",
+      "meta": {}
+    },
+    {
+      "content": "What is one small win from today?",
+      "back": "Celebrate it.",
+      "meta": {}
+    },
+    {
+      "content": "What am I currently procrastinating?",
+      "back": "Why am I avoiding it?",
+      "meta": {}
+    },
+    {
+      "content": "When was the last time I felt truly alive?",
+      "back": "What were you doing?",
+      "meta": {}
+    },
+    {
+      "content": "What does 'success' mean to me right now?",
+      "back": "Has the definition changed?",
+      "meta": {}
+    },
+    {
+      "content": "What is a habit I want to break?",
+      "back": "What triggers it?",
+      "meta": {}
+    },
+    {
+      "content": "What is a habit I want to build?",
+      "back": "Start small.",
+      "meta": {}
+    },
+    {
+      "content": "Who makes me feel safe?",
+      "back": "Reach out to them.",
+      "meta": {}
+    },
+    {
+      "content": "What is the kindest thing I can do for myself today?",
+      "back": "Do it.",
+      "meta": {}
+    },
+    {
+      "content": "What am I grateful for right now?",
+      "back": "List 3 things.",
+      "meta": {}
+    },
+    {
+      "content": "What part of my life feels out of balance?",
+      "back": "Work? Health? Social?",
+      "meta": {}
+    },
+    {
+      "content": "If money didn't matter, what would I be doing?",
+      "back": "Dream big.",
+      "meta": {}
+    },
+    {
+      "content": "What is a compliment I struggle to accept?",
+      "back": "Why?",
+      "meta": {}
+    },
+    {
+      "content": "Am I being kind to my body?",
+      "back": "Check in physically.",
+      "meta": {}
+    },
+    {
+      "content": "What is a recurring thought that stresses me out?",
+      "back": "Challenge that thought.",
+      "meta": {}
+    },
+    {
+      "content": "What am I looking forward to?",
+      "back": "Find something.",
+      "meta": {}
+    },
+    {
+      "content": "What is a hard truth I'm avoiding?",
+      "back": "Face it.",
+      "meta": {}
+    },
+    {
+      "content": "Who do I need to stop comparing myself to?",
+      "back": "Unfollow if you need to.",
+      "meta": {}
+    },
+    {
+      "content": "What brings me peace?",
+      "back": "Go there.",
+      "meta": {}
+    },
+    {
+      "content": "What is my biggest fear right now?",
+      "back": "Is it realistic?",
+      "meta": {}
+    },
+    {
+      "content": "What did I love doing as a child that I stopped doing?",
+      "back": "Can you start again?",
+      "meta": {}
+    },
+    {
+      "content": "Am I listening to my intuition?",
+      "back": "What is it saying?",
+      "meta": {}
+    },
+    {
+      "content": "What is one thing I like about my appearance?",
+      "back": "No negativity allowed.",
+      "meta": {}
+    },
+    {
+      "content": "What is one thing I like about my personality?",
+      "back": "Own it.",
+      "meta": {}
+    },
+    {
+      "content": "What does my inner child need right now?",
+      "back": "Play? Rest? A hug?",
+      "meta": {}
+    },
+    {
+      "content": "Who can I ask for help?",
+      "back": "You don't have to do it alone.",
+      "meta": {}
+    },
+    {
+      "content": "What is a resentment I am holding onto?",
+      "back": "Does it serve me?",
+      "meta": {}
+    },
+    {
+      "content": "If I could write a letter to my younger self, what would it say?",
+      "back": "Summarize it.",
+      "meta": {}
+    },
+    {
+      "content": "Where do I want to be in 5 years?",
+      "back": "Don't overthink it.",
+      "meta": {}
+    },
+    {
+      "content": "What makes me feel powerful?",
+      "back": "Tap into that.",
+      "meta": {}
+    },
+    {
+      "content": "Am I saying 'yes' when I want to say 'no'?",
+      "back": "Protect your peace.",
+      "meta": {}
+    },
+    {
+      "content": "What is the last mistake I made?",
+      "back": "Have I forgiven myself?",
+      "meta": {}
+    },
+    {
+      "content": "What is something I want to learn?",
+      "back": "Google it today.",
+      "meta": {}
+    },
+    {
+      "content": "Do I like the person I am becoming?",
+      "back": "Why or why not?",
+      "meta": {}
+    },
+    {
+      "content": "What needs to change in my daily routine?",
+      "back": "Pick one thing.",
+      "meta": {}
+    },
+    {
+      "content": "What emotions am I suppressing?",
+      "back": "Let them out.",
+      "meta": {}
+    },
+    {
+      "content": "Who drains my energy?",
+      "back": "Set boundaries.",
+      "meta": {}
+    },
+    {
+      "content": "What is a goal I gave up on?",
+      "back": "Should I pick it back up?",
+      "meta": {}
+    },
+    {
+      "content": "What is the best advice I would give a friend in my situation?",
+      "back": "Take your own advice.",
+      "meta": {}
+    },
+    {
+      "content": "What am I most proud of in my life?",
+      "back": "Big or small.",
+      "meta": {}
+    },
+    {
+      "content": "If I had one year left to live, what would I change?",
+      "back": "Prioritize.",
+      "meta": {}
+    },
+    {
+      "content": "What makes me feel unique?",
+      "back": "Value your difference.",
+      "meta": {}
+    },
+    {
+      "content": "Am I getting enough rest?",
+      "back": "Be honest.",
+      "meta": {}
+    },
+    {
+      "content": "What is a lie I tell myself?",
+      "back": "Stop telling it.",
+      "meta": {}
+    },
+    {
+      "content": "What makes me feel guilty?",
+      "back": "Is it necessary?",
+      "meta": {}
+    },
+    {
+      "content": "What is one thing I can control right now?",
+      "back": "Focus on that.",
+      "meta": {}
+    },
+    {
+      "content": "What is one thing I cannot control?",
+      "back": "Release it.",
+      "meta": {}
+    },
+    {
+      "content": "How do I define happiness?",
+      "back": "Is it achievable?",
+      "meta": {}
+    },
+    {
+      "content": "What is a nice thing I can do for someone else?",
+      "back": "Kindness heals.",
+      "meta": {}
+    },
+    {
+      "content": "What am I most excited about this week?",
+      "back": "Look forward.",
+      "meta": {}
+    },
+    {
+      "content": "How would I describe myself in 3 words?",
+      "back": "Are they positive?",
+      "meta": {}
+    },
+    {
+      "content": "What is my mantra for today?",
+      "back": "Repeat it.",
+      "meta": {}
+    }
+  ]
+}

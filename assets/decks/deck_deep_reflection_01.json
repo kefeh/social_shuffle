@@ -1,0 +1,166 @@
+{
+  "id": "deck_deep_reflection_01",
+  "title": "Level 3: Reflection",
+  "description": "The closing chapter. Reflect on the experience and share appreciation. Can be played with anyone.",
+  "game_engine_id": "deep_dive",
+  "game_engine_type": "flip",
+  "is_system": true,
+  "created_at": "2023-01-10T13:00:00Z",
+  "cards": [
+    {
+      "content": "What surprised you the most about this conversation?",
+      "back": "Both players answer.",
+      "meta": {}
+    },
+    {
+      "content": "What is one thing you learned about me today?",
+      "back": "Be specific.",
+      "meta": {}
+    },
+    {
+      "content": "How do you feel right now compared to when we started?",
+      "back": "Check your energy.",
+      "meta": {}
+    },
+    {
+      "content": "What is something I said that stuck with you?",
+      "back": "Quote me.",
+      "meta": {}
+    },
+    {
+      "content": "WILDCARD",
+      "back": "Write a one-word title for this chapter of your life.",
+      "meta": {}
+    },
+    {
+      "content": "What advice would you give me based on what you know?",
+      "back": "Be kind.",
+      "meta": {}
+    },
+    {
+      "content": "What part of my story do you relate to the most?",
+      "back": "Shared experience.",
+      "meta": {}
+    },
+    {
+      "content": "What do you think is my greatest strength?",
+      "back": "Observation.",
+      "meta": {}
+    },
+    {
+      "content": "What do you think I need to hear right now?",
+      "back": "Encourage me.",
+      "meta": {}
+    },
+    {
+      "content": "If we met one year from now, how do you think we will have changed?",
+      "back": "Predictions.",
+      "meta": {}
+    },
+    {
+      "content": "What is a question you wish I had asked you?",
+      "back": "Ask it to yourself and answer.",
+      "meta": {}
+    },
+    {
+      "content": "WILDCARD",
+      "back": "Exchange one song recommendation that describes your vibe.",
+      "meta": {}
+    },
+    {
+      "content": "What is one thing you admire about the way I think?",
+      "back": "Intellectual compliment.",
+      "meta": {}
+    },
+    {
+      "content": "Do you feel seen?",
+      "back": "Why or why not?",
+      "meta": {}
+    },
+    {
+      "content": "What is a challenge you think I am capable of overcoming?",
+      "back": "Believe in me.",
+      "meta": {}
+    },
+    {
+      "content": "How would you describe me to a stranger?",
+      "back": "3 words.",
+      "meta": {}
+    },
+    {
+      "content": "What energy do I bring to the room?",
+      "back": "Calm? Chaos? Joy?",
+      "meta": {}
+    },
+    {
+      "content": "What is something you want to thank me for?",
+      "back": "Show gratitude.",
+      "meta": {}
+    },
+    {
+      "content": "WILDCARD",
+      "back": "Take a picture of the other person. Send it to them.",
+      "meta": {}
+    },
+    {
+      "content": "What do you think my inner child needs?",
+      "back": "Play? Safety? Rest?",
+      "meta": {}
+    },
+    {
+      "content": "If you could gift me one thing (abstract or real), what would it be?",
+      "back": "Happiness? Money? A hug?",
+      "meta": {}
+    },
+    {
+      "content": "What is the most beautiful thing about me?",
+      "back": "Inside or out.",
+      "meta": {}
+    },
+    {
+      "content": "What will you remember about this moment?",
+      "back": "Create a memory.",
+      "meta": {}
+    },
+    {
+      "content": "Do you think we are more similar or different?",
+      "back": "Compare.",
+      "meta": {}
+    },
+    {
+      "content": "What is one wish you have for me?",
+      "back": "Make a wish.",
+      "meta": {}
+    },
+    {
+      "content": "WILDCARD",
+      "back": "Hug goodbye (or hello to the next chapter).",
+      "meta": {}
+    },
+    {
+      "content": "Has your first impression of me changed?",
+      "back": "How?",
+      "meta": {}
+    },
+    {
+      "content": "What is a color you associate with me now?",
+      "back": "Explain.",
+      "meta": {}
+    },
+    {
+      "content": "What makes our connection unique?",
+      "back": "Define it.",
+      "meta": {}
+    },
+    {
+      "content": "What is the most important thing for me to focus on right now?",
+      "back": "Your opinion.",
+      "meta": {}
+    },
+    {
+      "content": "Who am I to you?",
+      "back": "Friend? Stranger? Soulmate?",
+      "meta": {}
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "id": "deck_deep_strangers_01",
+  "title": "Level 1: Perception",
+  "description": "Perfect for STRANGERS. Test your first impressions and break the ice. What do you think you know about each other?",
+  "game_engine_id": "deep_dive",
+  "game_engine_type": "flip",
+  "is_system": true,
+  "created_at": "2023-01-10T10:00:00Z",
+  "cards": [
+    {
+      "content": "Do I seem like a coffee or a tea person?",
+      "back": "Explain why.",
+      "meta": {}
+    },
+    {
+      "content": "What was your very first thought when you saw me?",
+      "back": "Be honest.",
+      "meta": {}
+    },
+    {
+      "content": "Do I look like I was popular in high school?",
+      "back": "Both players answer.",
+      "meta": {}
+    },
+    {
+      "content": "What does my style say about me?",
+      "back": "Make an assumption.",
+      "meta": {}
+    },
+    {
+      "content": "Do I seem more like an introvert or an extrovert?",
+      "back": "Ask me which one I actually am.",
+      "meta": {}
+    },
+    {
+      "content": "WILDCARD",
+      "back": "Make eye contact for 30 seconds. No talking.",
+      "meta": {}
+    },
+    {
+      "content": "Do I look like I am always early or always late?",
+      "back": "Both players answer.",
+      "meta": {}
+    },
+    {
+      "content": "What reality show do I look like I would win?",
+      "back": "Explain your choice.",
+      "meta": {}
+    },
+    {
+      "content": "Do I seem like a morning person or a night owl?",
+      "back": "Check if you are right.",
+      "meta": {}
+    },
+    {
+      "content": "What is the first thing you noticed about me?",
+      "back": "Physical or energy.",
+      "meta": {}
+    },
+    {
+      "content": "Do I look like I have a good relationship with my parents?",
+      "back": "This is a guess based on vibe.",
+      "meta": {}
+    },
+    {
+      "content": "Do I seem like a cat person or a dog person?",
+      "back": "Both players answer.",
+      "meta": {}
+    },
+    {
+      "content": "What kind of music do I look like I listen to?",
+      "back": "Check my Spotify/Apple Music to verify.",
+      "meta": {}
+    },
+    {
+      "content": "Do I seem like someone who follows the rules or breaks them?",
+      "back": "Make an assumption.",
+      "meta": {}
+    },
+    {
+      "content": "What do you think is my go-to alcoholic drink?",
+      "back": "If I don't drink, guess my soda order.",
+      "meta": {}
+    },
+    {
+      "content": "WILDCARD",
+      "back": "Ask me any question. I must answer.",
+      "meta": {}
+    },
+    {
+      "content": "Do I look like I've ever been in a fistfight?",
+      "back": "Both players answer.",
+      "meta": {}
+    },
+    {
+      "content": "What career do I look like I should have?",
+      "back": "Ignore what I actually do.",
+      "meta": {}
+    },
+    {
+      "content": "Do I seem like the jealous type?",
+      "back": "Be honest.",
+      "meta": {}
+    },
+    {
+      "content": "Do I look like I text back immediately or days later?",
+      "back": "Both players answer.",
+      "meta": {}
+    },
+    {
+      "content": "What is one thing you are curious about regarding me?",
+      "back": "Ask it now.",
+      "meta": {}
+    },
+    {
+      "content": "Do I seem optimistic or realistic?",
+      "back": "Explain why.",
+      "meta": {}
+    },
+    {
+      "content": "Do I look like I cook or order takeout?",
+      "back": "Both players answer.",
+      "meta": {}
+    },
+    {
+      "content": "What part of my personality stands out the most so far?",
+      "back": "Compliments only.",
+      "meta": {}
+    },
+    {
+      "content": "Do I seem like a heartbreaker or the heartbroken?",
+      "back": "Deep perception check.",
+      "meta": {}
+    },
+    {
+      "content": "WILDCARD",
+      "back": "Thumb wrestle. Winner asks a follow-up question.",
+      "meta": {}
+    },
+    {
+      "content": "Do I seem like I save money or spend it?",
+      "back": "Both players answer.",
+      "meta": {}
+    },
+    {
+      "content": "Where do I look like I grew up?",
+      "back": "City, Countryside, or Suburbs?",
+      "meta": {}
+    },
+    {
+      "content": "Do I look like I have a lot of secrets?",
+      "back": "Make a guess.",
+      "meta": {}
+    },
+    {
+      "content": "Do I seem approachable or intimidating?",
+      "back": "Be honest.",
+      "meta": {}
+    },
+    {
+      "content": "What compliment do you think I hear the most?",
+      "back": "Both players answer.",
+      "meta": {}
+    },
+    {
+      "content": "Do I seem like a reader or a watcher?",
+      "back": "Books vs Netflix.",
+      "meta": {}
+    },
+    {
+      "content": "What color describes my energy?",
+      "back": "Explain why.",
+      "meta": {}
+    },
+    {
+      "content": "Do I look like I hold grudges?",
+      "back": "Both players answer.",
+      "meta": {}
+    },
+    {
+      "content": "Do I look like I believe in aliens?",
+      "back": "Yes or No.",
+      "meta": {}
+    },
+    {
+      "content": "WILDCARD",
+      "back": "Show me the third photo in your camera roll.",
+      "meta": {}
+    },
+    {
+      "content": "Do I seem like I make decisions with my head or my heart?",
+      "back": "Explain.",
+      "meta": {}
+    },
+    {
+      "content": "What do you think is my biggest fear?",
+      "back": "Spiders? Heights? Failure?",
+      "meta": {}
+    },
+    {
+      "content": "Do I look like I am happy right now?",
+      "back": "Deep check-in.",
+      "meta": {}
+    },
+    {
+      "content": "Who do I remind you of?",
+      "back": "A celebrity? A friend?",
+      "meta": {}
+    },
+    {
+      "content": "Do I look like I exercise?",
+      "back": "Be nice!",
+      "meta": {}
+    },
+    {
+      "content": "What vibe do I give off?",
+      "back": "Chill, chaotic, serious, fun?",
+      "meta": {}
+    },
+    {
+      "content": "Do I seem like I have siblings?",
+      "back": "Guess how many.",
+      "meta": {}
+    },
+    {
+      "content": "Do I look like I've ever been arrested?",
+      "back": "Both players answer.",
+      "meta": {}
+    },
+    {
+      "content": "What subject do I look like I failed in school?",
+      "back": "Math? Art? History?",
+      "meta": {}
+    },
+    {
+      "content": "WILDCARD",
+      "back": "Draw a quick portrait of me on a napkin/paper (or phone).",
+      "meta": {}
+    },
+    {
+      "content": "Do I seem like a hugger?",
+      "back": "Would you hug me?",
+      "meta": {}
+    },
+    {
+      "content": "What do you think my superpower is?",
+      "back": "Based on my vibe.",
+      "meta": {}
+    },
+    {
+      "content": "Do I look like I snore?",
+      "back": "Both players answer.",
+      "meta": {}
+    },
+    {
+      "content": "Based on first impressions, would you trust me with a secret?",
+      "back": "Yes or No.",
+      "meta": {}
+    }
+  ]
+}
