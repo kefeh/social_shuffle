@@ -1,0 +1,196 @@
+{
+  "id": "deck_deep_36questions_01",
+  "title": "The 36 Questions",
+  "description": "The famous experimental study. 36 specific questions designed to accelerate intimacy and make two strangers fall in love.",
+  "game_engine_id": "deep_dive",
+  "game_engine_type": "simple_flip",
+  "is_system": true,
+  "created_at": "2023-01-20T10:00:00Z",
+  "cards": [
+    {
+      "content": "Set I: Question 1",
+      "back": "Given the choice of anyone in the world, whom would you want as a dinner guest?",
+      "meta": {}
+    },
+    {
+      "content": "Set I: Question 2",
+      "back": "Would you like to be famous? In what way?",
+      "meta": {}
+    },
+    {
+      "content": "Set I: Question 3",
+      "back": "Before making a telephone call, do you ever rehearse what you are going to say? Why?",
+      "meta": {}
+    },
+    {
+      "content": "Set I: Question 4",
+      "back": "What would constitute a 'perfect' day for you?",
+      "meta": {}
+    },
+    {
+      "content": "Set I: Question 5",
+      "back": "When was the last time you sang to yourself? To someone else?",
+      "meta": {}
+    },
+    {
+      "content": "Set I: Question 6",
+      "back": "If you were able to live to the age of 90 and retain either the mind or body of a 30-year-old for the last 60 years of your life, which would you want?",
+      "meta": {}
+    },
+    {
+      "content": "Set I: Question 7",
+      "back": "Do you have a secret hunch about how you will die?",
+      "meta": {}
+    },
+    {
+      "content": "Set I: Question 8",
+      "back": "Name three things you and your partner appear to have in common.",
+      "meta": {}
+    },
+    {
+      "content": "Set I: Question 9",
+      "back": "For what in your life do you feel most grateful?",
+      "meta": {}
+    },
+    {
+      "content": "Set I: Question 10",
+      "back": "If you could change anything about the way you were raised, what would it be?",
+      "meta": {}
+    },
+    {
+      "content": "Set I: Question 11",
+      "back": "Take four minutes and tell your partner your life story in as much detail as possible.",
+      "meta": {}
+    },
+    {
+      "content": "Set I: Question 12",
+      "back": "If you could wake up tomorrow having gained any one quality or ability, what would it be?",
+      "meta": {}
+    },
+    {
+      "content": "Set II: Question 13",
+      "back": "If a crystal ball could tell you the truth about yourself, your life, the future or anything else, what would you want to know?",
+      "meta": {}
+    },
+    {
+      "content": "Set II: Question 14",
+      "back": "Is there something that you’ve dreamed of doing for a long time? Why haven’t you done it?",
+      "meta": {}
+    },
+    {
+      "content": "Set II: Question 15",
+      "back": "What is the greatest accomplishment of your life?",
+      "meta": {}
+    },
+    {
+      "content": "Set II: Question 16",
+      "back": "What do you value most in a friendship?",
+      "meta": {}
+    },
+    {
+      "content": "Set II: Question 17",
+      "back": "What is your most treasured memory?",
+      "meta": {}
+    },
+    {
+      "content": "Set II: Question 18",
+      "back": "What is your most terrible memory?",
+      "meta": {}
+    },
+    {
+      "content": "Set II: Question 19",
+      "back": "If you knew that in one year you would die suddenly, would you change anything about the way you are now living? Why?",
+      "meta": {}
+    },
+    {
+      "content": "Set II: Question 20",
+      "back": "What does friendship mean to you?",
+      "meta": {}
+    },
+    {
+      "content": "Set II: Question 21",
+      "back": "What roles do love and affection play in your life?",
+      "meta": {}
+    },
+    {
+      "content": "Set II: Question 22",
+      "back": "Alternate sharing something you consider a positive characteristic of your partner. Share a total of five items.",
+      "meta": {}
+    },
+    {
+      "content": "Set II: Question 23",
+      "back": "How close and warm is your family? Do you feel your childhood was happier than most other people’s?",
+      "meta": {}
+    },
+    {
+      "content": "Set II: Question 24",
+      "back": "How do you feel about your relationship with your mother?",
+      "meta": {}
+    },
+    {
+      "content": "Set III: Question 25",
+      "back": "Make three true 'we' statements each. For instance, 'We are both in this room feeling...'",
+      "meta": {}
+    },
+    {
+      "content": "Set III: Question 26",
+      "back": "Complete this sentence: 'I wish I had someone with whom I could share...'",
+      "meta": {}
+    },
+    {
+      "content": "Set III: Question 27",
+      "back": "If you were going to become a close friend with your partner, please share what would be important for them to know.",
+      "meta": {}
+    },
+    {
+      "content": "Set III: Question 28",
+      "back": "Tell your partner what you like about them; be very honest this time, saying things that you might not say to someone you’ve just met.",
+      "meta": {}
+    },
+    {
+      "content": "Set III: Question 29",
+      "back": "Share with your partner an embarrassing moment in your life.",
+      "meta": {}
+    },
+    {
+      "content": "Set III: Question 30",
+      "back": "When did you last cry in front of another person? By yourself?",
+      "meta": {}
+    },
+    {
+      "content": "Set III: Question 31",
+      "back": "Tell your partner something that you like about them already.",
+      "meta": {}
+    },
+    {
+      "content": "Set III: Question 32",
+      "back": "What, if anything, is too serious to be joked about?",
+      "meta": {}
+    },
+    {
+      "content": "Set III: Question 33",
+      "back": "If you were to die this evening with no opportunity to communicate with anyone, what would you most regret not having told someone? Why haven’t you told them yet?",
+      "meta": {}
+    },
+    {
+      "content": "Set III: Question 34",
+      "back": "Your house, containing everything you own, catches fire. After saving your loved ones and pets, you have time to safely make a final dash to save any one item. What would it be? Why?",
+      "meta": {}
+    },
+    {
+      "content": "Set III: Question 35",
+      "back": "Of all the people in your family, whose death would you find most disturbing? Why?",
+      "meta": {}
+    },
+    {
+      "content": "Set III: Question 36",
+      "back": "Share a personal problem and ask your partner’s advice on how he or she might handle it. Also, ask your partner to reflect back to you how you seem to be feeling about the problem you have chosen.",
+      "meta": {}
+    },
+    {
+      "content": "THE FINAL TASK",
+      "back": "Stare into each other's eyes for 4 minutes. No talking. Just connection.",
+      "meta": {}
+    }
+  ]
+}

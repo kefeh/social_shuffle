@@ -1,0 +1,251 @@
+{
+  "id": "deck_deep_newyear_couples_01",
+  "title": "New Year: Soulmates, Growth & Gratitude",
+  "description": "Review your relationship's year. Acknowledge the challenges on the front, but flip to celebrate how you overcame them.",
+  "game_engine_id": "deep_dive",
+  "game_engine_type": "simple_flip",
+  "is_system": true,
+  "created_at": "2023-12-01T13:00:00Z",
+  "cards": [
+    {
+      "content": "What was the hardest challenge we faced this year?",
+      "back": "How did it make us stronger?",
+      "meta": {}
+    },
+    {
+      "content": "When did we drift apart?",
+      "back": "How did we find our way back?",
+      "meta": {}
+    },
+    {
+      "content": "What is a misunderstanding we had?",
+      "back": "What did we learn about communication from it?",
+      "meta": {}
+    },
+    {
+      "content": "What is one thing I did that annoyed you?",
+      "back": "What is one thing I did that delighted you?",
+      "meta": {}
+    },
+    {
+      "content": "When were we the most stressed?",
+      "back": "When were we the most relaxed and happy?",
+      "meta": {}
+    },
+    {
+      "content": "What financial goal did we miss?",
+      "back": "What financial win did we achieve?",
+      "meta": {}
+    },
+    {
+      "content": "What is a fear you have for us next year?",
+      "back": "What is a hope you have for us?",
+      "meta": {}
+    },
+    {
+      "content": "When did you feel lonely in the relationship?",
+      "back": "When did you feel most supported?",
+      "meta": {}
+    },
+    {
+      "content": "What is a bad habit we enabled in each other?",
+      "back": "What is a good habit we built together?",
+      "meta": {}
+    },
+    {
+      "content": "Who or what tried to come between us?",
+      "back": "How did we protect our bond?",
+      "meta": {}
+    },
+    {
+      "content": "What was our worst date/outing?",
+      "back": "What was our absolute best date?",
+      "meta": {}
+    },
+    {
+      "content": "When did we fail to listen to each other?",
+      "back": "When did you feel truly heard?",
+      "meta": {}
+    },
+    {
+      "content": "What is a compromise you hated making?",
+      "back": "Why was it worth it for us?",
+      "meta": {}
+    },
+    {
+      "content": "What part of our routine became boring?",
+      "back": "How can we spice it up next year?",
+      "meta": {}
+    },
+    {
+      "content": "When did I let you down?",
+      "back": "When did I exceed your expectations?",
+      "meta": {}
+    },
+    {
+      "content": "What is a secret you kept for too long?",
+      "back": "Thank you for sharing it now.",
+      "meta": {}
+    },
+    {
+      "content": "What argument do we keep having?",
+      "back": "Let's agree to leave it in the past year.",
+      "meta": {}
+    },
+    {
+      "content": "Did we spend too much time on screens?",
+      "back": "What was our best 'unplugged' moment?",
+      "meta": {}
+    },
+    {
+      "content": "What is a trip/plan that got cancelled?",
+      "back": "What replaced it that was good?",
+      "meta": {}
+    },
+    {
+      "content": "When did we take life too seriously?",
+      "back": "When did we laugh until it hurt?",
+      "meta": {}
+    },
+    {
+      "content": "What is something I struggle to accept about you?",
+      "back": "What do I love most about you?",
+      "meta": {}
+    },
+    {
+      "content": "How did we neglect our intimacy?",
+      "back": "What was the most romantic moment?",
+      "meta": {}
+    },
+    {
+      "content": "What external stress impacted us the most?",
+      "back": "How did we act as a team against it?",
+      "meta": {}
+    },
+    {
+      "content": "What is a boundary we crossed?",
+      "back": "What boundary will we respect next year?",
+      "meta": {}
+    },
+    {
+      "content": "Did we lose any friends this year?",
+      "back": "Who are the people who stuck by us?",
+      "meta": {}
+    },
+    {
+      "content": "What is one thing you want less of next year?",
+      "back": "What is one thing you want more of?",
+      "meta": {}
+    },
+    {
+      "content": "When did you feel insecure?",
+      "back": "When did I make you feel confident?",
+      "meta": {}
+    },
+    {
+      "content": "What was a tearful moment?",
+      "back": "What was a joyful moment?",
+      "meta": {}
+    },
+    {
+      "content": "What is something we need to forgive each other for?",
+      "back": "Seal it with a kiss.",
+      "meta": {}
+    },
+    {
+      "content": "What is a goal we gave up on?",
+      "back": "What is a new dream we are building?",
+      "meta": {}
+    },
+    {
+      "content": "How did I fail to support you?",
+      "back": "How can I be your biggest fan next year?",
+      "meta": {}
+    },
+    {
+      "content": "What made you doubt us?",
+      "back": "What made you choose me again?",
+      "meta": {}
+    },
+    {
+      "content": "What felt like a routine chore?",
+      "back": "What felt like an adventure?",
+      "meta": {}
+    },
+    {
+      "content": "What is the hardest thing about loving me?",
+      "back": "What is the best thing about loving me?",
+      "meta": {}
+    },
+    {
+      "content": "Did we lose our spark at any point?",
+      "back": "How is it burning now?",
+      "meta": {}
+    },
+    {
+      "content": "What is a criticism you held back?",
+      "back": "What is a compliment you hold back?",
+      "meta": {}
+    },
+    {
+      "content": "What is a place we hated visiting?",
+      "back": "What is a place we discovered and loved?",
+      "meta": {}
+    },
+    {
+      "content": "When were we selfish?",
+      "back": "When were we selfless?",
+      "meta": {}
+    },
+    {
+      "content": "What worried you most about our future?",
+      "back": "What excites you most about our future?",
+      "meta": {}
+    },
+    {
+      "content": "What is a purchase we regret?",
+      "back": "What is the best thing we bought together?",
+      "meta": {}
+    },
+    {
+      "content": "How did we change for the worse?",
+      "back": "How did we evolve for the better?",
+      "meta": {}
+    },
+    {
+      "content": "What is a text message you regret sending?",
+      "back": "What is a love note you cherish?",
+      "meta": {}
+    },
+    {
+      "content": "Did we take each other for granted?",
+      "back": "Express gratitude right now.",
+      "meta": {}
+    },
+    {
+      "content": "What is one thing you want to leave behind?",
+      "back": "What is one thing you want to bring forward?",
+      "meta": {}
+    },
+    {
+      "content": "Are you happy?",
+      "back": "How can we make next year even happier?",
+      "meta": {}
+    },
+    {
+      "content": "Why was this year hard?",
+      "back": "Why was this year worth it?",
+      "meta": {}
+    },
+    {
+      "content": "What is your promise to me?",
+      "back": "What is my promise to you?",
+      "meta": {}
+    },
+    {
+      "content": "I love you because...",
+      "back": "Finish the sentence.",
+      "meta": {}
+    }
+  ]
+}

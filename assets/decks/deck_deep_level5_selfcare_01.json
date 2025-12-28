@@ -3,7 +3,7 @@
   "title": "Self Care: Reflection",
   "description": "For YOU. Questions to ask yourself. Use this for journaling, meditation, or a quiet moment alone.",
   "game_engine_id": "deep_dive",
-  "game_engine_type": "flip",
+  "game_engine_type": "simple_flip",
   "is_system": true,
   "created_at": "2023-01-10T14:00:00Z",
   "cards": [

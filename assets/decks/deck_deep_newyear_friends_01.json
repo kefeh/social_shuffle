@@ -1,0 +1,261 @@
+{
+  "id": "deck_deep_newyear_friends_01",
+  "title": "New Year: Friends Highs & Lows",
+  "description": "The ultimate year recap for friends. Share the Ls on the front, celebrate the Ws on the back.",
+  "game_engine_id": "deep_dive",
+  "game_engine_type": "simple_flip",
+  "is_system": true,
+  "created_at": "2023-12-01T14:00:00Z",
+  "cards": [
+    {
+      "content": "What was the biggest 'L' (loss) the group took this year?",
+      "back": "What was the biggest 'W' (win)?",
+      "meta": {}
+    },
+    {
+      "content": "Who had the worst dating life?",
+      "back": "Who had the biggest glow up?",
+      "meta": {}
+    },
+    {
+      "content": "What was the worst trend we participated in?",
+      "back": "What was the best trend?",
+      "meta": {}
+    },
+    {
+      "content": "What was the most chaotic night out?",
+      "back": "What was the most wholesome hangout?",
+      "meta": {}
+    },
+    {
+      "content": "What was the dumbest purchase made?",
+      "back": "What was the best investment?",
+      "meta": {}
+    },
+    {
+      "content": "What song did we overplay until we hated it?",
+      "back": "What was the song of the year?",
+      "meta": {}
+    },
+    {
+      "content": "Who was the drama queen this year?",
+      "back": "Who was the peacemaker?",
+      "meta": {}
+    },
+    {
+      "content": "What was a movie we all hated?",
+      "back": "What was a movie we all loved?",
+      "meta": {}
+    },
+    {
+      "content": "What is a resolution you failed immediately?",
+      "back": "What is a goal you actually crushed?",
+      "meta": {}
+    },
+    {
+      "content": "What was the worst food we ate together?",
+      "back": "What was the best meal of the year?",
+      "meta": {}
+    },
+    {
+      "content": "Who got too drunk this year?",
+      "back": "Who was the responsible MVP?",
+      "meta": {}
+    },
+    {
+      "content": "What was a plan that got cancelled?",
+      "back": "What was a spontaneous plan that ruled?",
+      "meta": {}
+    },
+    {
+      "content": "What is a slang word we need to retire?",
+      "back": "What is a phrase we should keep using?",
+      "meta": {}
+    },
+    {
+      "content": "Who spent too much money?",
+      "back": "Who made the most money moves?",
+      "meta": {}
+    },
+    {
+      "content": "What was the cringiest moment?",
+      "back": "What was the coolest moment?",
+      "meta": {}
+    },
+    {
+      "content": "What is a habit we need to break as a group?",
+      "back": "What is a tradition we need to start?",
+      "meta": {}
+    },
+    {
+      "content": "Who disappeared/ghosted the group the most?",
+      "back": "Who was always there when we needed them?",
+      "meta": {}
+    },
+    {
+      "content": "What was the worst weather we endured?",
+      "back": "What was the most beautiful day?",
+      "meta": {}
+    },
+    {
+      "content": "What celebrity scandal annoyed us?",
+      "back": "What celebrity win did we love?",
+      "meta": {}
+    },
+    {
+      "content": "What was the most boring part of the year?",
+      "back": "What was the most exciting?",
+      "meta": {}
+    },
+    {
+      "content": "Who had the worst haircut?",
+      "back": "Who had the best style evolution?",
+      "meta": {}
+    },
+    {
+      "content": "What is a memory you want to forget?",
+      "back": "What is a memory you want to frame?",
+      "meta": {}
+    },
+    {
+      "content": "What app did we waste time on?",
+      "back": "What app actually helped us?",
+      "meta": {}
+    },
+    {
+      "content": "What is a prediction from last year that was wrong?",
+      "back": "What is a prediction for next year?",
+      "meta": {}
+    },
+    {
+      "content": "Who slept the most?",
+      "back": "Who hustled the hardest?",
+      "meta": {}
+    },
+    {
+      "content": "What is an ex we need to stop talking about?",
+      "back": "Who is a new crush we approve of?",
+      "meta": {}
+    },
+    {
+      "content": "What was the biggest misunderstanding?",
+      "back": "How close are we now?",
+      "meta": {}
+    },
+    {
+      "content": "What destination did we miss out on?",
+      "back": "Where are we going next year?",
+      "meta": {}
+    },
+    {
+      "content": "What is something we complained about too much?",
+      "back": "What is something we are grateful for?",
+      "meta": {}
+    },
+    {
+      "content": "Who is most likely to get arrested next year?",
+      "back": "Who is most likely to be a millionaire?",
+      "meta": {}
+    },
+    {
+      "content": "What was the worst advice we followed?",
+      "back": "What was the best advice we gave each other?",
+      "meta": {}
+    },
+    {
+      "content": "What is a secret that came out this year?",
+      "back": "Toast to honesty!",
+      "meta": {}
+    },
+    {
+      "content": "What is a risk that didn't pay off?",
+      "back": "What is a lesson learned the hard way?",
+      "meta": {}
+    },
+    {
+      "content": "Who cried the most?",
+      "back": "Who laughed the most?",
+      "meta": {}
+    },
+    {
+      "content": "What is one thing we leave in this year?",
+      "back": "What is one thing we bring to next year?",
+      "meta": {}
+    },
+    {
+      "content": "Who has the worst sleep schedule?",
+      "back": "Who has the most energy?",
+      "meta": {}
+    },
+    {
+      "content": "What was the most stressful month?",
+      "back": "What was the chillest month?",
+      "meta": {}
+    },
+    {
+      "content": "What was a joke that went too far?",
+      "back": "What is an inside joke we love?",
+      "meta": {}
+    },
+    {
+      "content": "Who is the biggest flake?",
+      "back": "Who is the ride or die?",
+      "meta": {}
+    },
+    {
+      "content": "What is a fear we conquered?",
+      "back": "What is a dream we are chasing?",
+      "meta": {}
+    },
+    {
+      "content": "Who took the worst photos?",
+      "back": "Who is the designated photographer?",
+      "meta": {}
+    },
+    {
+      "content": "What is a show we binged and regretted?",
+      "back": "What is a show we recommend to everyone?",
+      "meta": {}
+    },
+    {
+      "content": "What was the most awkward encounter?",
+      "back": "What was the smoothest moment?",
+      "meta": {}
+    },
+    {
+      "content": "What is something we took for granted?",
+      "back": "Cheers to what we have.",
+      "meta": {}
+    },
+    {
+      "content": "Who changed the most (personality)?",
+      "back": "Who stayed true to themselves?",
+      "meta": {}
+    },
+    {
+      "content": "What is the biggest lie we told ourselves?",
+      "back": "What is the truth we are living now?",
+      "meta": {}
+    },
+    {
+      "content": "If this year was a color, what ugly color was it?",
+      "back": "What beautiful color will next year be?",
+      "meta": {}
+    },
+    {
+      "content": "Are we getting old?",
+      "back": "No, we are getting iconic.",
+      "meta": {}
+    },
+    {
+      "content": "Ready for the new year?",
+      "back": "Let's go!",
+      "meta": {}
+    },
+    {
+      "content": "Cheers to...",
+      "back": "The best friends in the world.",
+      "meta": {}
+    }
+  ]
+}

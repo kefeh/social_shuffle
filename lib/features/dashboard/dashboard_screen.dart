@@ -1,5 +1,6 @@
 import 'dart:math';
 import 'dart:ui';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:social_shuffle/features/dashboard/widgets/game_mode_card.dart';
@@ -51,7 +52,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
       'title': 'Deep Dive',
       'color': const Color(0xFF4361EE),
       'game_engine_id': 'deep_dive',
-      'game_engine_type': 'flip',
+      'game_engine_type': 'simple_flip',
       'icon': Icons.question_answer_rounded,
       'image': 'assets/images/deep-dive.png',
       'subtitle': 'Skip the small talk',
@@ -73,6 +74,16 @@ class _DashboardScreenState extends State<DashboardScreen> {
       'icon': Icons.people,
       'image': 'assets/images/trivia.png',
       'subtitle': 'Point fingers',
+    },
+    {
+      'title': 'Hot Takes', // or 'Debate Club'
+      'color': const Color(0xFFF9C80E), // Electric Amber/Yellow
+      'game_engine_id': 'hot_takes', // This ID links to the decks
+      'game_engine_type': 'simple_flip', // The new engine we just built
+      'icon': Icons.campaign_rounded, // Megaphone icon implies "Speak Up"
+      'image':
+          'assets/images/trivia.png', // Replace with a mic or speech bubble image
+      'subtitle': 'Debate & Discuss',
     },
   ];
 

@@ -1,0 +1,511 @@
+{
+  "id": "deck_tod_party_wild_01",
+  "title": "Club mode: Wild & Wicked",
+  "description": "The ultimate party deck. Shots, lap dances, dirty secrets, and zero inhibitions. Not for the shy.",
+  "game_engine_id": "truth_or_dare",
+  "game_engine_type": "flip",
+  "is_system": true,
+  "created_at": "2023-01-02T12:00:00Z",
+  "cards": [
+    {
+      "content": "Truth: Who in this room do you want to sleep with the most?",
+      "back": "Dare: Give a lap dance to the person of your choice for 30 seconds.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your favorite sexual position?",
+      "back": "Dare: Take a body shot off the person to your right.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever had sex at a party?",
+      "back": "Dare: Kiss the person to your left on the neck.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What color underwear are you wearing right now?",
+      "back": "Dare: Remove one item of clothing (shoes/socks don't count).",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who in this room has the nicest body?",
+      "back": "Dare: Let someone pour a shot into your mouth while you are on your knees.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever faked an orgasm?",
+      "back": "Dare: Fake a loud orgasm right now for 10 seconds.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the kinkiest thing you've ever done?",
+      "back": "Dare: Let the group pose you in a sexual position and hold it for a photo.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever sent a nude to someone in this room?",
+      "back": "Dare: Show the group the last photo in your camera roll (no skipping).",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your biggest turn-on?",
+      "back": "Dare: Slowly eat a banana (or finger food) while making eye contact with someone.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever hooked up with a stranger?",
+      "back": "Dare: Find a stranger (or person you know least) and slow dance for 1 minute.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Do you prefer lights on or off?",
+      "back": "Dare: Go into a closet (or bathroom) with a person of the group's choice for 2 minutes. Seven Minutes in Heaven style.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the wildest place you've had sex?",
+      "back": "Dare: Twerk against the wall for 20 seconds.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who is the best kisser you've ever had?",
+      "back": "Dare: Kiss the person across from you on the lips.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever joined the Mile High Club?",
+      "back": "Dare: Demonstrate your favorite sex position with a chair.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the grossest thing you've done for love/lust?",
+      "back": "Dare: Lick a drop of alcohol off someone's chest.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever cheated on a partner?",
+      "back": "Dare: Let the person to your right write something on your forehead with a marker/pen.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Would you ever have a threesome?",
+      "back": "Dare: Pick two people and simulate a threesome hug/grind for 10 seconds.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who in this room would you hate to see naked?",
+      "back": "Dare: Drink a mystery mix concocted by the group.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever been caught masturbating?",
+      "back": "Dare: Moan the name of the person to your left.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your 'body count'?",
+      "back": "Dare: Do 10 pushups with someone sitting on your back.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever had a one-night stand?",
+      "back": "Dare: Exchange shirts with the person to your right.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the shortest time you've known someone before sleeping with them?",
+      "back": "Dare: Let the group look through your DMs for 30 seconds.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Do you sleep in the nude?",
+      "back": "Dare: Flash your waistband (or bra strap) to the group.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever had sex in a car?",
+      "back": "Dare: Motorboat the person to your left (or put your face in their chest).",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your favorite part of your own body?",
+      "back": "Dare: Let someone bite your lip gently.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your favorite part of the opposite sex's body?",
+      "back": "Dare: Massage the inner thigh of the person to your right.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever had a crush on a friend's partner?",
+      "back": "Dare: Let the person to your left spank you.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever filmed a sex tape?",
+      "back": "Dare: Do a sexy crawl across the floor.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the loudest you've ever screamed in bed?",
+      "back": "Dare: Whisper something dirty into the ear of the person to your right.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever used food in the bedroom?",
+      "back": "Dare: Transfer an ice cube from your mouth to someone else's mouth.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most embarrassing thing that happened during sex?",
+      "back": "Dare: Let someone check your browsing history.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever hooked up with a coworker?",
+      "back": "Dare: Pretend to be a stripper and perform for the group.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who was your worst sexual partner?",
+      "back": "Dare: Grind on the person to your left for 15 seconds.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever had a sex dream about someone in this room?",
+      "back": "Dare: Sit on someone's lap for the next 3 rounds.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Do you own any sex toys?",
+      "back": "Dare: Describe your favorite toy using only hand gestures.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your 'safe word'?",
+      "back": "Dare: Let someone drip cold water (or an ice cube) down your back.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever gone commando in public?",
+      "back": "Dare: Take off your underwear and put it in your pocket (keep pants on).",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your biggest sexual regret?",
+      "back": "Dare: Let the group give you a 'wet willy'.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever paid for sex?",
+      "back": "Dare: Ask someone 'How much?' in a seductive voice.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Who in this room do you think is the best in bed?",
+      "back": "Dare: French kiss your own hand passionately for 20 seconds.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever hooked up with two people in 24 hours?",
+      "back": "Dare: Take a shot without using your hands.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the weirdest thing that turns you on?",
+      "back": "Dare: Let someone nibble your ear.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever had sex in water (pool/ocean)?",
+      "back": "Dare: Pour a drink over your own head (or shirt).",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Do you prefer top or bottom?",
+      "back": "Dare: Lie on the floor and let someone do pushups over you.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever cried after sex?",
+      "back": "Dare: Stare seductively at the person across from you without blinking.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the longest you've gone without sex?",
+      "back": "Dare: Hump a pillow or cushion like a dog.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever hooked up with an ex's friend?",
+      "back": "Dare: Let someone smell your armpit.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is a fantasy you've never told anyone?",
+      "back": "Dare: Let the group tie your hands together for one round.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever roleplayed?",
+      "back": "Dare: Roleplay a 'naughty nurse' or 'cop' for 30 seconds.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever sent a dirty text to the wrong person?",
+      "back": "Dare: Read the last text you sent out loud.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most times you've done it in one night?",
+      "back": "Dare: Finish your drink.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever been attracted to a teacher?",
+      "back": "Dare: Let someone draw a tattoo on your lower back with a pen.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever kissed someone of the same gender?",
+      "back": "Dare: Kiss the person of the same gender on the cheek or neck.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever had a crush on a friend's parent?",
+      "back": "Dare: Spank the person to your right.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most adventurous thing you've done in bed?",
+      "back": "Dare: Use an ice cube to trace a line down someone's neck.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever lied to get someone into bed?",
+      "back": "Dare: Seductively eat a piece of fruit.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever slept with someone whose last name you didn't know?",
+      "back": "Dare: Ask for a stranger's number (or someone outside the game).",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your favorite time of day for sex?",
+      "back": "Dare: Give a shoulder massage to the person to your left.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever hooked up at a wedding?",
+      "back": "Dare: Propose to someone in the room.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever had a pregnancy scare?",
+      "back": "Dare: Drink a glass of water without using your hands.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Do you prefer rough or gentle?",
+      "back": "Dare: Let someone lightly choke you (hand on neck) for 5 seconds.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most public place you've been touched?",
+      "back": "Dare: Let someone put their hand in your back pocket for a round.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever watched porn with a partner?",
+      "back": "Dare: Act out the intro to a cheesy porno.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever been walked in on?",
+      "back": "Dare: Hide in a cupboard/closet for one round.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the weirdest object you've used for pleasure?",
+      "back": "Dare: Deep throat your finger for 5 seconds.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever had sex while someone else was in the room?",
+      "back": "Dare: Make intense eye contact with someone and lick your lips.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever ghosted someone after sex?",
+      "back": "Dare: Text your last hookup a fire emoji.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever been tied up?",
+      "back": "Dare: Let someone use your belt to tie your hands.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is a sexual act you tried but hated?",
+      "back": "Dare: Let the group tickle you for 20 seconds.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever slept with a roommate?",
+      "back": "Dare: Swap seats with the hottest person in the room.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your opinion on anal?",
+      "back": "Dare: Twerk to no music.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever had a crush on a cousin (distant counts)?",
+      "back": "Dare: Do a cartwheel or somersault.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most illegal thing you've done?",
+      "back": "Dare: Take a shot with no chaser.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever hooked up in a bathroom?",
+      "back": "Dare: Go to the bathroom and take a sexy mirror selfie. Show the group.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever used a dating app just for a hookup?",
+      "back": "Dare: Let the group swipe on your Tinder/Bumble for 1 minute.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever lied about your age to hook up?",
+      "back": "Dare: Act like a baby for 30 seconds.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most you've spent on a date?",
+      "back": "Dare: Buy a drink for someone in the room (or owe them one).",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever had a 'friend with benefits'?",
+      "back": "Dare: Hug the person you are most attracted to in the room.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever been in love with two people at once?",
+      "back": "Dare: Choose two people to kiss on the cheek.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most attractive quality in a partner?",
+      "back": "Dare: Compliment everyone's physical appearance in the circle.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever had a wardrobe malfunction?",
+      "back": "Dare: Unbutton the top button of your pants.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever accidentally flashed someone?",
+      "back": "Dare: Show your belly button.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever been to a nude beach?",
+      "back": "Dare: Take off your socks with your teeth.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your favorite type of foreplay?",
+      "back": "Dare: Suck on an ice cube until it melts.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever given a lap dance?",
+      "back": "Dare: Give a lap dance to a chair.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever received a lap dance?",
+      "back": "Dare: Let someone sit on your lap for the next question.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most daring place you would want to have sex?",
+      "back": "Dare: Go outside and yell 'I'm Horny!'",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever had phone sex?",
+      "back": "Dare: Call a random contact and breathe heavily.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever sexted while at work?",
+      "back": "Dare: Show your last sent emoji.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever forgotten the name of a hookup?",
+      "back": "Dare: Let someone write a fake number on your arm.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever slept with a friend's sibling?",
+      "back": "Dare: Let the group give you a new nickname.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your biggest insecurity in bed?",
+      "back": "Dare: Stand on a chair and declare your greatness.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever faked being sick to get out of sex?",
+      "back": "Dare: Fake a dramatic death scene.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever kissed more than 3 people in one night?",
+      "back": "Dare: Spin the bottle. Kiss whoever it lands on.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the weirdest thing someone has said to you during sex?",
+      "back": "Dare: Talk dirty to a lamp.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever been rejected for sex?",
+      "back": "Dare: Beg for a drink.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever hooked up with a neighbor?",
+      "back": "Dare: Go borrow a cup of sugar from a neighbor (or pretend to).",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is your favorite alcohol?",
+      "back": "Dare: Take a shot of the group's choice.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: Have you ever passed out during sex?",
+      "back": "Dare: Play dead for one minute.",
+      "meta": {}
+    },
+    {
+      "content": "Truth: What is the most number of times you've orgasmed in one session?",
+      "back": "Dare: Do jumping jacks until your next turn.",
+      "meta": {}
+    }
+  ]
+}

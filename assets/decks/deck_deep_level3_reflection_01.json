@@ -3,7 +3,7 @@
   "title": "Level 3: Reflection",
   "description": "The closing chapter. Reflect on the experience and share appreciation. Can be played with anyone.",
   "game_engine_id": "deep_dive",
-  "game_engine_type": "flip",
+  "game_engine_type": "simple_flip",
   "is_system": true,
   "created_at": "2023-01-10T13:00:00Z",
   "cards": [
@@ -160,6 +160,151 @@
     {
       "content": "Who am I to you?",
       "back": "Friend? Stranger? Soulmate?",
+      "meta": {}
+    },
+    {
+      "content": "What is a word that describes our conversation?",
+      "back": "Pick one.",
+      "meta": {}
+    },
+    {
+      "content": "Did you feel judged at any point?",
+      "back": "Be honest.",
+      "meta": {}
+    },
+    {
+      "content": "What was the most surprising moment?",
+      "back": "When did you gasp?",
+      "meta": {}
+    },
+    {
+      "content": "How can we keep this connection going?",
+      "back": "Make a plan.",
+      "meta": {}
+    },
+    {
+      "content": "What is something you want to ask me before we go?",
+      "back": "Last chance.",
+      "meta": {}
+    },
+    {
+      "content": "What is a wish you have for the world?",
+      "back": "Think big.",
+      "meta": {}
+    },
+    {
+      "content": "What is one thing you will do differently after today?",
+      "back": "Action step.",
+      "meta": {}
+    },
+    {
+      "content": "Who else should play this game?",
+      "back": "Recommend it.",
+      "meta": {}
+    },
+    {
+      "content": "What part of the conversation was the hardest?",
+      "back": "Reflect.",
+      "meta": {}
+    },
+    {
+      "content": "What part was the easiest?",
+      "back": "Flow state.",
+      "meta": {}
+    },
+    {
+      "content": "Do you feel closer to me now?",
+      "back": "Yes or No.",
+      "meta": {}
+    },
+    {
+      "content": "What questions are you glad I didn't ask?",
+      "back": "Confess.",
+      "meta": {}
+    },
+    {
+      "content": "If you could freeze this moment, would you?",
+      "back": "Why?",
+      "meta": {}
+    },
+    {
+      "content": "What does this conversation mean to you?",
+      "back": "Value.",
+      "meta": {}
+    },
+    {
+      "content": "How can I be a better friend to you moving forward?",
+      "back": "Feedback.",
+      "meta": {}
+    },
+    {
+      "content": "What is one thing you are taking away from this?",
+      "back": "Insight.",
+      "meta": {}
+    },
+    {
+      "content": "Do you feel lighter or heavier?",
+      "back": "Emotional check.",
+      "meta": {}
+    },
+    {
+      "content": "What is one mystery about me you still haven't solved?",
+      "back": "Guess.",
+      "meta": {}
+    },
+    {
+      "content": "What is the most valuable thing you own (non-material)?",
+      "back": "Share.",
+      "meta": {}
+    },
+    {
+      "content": "If we never spoke again, what would you want my last thought of you to be?",
+      "back": "Legacy.",
+      "meta": {}
+    },
+    {
+      "content": "What is a compliment you wish I had given you?",
+      "back": "Fish for it.",
+      "meta": {}
+    },
+    {
+      "content": "What is something you saw in me that I don't see in myself?",
+      "back": "Mirror.",
+      "meta": {}
+    },
+    {
+      "content": "Are you glad we did this?",
+      "back": "Yes or No.",
+      "meta": {}
+    },
+    {
+      "content": "What comes next for you?",
+      "back": "Future.",
+      "meta": {}
+    },
+    {
+      "content": "How can I support you in the coming week?",
+      "back": "Action.",
+      "meta": {}
+    },
+    {
+      "content": "What is your final message to me?",
+      "back": "Sign off.",
+      "meta": {}
+    },
+    {
+      "content": "WILDCARD",
+      "back": "High five and say 'Thank you'.",
+      "meta": {}
+    },
+    {
+      "content": "Who are you?",
+      "back": "Answer in one sentence.",
+      "meta": {}
+    },
+    {
+      "content": "Who am I?",
+      "back": "Answer in one sentence.",
       "meta": {}
     }
   ]

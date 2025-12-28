@@ -1,0 +1,271 @@
+{
+  "id": "deck_newyear_mirror_01",
+  "title": "New Year: Reflect & Reframe",
+  "description": "A deep solo journey. Acknowledge the struggle of the past year, but flip the card to find the strength and gratitude within it.",
+  "game_engine_id": "deep_dive",
+  "game_engine_type": "simple_flip",
+  "is_system": true,
+  "created_at": "2023-12-01T12:00:00Z",
+  "cards": [
+    {
+      "content": "What was the hardest truth I had to accept this year?",
+      "back": "What freedom did accepting it give me?",
+      "meta": {}
+    },
+    {
+      "content": "What version of myself am I leaving behind?",
+      "back": "What new version am I welcoming?",
+      "meta": {}
+    },
+    {
+      "content": "What was my biggest 'failure' this year?",
+      "back": "What crucial lesson did it teach me?",
+      "meta": {}
+    },
+    {
+      "content": "Who drained my energy the most?",
+      "back": "Who energized me the most?",
+      "meta": {}
+    },
+    {
+      "content": "What is a boundary I failed to hold?",
+      "back": "How will I protect my peace next year?",
+      "meta": {}
+    },
+    {
+      "content": "What is a goal I gave up on?",
+      "back": "What is a goal I unexpectedly achieved?",
+      "meta": {}
+    },
+    {
+      "content": "What is a pain I am still carrying?",
+      "back": "What is a joy I am still feeling?",
+      "meta": {}
+    },
+    {
+      "content": "When did I feel the most lonely?",
+      "back": "When did I feel the most loved?",
+      "meta": {}
+    },
+    {
+      "content": "What part of my life felt like a lie?",
+      "back": "What felt undeniably real and true?",
+      "meta": {}
+    },
+    {
+      "content": "What am I pretending not to know?",
+      "back": "What truth am I finally ready to live?",
+      "meta": {}
+    },
+    {
+      "content": "What risk did I avoid out of fear?",
+      "back": "What bravery did I show elsewhere?",
+      "meta": {}
+    },
+    {
+      "content": "Who did I disappoint this year?",
+      "back": "Who did I make proud?",
+      "meta": {}
+    },
+    {
+      "content": "What is a bad habit I picked up?",
+      "back": "What is a good habit I maintained?",
+      "meta": {}
+    },
+    {
+      "content": "When was I too hard on myself?",
+      "back": "Say one kind thing to yourself right now.",
+      "meta": {}
+    },
+    {
+      "content": "What is something I lost this year?",
+      "back": "What is something I found?",
+      "meta": {}
+    },
+    {
+      "content": "Did I work to live or live to work?",
+      "back": "What was my best moment of rest?",
+      "meta": {}
+    },
+    {
+      "content": "What relationship faded away?",
+      "back": "What new connection blossomed?",
+      "meta": {}
+    },
+    {
+      "content": "What made me cry the most?",
+      "back": "What made me laugh the hardest?",
+      "meta": {}
+    },
+    {
+      "content": "What was my biggest waste of money?",
+      "back": "What was my best investment (in myself)?",
+      "meta": {}
+    },
+    {
+      "content": "What fear held me back?",
+      "back": "What hope drove me forward?",
+      "meta": {}
+    },
+    {
+      "content": "What is a grudge I'm holding onto?",
+      "back": "Imagine how light you'll feel letting it go.",
+      "meta": {}
+    },
+    {
+      "content": "When did I betray my own needs?",
+      "back": "When did I stand up for myself?",
+      "meta": {}
+    },
+    {
+      "content": "What compliment did I deflect?",
+      "back": "Accept it now. Describe it.",
+      "meta": {}
+    },
+    {
+      "content": "What feels unfinished?",
+      "back": "What feels beautifully complete?",
+      "meta": {}
+    },
+    {
+      "content": "How did I neglect my body?",
+      "back": "How did my body serve and protect me?",
+      "meta": {}
+    },
+    {
+      "content": "What is the biggest lie I told myself?",
+      "back": "What is the most empowering truth?",
+      "meta": {}
+    },
+    {
+      "content": "What kept me up at night with worry?",
+      "back": "What dream kept me excited?",
+      "meta": {}
+    },
+    {
+      "content": "Where did I settle for less?",
+      "back": "Where did I demand what I deserve?",
+      "meta": {}
+    },
+    {
+      "content": "What do I need to forgive myself for?",
+      "back": "What do I need to thank myself for?",
+      "meta": {}
+    },
+    {
+      "content": "If this year had a sad song, what is it?",
+      "back": "What is the anthem for next year?",
+      "meta": {}
+    },
+    {
+      "content": "What is a 'No' I regret saying?",
+      "back": "What is a 'Yes' that changed everything?",
+      "meta": {}
+    },
+    {
+      "content": "What made me feel small?",
+      "back": "What made me feel powerful?",
+      "meta": {}
+    },
+    {
+      "content": "What clutter (mental or physical) am I keeping?",
+      "back": "What space am I clearing for new things?",
+      "meta": {}
+    },
+    {
+      "content": "Who brought out the worst in me?",
+      "back": "Who brought out the best in me?",
+      "meta": {}
+    },
+    {
+      "content": "What am I afraid of leaving behind?",
+      "back": "What am I excited to walk towards?",
+      "meta": {}
+    },
+    {
+      "content": "When did I feel invisible?",
+      "back": "When did I feel truly seen?",
+      "meta": {}
+    },
+    {
+      "content": "What was an awkward mistake I made?",
+      "back": "How did I grow from it?",
+      "meta": {}
+    },
+    {
+      "content": "What is something I took for granted?",
+      "back": "Express gratitude for it now.",
+      "meta": {}
+    },
+    {
+      "content": "What is a story I need to stop telling myself?",
+      "back": "What is the new story for next year?",
+      "meta": {}
+    },
+    {
+      "content": "Did I isolate myself?",
+      "back": "How will I connect more next year?",
+      "meta": {}
+    },
+    {
+      "content": "What is the hardest goodbye I said?",
+      "back": "What was the sweetest hello?",
+      "meta": {}
+    },
+    {
+      "content": "Am I happy with how I spent my time?",
+      "back": "What was my favorite way I spent time?",
+      "meta": {}
+    },
+    {
+      "content": "What triggered my anxiety?",
+      "back": "What brought me peace?",
+      "meta": {}
+    },
+    {
+      "content": "Did I prioritize others over myself?",
+      "back": "How will I prioritize me next year?",
+      "meta": {}
+    },
+    {
+      "content": "What is a criticism that stuck with me?",
+      "back": "Counter it with a affirmation.",
+      "meta": {}
+    },
+    {
+      "content": "Was I a good friend?",
+      "back": "Who was a good friend to me?",
+      "meta": {}
+    },
+    {
+      "content": "What makes me feel heavy right now?",
+      "back": "Take a deep breath. Release it.",
+      "meta": {}
+    },
+    {
+      "content": "What is my biggest regret?",
+      "back": "How can I fix it or accept it?",
+      "meta": {}
+    },
+    {
+      "content": "Am I running away from something?",
+      "back": "What am I running towards?",
+      "meta": {}
+    },
+    {
+      "content": "Who am I?",
+      "back": "Who do I want to be?",
+      "meta": {}
+    },
+    {
+      "content": "What is the word for this past year?",
+      "back": "What is the word for the new year?",
+      "meta": {}
+    },
+    {
+      "content": "Are you ready to let go?",
+      "back": "Say 'I am ready'.",
+      "meta": {}
+    }
+  ]
+}
