@@ -1,0 +1,1311 @@
+{
+  "id": "deck_trivia_science_01",
+  "title": "Science Lab: The World Around Us",
+  "description": "100 questions exploring the universe. Biology, Chemistry, Physics, and Earth Science using the metric system.",
+  "game_engine_id": "trivia",
+  "game_engine_type": "quiz",
+  "is_system": true,
+  "created_at": "2023-02-06T10:00:00Z",
+  "cards": [
+    {
+      "content": "What is the chemical symbol for Gold?",
+      "options": [
+        "Go",
+        "Ag",
+        "Au",
+        "Fe"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the boiling point of water at sea level?",
+      "options": [
+        "90°C",
+        "100°C",
+        "212°C",
+        "110°C"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which planet is known as the Red Planet?",
+      "options": [
+        "Venus",
+        "Jupiter",
+        "Mars",
+        "Saturn"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the powerhouse of the cell?",
+      "options": [
+        "Nucleus",
+        "Mitochondria",
+        "Ribosome",
+        "Cytoplasm"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the largest organ in the human body?",
+      "options": [
+        "Liver",
+        "Heart",
+        "Skin",
+        "Lungs"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What gas do plants absorb from the atmosphere?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Hydrogen"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "How many bones are in the adult human body?",
+      "options": [
+        "206",
+        "195",
+        "250",
+        "300"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the chemical formula for table salt?",
+      "options": [
+        "KCl",
+        "NaCl",
+        "NaOH",
+        "HCl"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which element is needed for combustion (fire)?",
+      "options": [
+        "Helium",
+        "Nitrogen",
+        "Argon",
+        "Oxygen"
+      ],
+      "correct_index": 3,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the hardest natural substance on Earth?",
+      "options": [
+        "Iron",
+        "Graphite",
+        "Diamond",
+        "Quartz"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which planet is closest to the Sun?",
+      "options": [
+        "Venus",
+        "Earth",
+        "Mars",
+        "Mercury"
+      ],
+      "correct_index": 3,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the speed of light (approximately)?",
+      "options": [
+        "300,000 km/s",
+        "150,000 km/s",
+        "1,000 km/s",
+        "3,000 km/s"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What part of the atom has a positive charge?",
+      "options": [
+        "Electron",
+        "Neutron",
+        "Proton",
+        "Nucleus"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which blood type is the universal donor?",
+      "options": [
+        "A Positive",
+        "AB Negative",
+        "O Negative",
+        "B Positive"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the main gas found in the air we breathe?",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "How many teeth does an adult human typically have?",
+      "options": [
+        "28",
+        "30",
+        "32",
+        "34"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the process by which liquid turns into gas?",
+      "options": [
+        "Condensation",
+        "Evaporation",
+        "Freezing",
+        "Sublimation"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the center of an atom called?",
+      "options": [
+        "Proton",
+        "Core",
+        "Nucleus",
+        "Shell"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which animal group does a frog belong to?",
+      "options": [
+        "Reptile",
+        "Mammal",
+        "Amphibian",
+        "Fish"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the standard unit of mass in the metric system?",
+      "options": [
+        "Pound",
+        "Gram",
+        "Kilogram",
+        "Ounce"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which planet has the most moons?",
+      "options": [
+        "Jupiter",
+        "Saturn",
+        "Uranus",
+        "Neptune"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What tissue connects muscle to bone?",
+      "options": [
+        "Ligament",
+        "Cartilage",
+        "Tendon",
+        "Skin"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the chemical symbol for Iron?",
+      "options": [
+        "Ir",
+        "Fe",
+        "In",
+        "Au"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which layer of the atmosphere protects us from UV rays?",
+      "options": [
+        "Troposphere",
+        "Ozone Layer",
+        "Mesosphere",
+        "Exosphere"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the only metal that is liquid at room temperature?",
+      "options": [
+        "Gold",
+        "Silver",
+        "Mercury",
+        "Lead"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What does DNA stand for?",
+      "options": [
+        "Deoxyribonucleic Acid",
+        "Dynamic Nuclear Acid",
+        "Dual Nitrogen Acid",
+        "Deoxyribose Nitrogen Atom"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "How many chambers does the human heart have?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the freezing point of water?",
+      "options": [
+        "0°C",
+        "32°C",
+        "-1°C",
+        "10°C"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which planet is the largest in our solar system?",
+      "options": [
+        "Saturn",
+        "Jupiter",
+        "Earth",
+        "Uranus"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What force keeps us on the ground?",
+      "options": [
+        "Magnetism",
+        "Friction",
+        "Gravity",
+        "Inertia"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the main function of red blood cells?",
+      "options": [
+        "Fight infection",
+        "Carry oxygen",
+        "Clot blood",
+        "Digest food"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which element has the atomic number 1?",
+      "options": [
+        "Helium",
+        "Oxygen",
+        "Hydrogen",
+        "Carbon"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What type of energy is stored in a battery?",
+      "options": [
+        "Kinetic",
+        "Thermal",
+        "Chemical",
+        "Nuclear"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "How many legs does an insect have?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which is the most abundant element in the universe?",
+      "options": [
+        "Oxygen",
+        "Carbon",
+        "Hydrogen",
+        "Nitrogen"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the term for animals that eat only plants?",
+      "options": [
+        "Carnivore",
+        "Omnivore",
+        "Herbivore",
+        "Insectivore"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What measures the acidity or alkalinity of a solution?",
+      "options": [
+        "Richter Scale",
+        "pH Scale",
+        "Kelvin Scale",
+        "Barometer"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which vitamin is produced when skin is exposed to sunlight?",
+      "options": [
+        "Vitamin A",
+        "Vitamin C",
+        "Vitamin D",
+        "Vitamin B12"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the hottest planet in the solar system?",
+      "options": [
+        "Mercury",
+        "Venus",
+        "Mars",
+        "Jupiter"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "How many centimeters are in one meter?",
+      "options": [
+        "10",
+        "100",
+        "1000",
+        "10,000"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which organ filters blood to produce urine?",
+      "options": [
+        "Liver",
+        "Pancreas",
+        "Kidney",
+        "Stomach"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the study of fossils called?",
+      "options": [
+        "Biology",
+        "Geology",
+        "Paleontology",
+        "Archaeology"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which substance has a pH of 7?",
+      "options": [
+        "Lemon Juice",
+        "Bleach",
+        "Pure Water",
+        "Vinegar"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What part of the plant conducts photosynthesis?",
+      "options": [
+        "Root",
+        "Stem",
+        "Leaf",
+        "Flower"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which gas is responsible for the greenhouse effect?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Helium"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the largest bone in the human body?",
+      "options": [
+        "Skull",
+        "Femur (Thigh)",
+        "Humerus",
+        "Rib"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which planet has rings made of ice and rock?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Saturn",
+        "Mercury"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the unit of electrical resistance?",
+      "options": [
+        "Ampere",
+        "Volt",
+        "Ohm",
+        "Watt"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which blood cells fight infection?",
+      "options": [
+        "Red Blood Cells",
+        "White Blood Cells",
+        "Platelets",
+        "Plasma"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the chemical symbol for Potassium?",
+      "options": [
+        "P",
+        "Po",
+        "K",
+        "Pt"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the center of the Earth called?",
+      "options": [
+        "Mantle",
+        "Crust",
+        "Core",
+        "Magma"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which animal is the largest mammal in the world?",
+      "options": [
+        "African Elephant",
+        "Blue Whale",
+        "Giraffe",
+        "Hippopotamus"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What state of matter is lightning?",
+      "options": [
+        "Solid",
+        "Liquid",
+        "Gas",
+        "Plasma"
+      ],
+      "correct_index": 3,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who developed the Theory of Relativity?",
+      "options": [
+        "Isaac Newton",
+        "Albert Einstein",
+        "Nikola Tesla",
+        "Galileo"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What connects the mouth to the stomach?",
+      "options": [
+        "Trachea",
+        "Esophagus",
+        "Intestine",
+        "Vein"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the chemical symbol for Silver?",
+      "options": [
+        "Si",
+        "Ag",
+        "Au",
+        "Sv"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which planet spins on its side?",
+      "options": [
+        "Neptune",
+        "Mars",
+        "Uranus",
+        "Jupiter"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the smallest unit of life?",
+      "options": [
+        "Atom",
+        "Molecule",
+        "Cell",
+        "Organ"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which force pulls objects towards the center of the Earth?",
+      "options": [
+        "Magnetism",
+        "Friction",
+        "Gravity",
+        "Tension"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "How many milliliters are in one liter?",
+      "options": [
+        "10",
+        "100",
+        "1000",
+        "10,000"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What gas makes up the majority of Earth's atmosphere?",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which part of the brain controls balance?",
+      "options": [
+        "Cerebrum",
+        "Cerebellum",
+        "Brainstem",
+        "Frontal Lobe"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the name of the galaxy we live in?",
+      "options": [
+        "Andromeda",
+        "Milky Way",
+        "Whirlpool",
+        "Sombrero"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What creates a sound wave?",
+      "options": [
+        "Light",
+        "Vibration",
+        "Heat",
+        "Electricity"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which animal group has cold blood and scales?",
+      "options": [
+        "Mammals",
+        "Birds",
+        "Reptiles",
+        "Amphibians"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the process of plants making food called?",
+      "options": [
+        "Respiration",
+        "Photosynthesis",
+        "Digestion",
+        "Fermentation"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the atomic number of Carbon?",
+      "options": [
+        "6",
+        "8",
+        "12",
+        "14"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which planet is known as the Earth's twin?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Neptune",
+        "Mercury"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What mineral is needed for healthy bones?",
+      "options": [
+        "Iron",
+        "Potassium",
+        "Calcium",
+        "Sodium"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What measures earthquake intensity?",
+      "options": [
+        "Richter Scale",
+        "Barometer",
+        "Thermometer",
+        "Anemometer"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What type of cloud produces thunderstorms?",
+      "options": [
+        "Cirrus",
+        "Stratus",
+        "Cumulonimbus",
+        "Cumulus"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "How many chromosomes do humans typically have?",
+      "options": [
+        "23",
+        "46",
+        "48",
+        "50"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the nearest star to Earth?",
+      "options": [
+        "Proxima Centauri",
+        "Sirius",
+        "The Sun",
+        "Betelgeuse"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which acid is found in the human stomach?",
+      "options": [
+        "Sulfuric Acid",
+        "Citric Acid",
+        "Hydrochloric Acid",
+        "Acetic Acid"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the SI unit for temperature?",
+      "options": [
+        "Celsius",
+        "Fahrenheit",
+        "Kelvin",
+        "Degree"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which bird cannot fly?",
+      "options": [
+        "Eagle",
+        "Ostrich",
+        "Sparrow",
+        "Hawk"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What causes tides in the ocean?",
+      "options": [
+        "The Sun",
+        "The Wind",
+        "The Moon's Gravity",
+        "Earth's Rotation"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the chemical formula for Ozone?",
+      "options": [
+        "O2",
+        "O3",
+        "CO2",
+        "H2O"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which is the smallest planet in our solar system?",
+      "options": [
+        "Mars",
+        "Earth",
+        "Mercury",
+        "Pluto"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What instrument measures atmospheric pressure?",
+      "options": [
+        "Thermometer",
+        "Barometer",
+        "Hygrometer",
+        "Altimeter"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What protein carries oxygen in red blood cells?",
+      "options": [
+        "Insulin",
+        "Collagen",
+        "Hemoglobin",
+        "Keratin"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which metal rusts when exposed to oxygen and moisture?",
+      "options": [
+        "Gold",
+        "Aluminum",
+        "Iron",
+        "Copper"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "How many pairs of ribs does a human have?",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "8"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the study of the universe called?",
+      "options": [
+        "Astrology",
+        "Astronomy",
+        "Geology",
+        "Meteorology"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which element is a noble gas?",
+      "options": [
+        "Oxygen",
+        "Helium",
+        "Chlorine",
+        "Hydrogen"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the speed of sound in air (approx)?",
+      "options": [
+        "100 m/s",
+        "343 m/s",
+        "1000 m/s",
+        "300,000 km/s"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which organ produces insulin?",
+      "options": [
+        "Liver",
+        "Kidney",
+        "Pancreas",
+        "Spleen"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What rock type is formed from lava?",
+      "options": [
+        "Sedimentary",
+        "Metamorphic",
+        "Igneous",
+        "Limestone"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the common name for the patella?",
+      "options": [
+        "Elbow",
+        "Kneecap",
+        "Shoulder Blade",
+        "Shin Bone"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which planet is famous for its Great Red Spot?",
+      "options": [
+        "Mars",
+        "Jupiter",
+        "Saturn",
+        "Neptune"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What happens to light when it passes through a prism?",
+      "options": [
+        "It disappears",
+        "It reflects",
+        "It refracts (bends)",
+        "It speeds up"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the main ingredient in glass?",
+      "options": [
+        "Sand (Silica)",
+        "Clay",
+        "Iron",
+        "Limestone"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which biological kingdom do mushrooms belong to?",
+      "options": [
+        "Plants",
+        "Animals",
+        "Fungi",
+        "Bacteria"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the term for water turning into ice?",
+      "options": [
+        "Melting",
+        "Freezing",
+        "Condensing",
+        "Subliming"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which layer of the Earth is liquid?",
+      "options": [
+        "Inner Core",
+        "Outer Core",
+        "Mantle",
+        "Crust"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "How long does it take for Earth to orbit the Sun?",
+      "options": [
+        "24 hours",
+        "30 days",
+        "365 days",
+        "10 years"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What type of blood vessel carries blood away from the heart?",
+      "options": [
+        "Vein",
+        "Artery",
+        "Capillary",
+        "Valve"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the chemical symbol for Sodium?",
+      "options": [
+        "S",
+        "So",
+        "Na",
+        "Ni"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which natural disaster is measured by the Richter scale?",
+      "options": [
+        "Hurricane",
+        "Tornado",
+        "Earthquake",
+        "Flood"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the hardest tissue in the human body?",
+      "options": [
+        "Bone",
+        "Tooth Enamel",
+        "Muscle",
+        "Cartilage"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    }
+  ]
+}

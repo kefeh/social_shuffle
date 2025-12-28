@@ -19,7 +19,7 @@ class _SimpleFlipEngineScreenState extends ConsumerState<SimpleFlipEngineScreen>
   late AnimationController _flipController;
   late Animation<double> _flipAnimation;
 
-  bool _isBackVisible = false; // Track visual state
+  bool _isBackVisible = false;
 
   @override
   void initState() {
@@ -33,7 +33,6 @@ class _SimpleFlipEngineScreenState extends ConsumerState<SimpleFlipEngineScreen>
       CurvedAnimation(parent: _flipController, curve: Curves.easeInOutBack),
     );
 
-    // Listen to animation status to update UI state (for button visibility)
     _flipController.addListener(() {
       final isBack = _flipAnimation.value >= 0.5;
       if (isBack != _isBackVisible) {
@@ -63,12 +62,9 @@ class _SimpleFlipEngineScreenState extends ConsumerState<SimpleFlipEngineScreen>
     if (gameLoopState.isLastCard) {
       _finishGame();
     } else {
-      // 1. Reset card to front instantly without animation
-      // (so the next card starts fresh)
       _flipController.reset();
       setState(() => _isBackVisible = false);
 
-      // 2. Load next data
       ref.read(gameLoopProvider.notifier).nextCard();
     }
   }
@@ -93,11 +89,9 @@ class _SimpleFlipEngineScreenState extends ConsumerState<SimpleFlipEngineScreen>
     final gameLoopState = ref.watch(gameLoopProvider);
     final currentCard = gameLoopState.currentCard;
 
-    // Check if we have a back side
     final bool hasBackContent =
         currentCard.back != null && currentCard.back!.trim().isNotEmpty;
 
-    // Theme Colors
     final Color baseColor =
         engineBackgroundColor[gameLoopState.currentDeck.gameEngineId] ??
         const Color(0xFF4361EE);
@@ -108,16 +102,19 @@ class _SimpleFlipEngineScreenState extends ConsumerState<SimpleFlipEngineScreen>
           gradient: LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
-            colors: [baseColor, const Color(0xFF1A1A2E)],
+            colors: [
+              engineBackgroundColor[gameLoopState.currentDeck.gameEngineId] ??
+                  Color(0xFFA91079),
+              Color(0xFF2E0249),
+              Color(0xFF570A57),
+            ],
           ),
         ),
         child: SafeArea(
           child: Column(
             children: [
-              // REUSABLE HEADER
               CardEngineHeader(),
 
-              // THE CARD AREA
               Expanded(
                 child: Center(
                   child: hasBackContent
@@ -132,15 +129,13 @@ class _SimpleFlipEngineScreenState extends ConsumerState<SimpleFlipEngineScreen>
                 ),
               ),
 
-              // BOTTOM CONTROLS
-              // Logic: Show button if NO back content OR if back content IS visible
               Padding(
                 padding: const EdgeInsets.symmetric(
                   vertical: 40.0,
                   horizontal: 24.0,
                 ),
                 child: SizedBox(
-                  height: 60, // Fixed height to prevent layout shifts
+                  height: 60,
                   child: AnimatedOpacity(
                     duration: const Duration(milliseconds: 300),
                     opacity: (!hasBackContent || _isBackVisible) ? 1.0 : 0.0,
@@ -179,9 +174,6 @@ class _SimpleFlipEngineScreenState extends ConsumerState<SimpleFlipEngineScreen>
     );
   }
 
-  // --- WIDGETS ---
-
-  // 1. Static Card (For Hot Seat / Single Sided)
   Widget _buildStaticCard(String content) {
     return Container(
       height: 450,
@@ -213,23 +205,20 @@ class _SimpleFlipEngineScreenState extends ConsumerState<SimpleFlipEngineScreen>
     );
   }
 
-  // 2. Animated Card (For Deep Dive / Two Sided)
   Widget _buildFlippableCard(String front, String back) {
     return AnimatedBuilder(
       animation: _flipAnimation,
       builder: (context, child) {
-        // Rotation Math
         final angle = _flipAnimation.value * pi;
         final isBackSide = angle >= (pi / 2);
 
         return Transform(
           transform: Matrix4.identity()
-            ..setEntry(3, 2, 0.001) // Perspective
+            ..setEntry(3, 2, 0.001)
             ..rotateY(angle),
           alignment: Alignment.center,
           child: isBackSide
               ? Transform(
-                  // Rotate text 180 deg so it's readable when flipped
                   alignment: Alignment.center,
                   transform: Matrix4.identity()..rotateY(pi),
                   child: _buildCardFace(back, isBack: true),
@@ -246,9 +235,7 @@ class _SimpleFlipEngineScreenState extends ConsumerState<SimpleFlipEngineScreen>
       width: 320,
       padding: const EdgeInsets.all(32),
       decoration: BoxDecoration(
-        color: isBack
-            ? const Color(0xFF2E0249)
-            : Colors.white, // Dark background for back side
+        color: isBack ? const Color(0xFF2E0249) : Colors.white,
         borderRadius: BorderRadius.circular(24),
         boxShadow: [
           BoxShadow(
@@ -261,7 +248,6 @@ class _SimpleFlipEngineScreenState extends ConsumerState<SimpleFlipEngineScreen>
       ),
       child: Stack(
         children: [
-          // Visual Hint Icon
           if (!isBack)
             Align(
               alignment: Alignment.bottomCenter,

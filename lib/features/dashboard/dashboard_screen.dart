@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:social_shuffle/features/dashboard/widgets/game_mode_card.dart';
 import 'package:social_shuffle/features/deck_library/deck_library_sheet.dart';
+import 'package:social_shuffle/shared/constants.dart';
 
 class DashboardScreen extends StatefulWidget {
   const DashboardScreen({super.key});
@@ -23,7 +24,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
   final List<Map<String, dynamic>> _gameModes = [
     {
       'title': 'Trivia',
-      'color': const Color(0xFFE94560),
+      'color': engineBackgroundColor['trivia'],
       'game_engine_id': 'trivia',
       'game_engine_type': 'quiz',
       'icon': Icons.lightbulb,
@@ -32,7 +33,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
     },
     {
       'title': 'Charades',
-      'color': const Color(0xFF4ECCA3),
+      'color': engineBackgroundColor['charades'],
       'game_engine_id': 'charades',
       'game_engine_type': 'charades',
       'icon': Icons.accessibility_new,
@@ -41,7 +42,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
     },
     {
       'title': 'Truth or Dare',
-      'color': const Color(0xFFFF2E63),
+      'color': engineBackgroundColor['truth_or_dare'],
       'game_engine_id': 'truth_or_dare',
       'game_engine_type': 'flip',
       'icon': Icons.whatshot,
@@ -50,7 +51,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
     },
     {
       'title': 'Deep Dive',
-      'color': const Color(0xFF4361EE),
+      'color': engineBackgroundColor['deep_dive'],
       'game_engine_id': 'deep_dive',
       'game_engine_type': 'simple_flip',
       'icon': Icons.question_answer_rounded,
@@ -59,7 +60,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
     },
     {
       'title': 'Never Have I',
-      'color': const Color(0xFFFF9A3C),
+      'color': engineBackgroundColor['nhie'],
       'game_engine_id': 'nhie',
       'game_engine_type': 'flip',
       'icon': Icons.local_bar,
@@ -68,7 +69,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
     },
     {
       'title': 'Most Likely',
-      'color': const Color(0xFF9D4EDD),
+      'color': engineBackgroundColor['most_likely'],
       'game_engine_id': 'most_likely',
       'game_engine_type': 'voting',
       'icon': Icons.people,
@@ -76,13 +77,12 @@ class _DashboardScreenState extends State<DashboardScreen> {
       'subtitle': 'Point fingers',
     },
     {
-      'title': 'Hot Takes', // or 'Debate Club'
-      'color': const Color(0xFFF9C80E), // Electric Amber/Yellow
-      'game_engine_id': 'hot_takes', // This ID links to the decks
-      'game_engine_type': 'simple_flip', // The new engine we just built
-      'icon': Icons.campaign_rounded, // Megaphone icon implies "Speak Up"
-      'image':
-          'assets/images/trivia.png', // Replace with a mic or speech bubble image
+      'title': 'Hot Takes',
+      'color': engineBackgroundColor['hot_takes'],
+      'game_engine_id': 'hot_takes',
+      'game_engine_type': 'simple_flip',
+      'icon': Icons.campaign_rounded,
+      'image': 'assets/images/trivia.png',
       'subtitle': 'Debate & Discuss',
     },
   ];

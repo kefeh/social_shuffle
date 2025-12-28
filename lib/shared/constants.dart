@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 
 final engineBackgroundColor = {
-  'trivia': Colors.redAccent,
-  'charades': Colors.lightBlue,
-  'truth_or_dare': Colors.pink,
+  'trivia': Color(0xFFE94560),
+  'charades': Color(0xFF4ECCA3),
+  'truth_or_dare': Color(0xFFFF2E63),
   'debate': Colors.green,
-  'nhie': Colors.orange,
-  'most_likely': Colors.purple,
+  'nhie': Color(0xFFFF9A3C),
+  'most_likely': Color(0xFF9D4EDD),
+  'hot_takes': Color(0xFFF9C80E),
+  'deep_dive': Color(0xFF4361EE),
 };
 
 IconData getIconFromName(String iconName) {

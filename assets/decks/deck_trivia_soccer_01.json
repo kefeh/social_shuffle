@@ -1,0 +1,1311 @@
+{
+  "id": "deck_trivia_soccer_01",
+  "title": "Football: The Beautiful Game",
+  "description": "100 questions dedicated to the world's most popular sport. From World Cup legends to modern superstars.",
+  "game_engine_id": "trivia",
+  "game_engine_type": "quiz",
+  "is_system": true,
+  "created_at": "2023-02-05T10:00:00Z",
+  "cards": [
+    {
+      "content": "Which country has won the most FIFA World Cups?",
+      "options": [
+        "Germany",
+        "Italy",
+        "Brazil",
+        "Argentina"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which player is known as 'La Pulga' (The Flea)?",
+      "options": [
+        "Cristiano Ronaldo",
+        "Lionel Messi",
+        "Neymar Jr",
+        "Xavi"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the standard duration of a professional soccer match?",
+      "options": [
+        "45 minutes",
+        "60 minutes",
+        "90 minutes",
+        "100 minutes"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which club is known as 'The Red Devils'?",
+      "options": [
+        "Liverpool",
+        "Arsenal",
+        "Manchester United",
+        "Bayern Munich"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who won the 2022 FIFA World Cup?",
+      "options": [
+        "France",
+        "Brazil",
+        "Argentina",
+        "Croatia"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What does VAR stand for?",
+      "options": [
+        "Video Assistant Referee",
+        "Virtual Area Referee",
+        "Video Action Replay",
+        "Visual Assistant Rule"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which player has won the most Ballon d'Or awards?",
+      "options": [
+        "Cristiano Ronaldo",
+        "Michel Platini",
+        "Lionel Messi",
+        "Johan Cruyff"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "In which country is La Liga played?",
+      "options": [
+        "Italy",
+        "France",
+        "Spain",
+        "Portugal"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What happens if a player receives two yellow cards in a game?",
+      "options": [
+        "They get a warning",
+        "They get a red card",
+        "They are fined",
+        "Nothing"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who is the all-time top scorer for the Portugal national team?",
+      "options": [
+        "Eusébio",
+        "Luís Figo",
+        "Cristiano Ronaldo",
+        "Deco"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which country hosted the 2014 World Cup?",
+      "options": [
+        "South Africa",
+        "Brazil",
+        "Germany",
+        "Russia"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which team plays at Anfield?",
+      "options": [
+        "Everton",
+        "Chelsea",
+        "Liverpool",
+        "Manchester City"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is a 'Hat-trick'?",
+      "options": [
+        "Scoring 2 goals",
+        "Scoring 3 goals",
+        "Saving 3 penalties",
+        "Getting 3 assists"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who famously used the 'Hand of God' to score?",
+      "options": [
+        "Pele",
+        "Diego Maradona",
+        "Ronaldo Nazario",
+        "Zinedine Zidane"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which club has won the most Champions League titles?",
+      "options": [
+        "AC Milan",
+        "Liverpool",
+        "Barcelona",
+        "Real Madrid"
+      ],
+      "correct_index": 3,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What shape is a standard soccer ball pattern historically made of?",
+      "options": [
+        "Triangles",
+        "Pentagons and Hexagons",
+        "Squares",
+        "Circles"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which country won the very first World Cup in 1930?",
+      "options": [
+        "Brazil",
+        "Uruguay",
+        "Argentina",
+        "Italy"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who is the manager known as 'The Special One'?",
+      "options": [
+        "Pep Guardiola",
+        "Jurgen Klopp",
+        "Jose Mourinho",
+        "Alex Ferguson"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which player holds the record for most goals in a single calendar year (91 goals)?",
+      "options": [
+        "Lionel Messi",
+        "Gerd Muller",
+        "Pele",
+        "Cristiano Ronaldo"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What color card results in a player being sent off?",
+      "options": [
+        "Yellow",
+        "Red",
+        "Blue",
+        "Green"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which English club is nicknamed 'The Gunners'?",
+      "options": [
+        "Tottenham",
+        "West Ham",
+        "Arsenal",
+        "Chelsea"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who scored the winning goal in the 2010 World Cup final?",
+      "options": [
+        "Xavi",
+        "David Villa",
+        "Andres Iniesta",
+        "Fernando Torres"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which German club is known as 'Die Bayern'?",
+      "options": [
+        "Borussia Dortmund",
+        "Bayern Munich",
+        "RB Leipzig",
+        "Leverkusen"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "How many players are on the field for one team?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "9"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which player bit Giorgio Chiellini at the 2014 World Cup?",
+      "options": [
+        "Luis Suarez",
+        "Diego Costa",
+        "Pepe",
+        "Sergio Ramos"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the name of the mascot for the 2010 World Cup in South Africa?",
+      "options": [
+        "Fuleco",
+        "Zakumi",
+        "Willie",
+        "Striker"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who is the top scorer in World Cup history?",
+      "options": [
+        "Ronaldo Nazario",
+        "Pele",
+        "Miroslav Klose",
+        "Lionel Messi"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which country is Zlatan Ibrahimovic from?",
+      "options": [
+        "Norway",
+        "Denmark",
+        "Sweden",
+        "Finland"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the penalty for a handball inside the box?",
+      "options": [
+        "Free Kick",
+        "Penalty Kick",
+        "Corner Kick",
+        "Throw-in"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which Italian club is known as 'The Old Lady'?",
+      "options": [
+        "AC Milan",
+        "Inter Milan",
+        "Roma",
+        "Juventus"
+      ],
+      "correct_index": 3,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who won the Women's World Cup in 2019?",
+      "options": [
+        "England",
+        "USA",
+        "Netherlands",
+        "France"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which stadium is known as 'The Theatre of Dreams'?",
+      "options": [
+        "Wembley",
+        "Old Trafford",
+        "Camp Nou",
+        "San Siro"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which player is famous for the 'SIUUU' celebration?",
+      "options": [
+        "Neymar",
+        "Mbappe",
+        "Cristiano Ronaldo",
+        "Haaland"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which country has never won a World Cup despite reaching the final 3 times?",
+      "options": [
+        "Netherlands",
+        "England",
+        "Spain",
+        "France"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who was the first player to reach 100 million followers on Instagram?",
+      "options": [
+        "David Beckham",
+        "Lionel Messi",
+        "Cristiano Ronaldo",
+        "Neymar"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What does UEFA stand for?",
+      "options": [
+        "Union of European Football Associations",
+        "United European Football Alliance",
+        "Union of Elite Football Associations",
+        "United English Football Association"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which French player was headbutted in the 2006 World Cup final?",
+      "options": [
+        "Thierry Henry",
+        "Marco Materazzi (He was hit)",
+        "Zinedine Zidane (He hit)",
+        "Patrick Vieira"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which player is nicknamed 'The Egyptian King'?",
+      "options": [
+        "Riyad Mahrez",
+        "Sadio Mane",
+        "Mohamed Salah",
+        "Hakim Ziyech"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "How long is the halftime break?",
+      "options": [
+        "10 minutes",
+        "15 minutes",
+        "20 minutes",
+        "30 minutes"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which team did David Beckham play for in the MLS?",
+      "options": [
+        "LA Galaxy",
+        "NY Red Bulls",
+        "Inter Miami",
+        "Chicago Fire"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who is the youngest player to score in a World Cup final?",
+      "options": [
+        "Messi",
+        "Mbappe",
+        "Pele",
+        "Ronaldo"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which English team went an entire season undefeated (The Invincibles)?",
+      "options": [
+        "Manchester United",
+        "Chelsea",
+        "Arsenal",
+        "Liverpool"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who holds the record for the fastest goal in World Cup history?",
+      "options": [
+        "Clint Dempsey",
+        "Hakan Sukur",
+        "Ronaldo",
+        "Mbappe"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which country is home to the club Ajax?",
+      "options": [
+        "Belgium",
+        "Germany",
+        "Netherlands",
+        "France"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which position uses gloves?",
+      "options": [
+        "Striker",
+        "Midfielder",
+        "Goalkeeper",
+        "Defender"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who won the Golden Boot in the 2018 World Cup?",
+      "options": [
+        "Harry Kane",
+        "Antoine Griezmann",
+        "Romelu Lukaku",
+        "Cristiano Ronaldo"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which league is referred to as 'Serie A'?",
+      "options": [
+        "Spain",
+        "Brazil",
+        "Italy",
+        "France"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who is the legendary manager of Manchester United from 1986 to 2013?",
+      "options": [
+        "Arsene Wenger",
+        "Sir Alex Ferguson",
+        "Pep Guardiola",
+        "Kenny Dalglish"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which player transferred from Barcelona to PSG for a record €222 million?",
+      "options": [
+        "Mbappe",
+        "Messi",
+        "Neymar",
+        "Ibrahimovic"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What part of the body can you NOT use in soccer (unless you are a goalie)?",
+      "options": [
+        "Head",
+        "Chest",
+        "Hands/Arms",
+        "Thigh"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which country won Euro 2020 (played in 2021)?",
+      "options": [
+        "England",
+        "Italy",
+        "Spain",
+        "Germany"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who is considered the 'King of Football' in Brazil?",
+      "options": [
+        "Ronaldo",
+        "Ronaldinho",
+        "Pele",
+        "Neymar"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which club plays at the Camp Nou?",
+      "options": [
+        "Real Madrid",
+        "Barcelona",
+        "Valencia",
+        "Sevilla"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the maximum number of substitutions allowed in most modern leagues (post-2020)?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which player has the nickname 'The Cannibal'?",
+      "options": [
+        "Luis Suarez",
+        "Pepe",
+        "Roy Keane",
+        "Gattuso"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who was the captain of Argentina in the 2022 World Cup?",
+      "options": [
+        "Di Maria",
+        "Aguero",
+        "Messi",
+        "Otamendi"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which country is home to the Bundesliga?",
+      "options": [
+        "Austria",
+        "Switzerland",
+        "Germany",
+        "Belgium"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the term for a match ending 0-0?",
+      "options": [
+        "Love-all",
+        "Nil-Nil",
+        "Zero-Zero",
+        "Blank"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which player won the World Cup as both a player and a manager?",
+      "options": [
+        "Maradona",
+        "Didier Deschamps",
+        "Zidane",
+        "Platini"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which MLS team is owned by David Beckham?",
+      "options": [
+        "LA FC",
+        "Inter Miami",
+        "NYC FC",
+        "Atlanta United"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who scored the 'Goal of the Century' in 1986?",
+      "options": [
+        "Pele",
+        "Maradona",
+        "Cruyff",
+        "Best"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which country won the 2018 World Cup?",
+      "options": [
+        "Croatia",
+        "Brazil",
+        "France",
+        "Belgium"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What does 'FC' stand for in most club names?",
+      "options": [
+        "Football Club",
+        "Football Company",
+        "Football City",
+        "Football Crew"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which African country was the first to reach a World Cup semi-final?",
+      "options": [
+        "Ghana",
+        "Nigeria",
+        "Senegal",
+        "Morocco"
+      ],
+      "correct_index": 3,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who is the Norwegian striker known for scoring many goals for Man City?",
+      "options": [
+        "Odegaard",
+        "Haaland",
+        "Sorloth",
+        "King"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which team plays in blue and is nicknamed 'The Blues'?",
+      "options": [
+        "Man City",
+        "Chelsea",
+        "Everton",
+        "Leicester"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who is the legendary goalkeeper known as 'The Black Spider'?",
+      "options": [
+        "Lev Yashin",
+        "Buffon",
+        "Casillas",
+        "Neuer"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What year was the Premier League formed?",
+      "options": [
+        "1988",
+        "1990",
+        "1992",
+        "1994"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which player is famous for his headbutt in 2006?",
+      "options": [
+        "Zidane",
+        "Henry",
+        "Trezeguet",
+        "Vieira"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which club has a 'You'll Never Walk Alone' anthem?",
+      "options": [
+        "Man Utd",
+        "Liverpool",
+        "Chelsea",
+        "Arsenal"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who is the Brazilian legend who won 3 World Cups?",
+      "options": [
+        "Ronaldo",
+        "Romario",
+        "Pele",
+        "Zico"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which country hosted the 2002 World Cup alongside Japan?",
+      "options": [
+        "China",
+        "South Korea",
+        "Vietnam",
+        "Thailand"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who is the top scorer in Premier League history?",
+      "options": [
+        "Wayne Rooney",
+        "Harry Kane",
+        "Alan Shearer",
+        "Thierry Henry"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which team is rivals with Real Madrid in 'El Clasico'?",
+      "options": [
+        "Atletico Madrid",
+        "Sevilla",
+        "Barcelona",
+        "Valencia"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is it called when a player kicks the ball through an opponent's legs?",
+      "options": [
+        "Tunnel",
+        "Meg (Nutmeg)",
+        "Bridge",
+        "Gate"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who managed the 'Invincibles' Arsenal team?",
+      "options": [
+        "Arsene Wenger",
+        "Unai Emery",
+        "Mikel Arteta",
+        "George Graham"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which German player holds the record for most World Cup goals?",
+      "options": [
+        "Muller",
+        "Klose",
+        "Klinsmann",
+        "Podolski"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What country is Luka Modric from?",
+      "options": [
+        "Serbia",
+        "Croatia",
+        "Bosnia",
+        "Slovenia"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which club did Lionel Messi join after leaving Barcelona?",
+      "options": [
+        "Man City",
+        "Inter Miami",
+        "PSG",
+        "Chelsea"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "How many teams compete in the World Cup group stage (as of 2022)?",
+      "options": [
+        "24",
+        "32",
+        "48",
+        "16"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which team is nicknamed 'The Citizens'?",
+      "options": [
+        "Man Utd",
+        "Man City",
+        "Leicester",
+        "Norwich"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who won the Best Young Player award at the 2018 World Cup?",
+      "options": [
+        "Rashford",
+        "Mbappe",
+        "Dembele",
+        "Jesus"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the name of the trophy awarded to the Champions League winner?",
+      "options": [
+        "The World Cup",
+        "The Big Ears",
+        "The Shield",
+        "The Plate"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which player is nicknamed 'The Atomic Flea'?",
+      "options": [
+        "Messi",
+        "Aguero",
+        "Tevez",
+        "Dybala"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who is the Polish striker known for scoring 5 goals in 9 minutes?",
+      "options": [
+        "Lewandowski",
+        "Milik",
+        "Piatek",
+        "Zielinski"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which country is home to Boca Juniors and River Plate?",
+      "options": [
+        "Brazil",
+        "Argentina",
+        "Uruguay",
+        "Chile"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who is the most expensive goalkeeper in history?",
+      "options": [
+        "Alisson",
+        "Kepa Arrizabalaga",
+        "Ederson",
+        "Buffon"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which player famously missed a penalty in the 1994 World Cup final?",
+      "options": [
+        "Baggio",
+        "Maldini",
+        "Baresi",
+        "Totti"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the name of the women's professional league in the USA?",
+      "options": [
+        "WNBA",
+        "NWSL",
+        "WSL",
+        "WMLS"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who won the 2016 Euros?",
+      "options": [
+        "France",
+        "Germany",
+        "Portugal",
+        "Spain"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which club has won the most Serie A titles?",
+      "options": [
+        "Milan",
+        "Inter",
+        "Juventus",
+        "Roma"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who scored the 'Agueeeerooooo' goal to win the league in 2012?",
+      "options": [
+        "Tevez",
+        "Aguero",
+        "Dzeko",
+        "Silva"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What nationality is Gareth Bale?",
+      "options": [
+        "English",
+        "Scottish",
+        "Welsh",
+        "Irish"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which club is owned by Ryan Reynolds?",
+      "options": [
+        "Wrexham",
+        "Swansea",
+        "Cardiff",
+        "Newport"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who is the French striker known for the 'Thierry Henry' handball incident?",
+      "options": [
+        "Trezeguet",
+        "Anelka",
+        "Henry",
+        "Benzema"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which player has the most assists in Premier League history?",
+      "options": [
+        "Lampard",
+        "Fabregas",
+        "Rooney",
+        "Giggs"
+      ],
+      "correct_index": 3,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the maximum number of yellow cards a player can get before a red?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which stadium hosted the 1950 World Cup final with nearly 200,000 people?",
+      "options": [
+        "Wembley",
+        "Maracana",
+        "Azteca",
+        "Bernabeu"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who is the highest scoring African player in Premier League history?",
+      "options": [
+        "Drogba",
+        "Salah",
+        "Mane",
+        "Eto'o"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which country has a maple leaf on their kit but isn't good at soccer?",
+      "options": [
+        "USA",
+        "Canada",
+        "Japan",
+        "Australia"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    }
+  ]
+}
