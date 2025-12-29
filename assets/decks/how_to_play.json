@@ -121,12 +121,12 @@
     ]
   },
   "deep_dive": {
-    "description": "Skip the small talk. A game about connection, perception, and vulnerability.",
+    "description": "Skip the small talk. A game about connection, perception, and deep self-reflection.",
     "steps": [
       {
-        "title": "Ask & Answer",
-        "description": "Read the card aloud. Be honest. There are no wrong answers, just real ones.",
-        "icon_name": "record_voice_over_rounded",
+        "title": "Reflect & Record",
+        "description": "Read the card. If with friends, share your answer. If playing alone, grab a journal to write it down.",
+        "icon_name": "edit_note_rounded",
         "color_hex": "#4361EE"
       },
       {
@@ -137,7 +137,7 @@
       },
       {
         "title": "Connect",
-        "description": "Listen to understand, not just to reply. This game is about knowing people better.",
+        "description": "Listen to understand, or look inward. This game is about knowing people (and yourself) better.",
         "icon_name": "favorite_rounded",
         "color_hex": "#E91E63"
       }

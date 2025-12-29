@@ -1,0 +1,111 @@
+{
+  "id": "deck_deep_resolutions_01",
+  "title": "Resolution Architect",
+  "description": "Don't just wish, plan. 20 strategic questions to ensure your goals actually stick this year.",
+  "game_engine_id": "deep_dive",
+  "game_engine_type": "flip",
+  "is_system": true,
+  "created_at": "2023-12-15T11:00:00Z",
+  "cards": [
+    {
+      "content": "Does this resolution come from self-love or self-loathing?",
+      "back": "Self-loathing goals fail. Find a love-based reason.",
+      "meta": {}
+    },
+    {
+      "content": "How can I make this new habit 20 seconds easier to start?",
+      "back": "Reduce friction. (e.g., pack gym bag tonight).",
+      "meta": {}
+    },
+    {
+      "content": "How can I make the bad habit I want to break 20 seconds harder?",
+      "back": "Increase friction. (e.g., hide the remote).",
+      "meta": {}
+    },
+    {
+      "content": "How can I shift my identity to match this goal?",
+      "back": "Don't say 'I want to run'. Say 'I am a runner'.",
+      "meta": {}
+    },
+    {
+      "content": "When (not if) I slip up in week 3, what is the plan?",
+      "back": "Create a 'Failure Protocol' now.",
+      "meta": {}
+    },
+    {
+      "content": "To make space for this new goal, what current activity am I deleting?",
+      "back": "You cannot just add. You must subtract.",
+      "meta": {}
+    },
+    {
+      "content": "Is this goal ambitious enough to scare me into action?",
+      "back": "Or is it safe enough to let me procrastinate?",
+      "meta": {}
+    },
+    {
+      "content": "Am I willing to lose the friends who bond with me over my bad habits?",
+      "back": "The social cost of growth.",
+      "meta": {}
+    },
+    {
+      "content": "Am I measuring the outcome or the input?",
+      "back": "Focus on the input (e.g., 'Walk 10k steps', not 'Lose 10lbs').",
+      "meta": {}
+    },
+    {
+      "content": "Am I willing to tolerate the boredom of consistency?",
+      "back": "Motivation is fun. Consistency is boring.",
+      "meta": {}
+    },
+    {
+      "content": "Does my bedroom/office look like the room of someone who achieves this?",
+      "back": "Change your environment to match the goal.",
+      "meta": {}
+    },
+    {
+      "content": "How will I know when I have succeeded?",
+      "back": "Define 'Enough'.",
+      "meta": {}
+    },
+    {
+      "content": "Is the first step of this habit so small it takes less than 2 minutes?",
+      "back": "If not, shrink it.",
+      "meta": {}
+    },
+    {
+      "content": "Who will know if I fail?",
+      "back": "If the answer is 'no one', get an accountability partner.",
+      "meta": {}
+    },
+    {
+      "content": "What specifically am I willing to SUFFER to achieve this?",
+      "back": "Define the trade-off.",
+      "meta": {}
+    },
+    {
+      "content": "Is there any way to make this hard thing enjoyable?",
+      "back": "Pair it with music, a podcast, or a friend.",
+      "meta": {}
+    },
+    {
+      "content": "How am I tracking this visibly?",
+      "back": "Don't keep it in your head. Put it on the wall.",
+      "meta": {}
+    },
+    {
+      "content": "Imagine it’s next December and I failed. Why did it happen?",
+      "back": "The Pre-Mortem. Fix that cause now.",
+      "meta": {}
+    },
+    {
+      "content": "How can I automate this decision?",
+      "back": "Don't use willpower. Use systems.",
+      "meta": {}
+    },
+    {
+      "content": "If I only accomplish ONE thing this year, what makes the rest irrelevant?",
+      "back": "Focus on that one thing.",
+      "meta": {}
+    }
+  ]
+}

@@ -43,11 +43,6 @@ class DeckCard extends StatelessWidget {
                       ),
                     ),
                   ),
-                  if (deck.isSystem)
-                    Chip(
-                      label: const Text('System'),
-                      backgroundColor: Colors.blueGrey[700],
-                    ),
                 ],
               ),
               const SizedBox(height: 8),

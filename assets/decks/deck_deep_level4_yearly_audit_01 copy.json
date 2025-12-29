@@ -1,0 +1,806 @@
+{
+  "id": "deck_deep_yearly_audit_01",
+  "title": "The Yearly Audit: Hard Truths",
+  "description": "100 brutal questions to ask yourself before the year starts. Based on the 'Region Beta Paradox' and the reality of growth.",
+  "game_engine_id": "deep_dive",
+  "game_engine_type": "flip",
+  "is_system": true,
+  "created_at": "2023-12-15T10:00:00Z",
+  "cards": [
+    {
+      "content": "How has this year gone?",
+      "back": "Summarize it in one sentence.",
+      "meta": {}
+    },
+    {
+      "content": "What went well this year?",
+      "back": "List your top 3 wins.",
+      "meta": {}
+    },
+    {
+      "content": "What went badly this year?",
+      "back": "Don't look away.",
+      "meta": {}
+    },
+    {
+      "content": "Why did those things go badly?",
+      "back": "Root cause analysis.",
+      "meta": {}
+    },
+    {
+      "content": "What lessons did I learn from my failures?",
+      "back": "Turn the pain into data.",
+      "meta": {}
+    },
+    {
+      "content": "What habit or system accounted for most of my success?",
+      "back": "Identify your winning formula.",
+      "meta": {}
+    },
+    {
+      "content": "What are the most valuable ways I spend my time?",
+      "back": "High leverage activities.",
+      "meta": {}
+    },
+    {
+      "content": "How can I find more time for my most valuable activities?",
+      "back": "What can you cut to make space?",
+      "meta": {}
+    },
+    {
+      "content": "What brought me the most happiness this year?",
+      "back": "Pure joy audit.",
+      "meta": {}
+    },
+    {
+      "content": "How can I help my 'happy activities' happen more often?",
+      "back": "Schedule them.",
+      "meta": {}
+    },
+    {
+      "content": "Who are the people that had the greatest impact on me?",
+      "back": "Name them.",
+      "meta": {}
+    },
+    {
+      "content": "How can I see and collaborate with my favorite people more?",
+      "back": "Make a plan.",
+      "meta": {}
+    },
+    {
+      "content": "What did I expect to complete, but didn’t?",
+      "back": "Unfinished business.",
+      "meta": {}
+    },
+    {
+      "content": "Is that unfinished goal still important to me?",
+      "back": "If yes, how will you ensure follow-through? If no, delete it.",
+      "meta": {}
+    },
+    {
+      "content": "What are the least valuable ways I am spending my time?",
+      "back": "Identify the waste.",
+      "meta": {}
+    },
+    {
+      "content": "How can I prevent myself from wasting time in that way?",
+      "back": "Set a boundary or remove the app.",
+      "meta": {}
+    },
+    {
+      "content": "How have my goals or priorities shifted over the last few months?",
+      "back": "Acknowledge the evolution.",
+      "meta": {}
+    },
+    {
+      "content": "Is there anything I am still doing that is no longer in alignment?",
+      "back": "Why are you still doing it?",
+      "meta": {}
+    },
+    {
+      "content": "What was the Best Surprise of the year?",
+      "back": "Unexpected joy.",
+      "meta": {}
+    },
+    {
+      "content": "What was the Best Meal you ate?",
+      "back": "Where was it?",
+      "meta": {}
+    },
+    {
+      "content": "What was the Coolest New Experience?",
+      "back": "Novelty check.",
+      "meta": {}
+    },
+    {
+      "content": "What was your Favourite Weekend?",
+      "back": "Relive it.",
+      "meta": {}
+    },
+    {
+      "content": "What was your Favourite First Meeting?",
+      "back": "A new connection.",
+      "meta": {}
+    },
+    {
+      "content": "What was your Favourite New City or Place?",
+      "back": "Travel memories.",
+      "meta": {}
+    },
+    {
+      "content": "What was your Favourite New Emotion?",
+      "back": "What did it feel like?",
+      "meta": {}
+    },
+    {
+      "content": "What was your Favourite New Walk?",
+      "back": "Nature check.",
+      "meta": {}
+    },
+    {
+      "content": "Who was your Favourite New Friend?",
+      "back": "Connection.",
+      "meta": {}
+    },
+    {
+      "content": "What was your Favourite Tour or Trip?",
+      "back": "Adventure.",
+      "meta": {}
+    },
+    {
+      "content": "What was your Favourite Day of the entire year?",
+      "back": "Why that specific day?",
+      "meta": {}
+    },
+    {
+      "content": "What was the Most Intense Week?",
+      "back": "High stress or high achievement?",
+      "meta": {}
+    },
+    {
+      "content": "What was the Best Sex you had this year?",
+      "back": "Intimacy check.",
+      "meta": {}
+    },
+    {
+      "content": "Who was your Favourite Artist this year?",
+      "back": "Spotify Wrapped check.",
+      "meta": {}
+    },
+    {
+      "content": "What was your Favourite Song?",
+      "back": "Play it now.",
+      "meta": {}
+    },
+    {
+      "content": "What was your Favourite Quote?",
+      "back": "Words to live by.",
+      "meta": {}
+    },
+    {
+      "content": "What would I do this year if I wanted to make 85-year-old me miserable?",
+      "back": "Inversion thinking. Are you doing these things now?",
+      "meta": {}
+    },
+    {
+      "content": "What would 85-year-old me wish I did more of?",
+      "back": "Regret minimization.",
+      "meta": {}
+    },
+    {
+      "content": "What are the things I do to make my day go great?",
+      "back": "Daily non-negotiables.",
+      "meta": {}
+    },
+    {
+      "content": "What things make my days go terribly?",
+      "back": "Your kryptonite.",
+      "meta": {}
+    },
+    {
+      "content": "What do I think is productive that actually isn’t?",
+      "back": "Fake work.",
+      "meta": {}
+    },
+    {
+      "content": "What is productive that I don’t realise?",
+      "back": "Rest? Walking? Thinking?",
+      "meta": {}
+    },
+    {
+      "content": "What do I want to do LESS of with my time?",
+      "back": "Subtraction.",
+      "meta": {}
+    },
+    {
+      "content": "What do I want to do MORE of with my time?",
+      "back": "Addition.",
+      "meta": {}
+    },
+    {
+      "content": "What does an ideal normal day look like?",
+      "back": "Visualize the routine.",
+      "meta": {}
+    },
+    {
+      "content": "What conversations do I need to have?",
+      "back": "Who are you avoiding?",
+      "meta": {}
+    },
+    {
+      "content": "What are the habits I’m committing to STARTING?",
+      "back": "New systems.",
+      "meta": {}
+    },
+    {
+      "content": "What are the habits I’m committing to STOPPING?",
+      "back": "Breaking patterns.",
+      "meta": {}
+    },
+    {
+      "content": "What would have to happen by the end of next year for me to consider it a success?",
+      "back": "Define the win.",
+      "meta": {}
+    },
+    {
+      "content": "Who do I need to become for next year’s chapter to turn out the way I want?",
+      "back": "Identity shift.",
+      "meta": {}
+    },
+    {
+      "content": "Knowing what I know now, what advice would I give to myself 12 months ago?",
+      "back": "You probably still need to hear this now.",
+      "meta": {}
+    },
+    {
+      "content": "Am I optimizing for a résumé or a life?",
+      "back": "Success vs Fulfillment.",
+      "meta": {}
+    },
+    {
+      "content": "What pain am I successfully numbing with distractions?",
+      "back": "Face it.",
+      "meta": {}
+    },
+    {
+      "content": "What is the 'one thing' that, if done, would make everything else easier?",
+      "back": "Focus.",
+      "meta": {}
+    },
+    {
+      "content": "Am I running TOWARD a vision or AWAY from fear?",
+      "back": "Check your motivation.",
+      "meta": {}
+    },
+    {
+      "content": "If I repeated my today for the next 365 days, where would I end up?",
+      "back": "The compounding effect.",
+      "meta": {}
+    },
+    {
+      "content": "What project is dragging on that I need to kill today?",
+      "back": "Sunk cost fallacy.",
+      "meta": {}
+    },
+    {
+      "content": "Do I want the result, or do I just want to HAVE WANTED the result?",
+      "back": "Love the process.",
+      "meta": {}
+    },
+    {
+      "content": "What is a boundary I need to set with work?",
+      "back": "Protect your peace.",
+      "meta": {}
+    },
+    {
+      "content": "What is a boundary I need to set with family?",
+      "back": "Protect your energy.",
+      "meta": {}
+    },
+    {
+      "content": "If I died today, would I be happy with my last conversation?",
+      "back": "Make it right.",
+      "meta": {}
+    },
+    {
+      "content": "What area of my life is 'not bad enough to change' but 'not good enough to stay'?",
+      "back": "Identify your Region Beta trap.",
+      "meta": {}
+    },
+    {
+      "content": "Where am I tolerating mediocrity because it’s comfortable?",
+      "back": "Be honest.",
+      "meta": {}
+    },
+    {
+      "content": "If my current situation got 10% worse, would I finally quit? Why wait?",
+      "back": "Stop waiting for the crash.",
+      "meta": {}
+    },
+    {
+      "content": "What complaint have I had for over a year that I have done nothing about?",
+      "back": "Write it down.",
+      "meta": {}
+    },
+    {
+      "content": "Am I waiting for a crisis to force me to change?",
+      "back": "Take control now.",
+      "meta": {}
+    },
+    {
+      "content": "Which relationship is 'just okay' enough to keep me from finding a great one?",
+      "back": "Evaluate your circle.",
+      "meta": {}
+    },
+    {
+      "content": "Is my job stimulating me, or is it just paying the bills comfortably?",
+      "back": "Comfort is the enemy of growth.",
+      "meta": {}
+    },
+    {
+      "content": "What pain am I successfully numbing with distractions (phone, food, alcohol)?",
+      "back": "Face the pain.",
+      "meta": {}
+    },
+    {
+      "content": "If I knew I wouldn't fail, what 'good enough' thing would I drop today?",
+      "back": "Be bold.",
+      "meta": {}
+    },
+    {
+      "content": "Am I suffering from 'comfortable misery'?",
+      "back": "Yes or No.",
+      "meta": {}
+    },
+    {
+      "content": "What is the cost of staying in this current state for another 5 years?",
+      "back": "Visualize the cost.",
+      "meta": {}
+    },
+    {
+      "content": "Where have I lowered my standards to avoid conflict?",
+      "back": "Raise them.",
+      "meta": {}
+    },
+    {
+      "content": "Is my anxiety coming from doing too much, or knowing I’m capable of more?",
+      "back": "Capability gap creates anxiety.",
+      "meta": {}
+    },
+    {
+      "content": "What would 'rock bottom' look like for me, and why am I waiting for it?",
+      "back": "Don't wait.",
+      "meta": {}
+    },
+    {
+      "content": "Which daily habit is slowly draining me that I’ve learned to ignore?",
+      "back": "Identify the leak.",
+      "meta": {}
+    },
+    {
+      "content": "Am I staying in this city/house because I love it, or because moving is hard?",
+      "back": "Inertia vs. Passion.",
+      "meta": {}
+    },
+    {
+      "content": "Who am I spending time with out of habit rather than desire?",
+      "back": "Audit your time.",
+      "meta": {}
+    },
+    {
+      "content": "What dream have I put on 'snooze' because my current reality is bearable?",
+      "back": "Wake up.",
+      "meta": {}
+    },
+    {
+      "content": "If I met myself as a stranger today, would I be impressed by my standards?",
+      "back": "Reflect.",
+      "meta": {}
+    },
+    {
+      "content": "What is the one decision I know I need to make but am too comfortable to execute?",
+      "back": "Make it.",
+      "meta": {}
+    },
+    {
+      "content": "Am I willing to be misunderstood for the next 12 months?",
+      "back": "Growth requires it.",
+      "meta": {}
+    },
+    {
+      "content": "Who in my life gets offended when I prioritize my goals?",
+      "back": "They might need to go.",
+      "meta": {}
+    },
+    {
+      "content": "Am I afraid of the 'Lonely Chapter' that comes with growth?",
+      "back": "Embrace the solitude.",
+      "meta": {}
+    },
+    {
+      "content": "Which friends are anchoring me to my past self?",
+      "back": "Let them go.",
+      "meta": {}
+    },
+    {
+      "content": "Can I sit in a room alone for 30 minutes without stimulation?",
+      "back": "Try it today.",
+      "meta": {}
+    },
+    {
+      "content": "Am I seeking validation from people I wouldn't trade lives with?",
+      "back": "Stop doing that.",
+      "meta": {}
+    },
+    {
+      "content": "Do I have the courage to outgrow my current peer group?",
+      "back": "Yes or No.",
+      "meta": {}
+    },
+    {
+      "content": "Is my fear of loneliness keeping me in bad company?",
+      "back": "Solitude > Bad Company.",
+      "meta": {}
+    },
+    {
+      "content": "Am I creating noise (podcasts, music, scrolling) to avoid my own thoughts?",
+      "back": "Silence is truth.",
+      "meta": {}
+    },
+    {
+      "content": "Who is supportive of my comfort but critical of my ambition?",
+      "back": "Identify them.",
+      "meta": {}
+    },
+    {
+      "content": "Am I ready to be the 'boring one' at the party to be the successful one in life?",
+      "back": "Sacrifice.",
+      "meta": {}
+    },
+    {
+      "content": "What social obligation do I dread that I need to cut out?",
+      "back": "Protect your energy.",
+      "meta": {}
+    },
+    {
+      "content": "Am I performing a version of myself to please others?",
+      "back": "Drop the mask.",
+      "meta": {}
+    },
+    {
+      "content": "If I disappeared for 6 months to work on myself, who would still be there?",
+      "back": "Those are your real friends.",
+      "meta": {}
+    },
+    {
+      "content": "Is my fear of missing out (FOMO) costing me my future?",
+      "back": "JOMO > FOMO.",
+      "meta": {}
+    },
+    {
+      "content": "Can I tolerate the boredom required to become a master at something?",
+      "back": "Mastery is boring.",
+      "meta": {}
+    },
+    {
+      "content": "Who do I need to stop explaining myself to?",
+      "back": "Stop justifying.",
+      "meta": {}
+    },
+    {
+      "content": "Am I sacrificing my sleep for socializing that doesn't fulfill me?",
+      "back": "Sleep wins.",
+      "meta": {}
+    },
+    {
+      "content": "Do I surround myself with people who are playing a bigger game than me?",
+      "back": "Level up your room.",
+      "meta": {}
+    },
+    {
+      "content": "Am I willing to walk alone for a season to walk with kings later?",
+      "back": "The Lonely Chapter.",
+      "meta": {}
+    },
+    {
+      "content": "What milestone am I waiting for to give myself permission to be happy?",
+      "back": "Be happy now.",
+      "meta": {}
+    },
+    {
+      "content": "If I achieve my biggest goal this year, will I actually like myself more?",
+      "back": "Internal vs External.",
+      "meta": {}
+    },
+    {
+      "content": "Am I running TOWARD a vision or AWAY from feeling inadequate?",
+      "back": "Check your motivation.",
+      "meta": {}
+    },
+    {
+      "content": "Whose voice is in my head telling me I’m not enough yet?",
+      "back": "Is it a parent? A teacher?",
+      "meta": {}
+    },
+    {
+      "content": "If I couldn't tell anyone about my achievements, would I still pursue them?",
+      "back": "Integrity check.",
+      "meta": {}
+    },
+    {
+      "content": "Am I optimizing for a résumé or a life?",
+      "back": "Resume vs Eulogy virtues.",
+      "meta": {}
+    },
+    {
+      "content": "What 'trophy' am I chasing just to impress people I don't like?",
+      "back": "Drop the chase.",
+      "meta": {}
+    },
+    {
+      "content": "If money and status were removed, what work would I still do?",
+      "back": "That is your calling.",
+      "meta": {}
+    },
+    {
+      "content": "Am I addicted to the stress of 'striving'?",
+      "back": "Stillness is safe.",
+      "meta": {}
+    },
+    {
+      "content": "Can I enjoy a sunset without taking a picture of it to prove I was there?",
+      "back": "Be present.",
+      "meta": {}
+    },
+    {
+      "content": "Is my ambition genuine, or is it a trauma response?",
+      "back": "Heal first.",
+      "meta": {}
+    },
+    {
+      "content": "What small wins am I ignoring because they aren't 'big' enough?",
+      "back": "Celebrate progress.",
+      "meta": {}
+    },
+    {
+      "content": "Do I define my worth by my productivity?",
+      "back": "You are not a machine.",
+      "meta": {}
+    },
+    {
+      "content": "If 2025 is exactly the same as 2024, will I be okay?",
+      "back": "Why or why not?",
+      "meta": {}
+    },
+    {
+      "content": "What part of my identity is tied to being 'the busy one'?",
+      "back": "Who are you when still?",
+      "meta": {}
+    },
+    {
+      "content": "Am I solving problems, or do I just like having problems to solve?",
+      "back": "Addiction to chaos.",
+      "meta": {}
+    },
+    {
+      "content": "When was the last time I felt 'done' for the day?",
+      "back": "Define 'enough'.",
+      "meta": {}
+    },
+    {
+      "content": "Am I building a life I want to live in, or a life I want to look at?",
+      "back": "Experience > Aesthetics.",
+      "meta": {}
+    },
+    {
+      "content": "What compliments do I deflect because I don't believe them?",
+      "back": "Accept them.",
+      "meta": {}
+    },
+    {
+      "content": "Who would I be if I stopped trying to be 'successful'?",
+      "back": "Meet that person.",
+      "meta": {}
+    },
+    {
+      "content": "What is the 'one thing' that, if done, would make everything else easier?",
+      "back": "Focus.",
+      "meta": {}
+    },
+    {
+      "content": "Where am I confusing 'busyness' with 'effectiveness'?",
+      "back": "Movement vs Progress.",
+      "meta": {}
+    },
+    {
+      "content": "What 20% of my activities result in 80% of my stress?",
+      "back": "Eliminate them.",
+      "meta": {}
+    },
+    {
+      "content": "What 20% of my activities result in 80% of my joy?",
+      "back": "Double them.",
+      "meta": {}
+    },
+    {
+      "content": "Can I say 'No' without offering an excuse?",
+      "back": "Try it.",
+      "meta": {}
+    },
+    {
+      "content": "What project is dragging on that I need to kill today?",
+      "back": "Sunk cost fallacy.",
+      "meta": {}
+    },
+    {
+      "content": "Am I planning 2026 goals to avoid doing the work in 2025?",
+      "back": "Procrastination by planning.",
+      "meta": {}
+    },
+    {
+      "content": "What is the single biggest bottleneck in my life right now?",
+      "back": "Solve that first.",
+      "meta": {}
+    },
+    {
+      "content": "If I could only work 2 hours a day, what would I do?",
+      "back": "Prioritize.",
+      "meta": {}
+    },
+    {
+      "content": "Am I procrastinating or just tired?",
+      "back": "Know the difference.",
+      "meta": {}
+    },
+    {
+      "content": "What am I researching endlessly to avoid taking action on?",
+      "back": "Action cures fear.",
+      "meta": {}
+    },
+    {
+      "content": "Is my to-do list a wish list or a plan?",
+      "back": "Be realistic.",
+      "meta": {}
+    },
+    {
+      "content": "Where do I need to subtract rather than add?",
+      "back": "Less is more.",
+      "meta": {}
+    },
+    {
+      "content": "Does my calendar reflect my stated priorities?",
+      "back": "Check it.",
+      "meta": {}
+    },
+    {
+      "content": "What am I doing just because I'm good at it, not because it matters?",
+      "back": "Competence trap.",
+      "meta": {}
+    },
+    {
+      "content": "Are my goals competing with each other?",
+      "back": "Align them.",
+      "meta": {}
+    },
+    {
+      "content": "Do I have a 'Stop Doing' list?",
+      "back": "Make one.",
+      "meta": {}
+    },
+    {
+      "content": "Am I waiting for motivation, or do I need discipline?",
+      "back": "Motivation is fickle.",
+      "meta": {}
+    },
+    {
+      "content": "What is the friction that stops me from my good habits?",
+      "back": "Remove the friction.",
+      "meta": {}
+    },
+    {
+      "content": "If I repeated my today for the next 365 days, where would I end up?",
+      "back": "The compounding effect.",
+      "meta": {}
+    },
+    {
+      "content": "Is alcohol serving the person I want to become?",
+      "back": "Be honest.",
+      "meta": {}
+    },
+    {
+      "content": "If I don't fix this now, what will my life look like in 2030?",
+      "back": "Play the tape forward.",
+      "meta": {}
+    },
+    {
+      "content": "Am I the limiting factor in my own life?",
+      "back": "Get out of your own way.",
+      "meta": {}
+    },
+    {
+      "content": "Do I want the result, or do I just want to HAVE WANTED the result?",
+      "back": "Love the process.",
+      "meta": {}
+    },
+    {
+      "content": "Am I dating people who are psychologically stable?",
+      "back": "Relationship audit.",
+      "meta": {}
+    },
+    {
+      "content": "Is my 'type' actually just a pattern of trauma?",
+      "back": "Deep introspection.",
+      "meta": {}
+    },
+    {
+      "content": "Do I listen to reply, or listen to understand?",
+      "back": "Communication check.",
+      "meta": {}
+    },
+    {
+      "content": "Am I prepared to be bad at something new?",
+      "back": "Embrace being a novice.",
+      "meta": {}
+    },
+    {
+      "content": "What is the conversation I am dreading that I need to have?",
+      "back": "Have it today.",
+      "meta": {}
+    },
+    {
+      "content": "Is my environment designed for my success or my failure?",
+      "back": "Change your room.",
+      "meta": {}
+    },
+    {
+      "content": "Do I keep the promises I make to myself?",
+      "back": "Self-trust.",
+      "meta": {}
+    },
+    {
+      "content": "Am I intellectually honest, or do I just want to be right?",
+      "back": "Ego check.",
+      "meta": {}
+    },
+    {
+      "content": "What advice would I give someone in my exact situation?",
+      "back": "Why aren't you taking it?",
+      "meta": {}
+    },
+    {
+      "content": "Why am I not taking my own advice?",
+      "back": "Identify the blocker.",
+      "meta": {}
+    },
+    {
+      "content": "Is my phone a tool or a master?",
+      "back": "Check screen time.",
+      "meta": {}
+    },
+    {
+      "content": "Am I consuming more than I create?",
+      "back": "Create > Consume.",
+      "meta": {}
+    },
+    {
+      "content": "What resentment am I holding onto that is poisoning me?",
+      "back": "Let it go.",
+      "meta": {}
+    },
+    {
+      "content": "Do I actually want what I say I want?",
+      "back": "Verify your desires.",
+      "meta": {}
+    },
+    {
+      "content": "If I died today, would I be happy with my last conversation?",
+      "back": "Make it right.",
+      "meta": {}
+    },
+    {
+      "content": "If not now, when?",
+      "back": "Start.",
+      "meta": {}
+    }
+  ]
+}
