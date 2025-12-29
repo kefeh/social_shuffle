@@ -1,0 +1,1311 @@
+{
+  "id": "deck_trivia_bible_01",
+  "title": "Bible Trivia: The Good Book",
+  "description": "100 questions from Genesis to Revelation. Test your knowledge of scriptures, prophets, and parables.",
+  "game_engine_id": "trivia",
+  "game_engine_type": "quiz",
+  "is_system": true,
+  "created_at": "2023-02-07T10:00:00Z",
+  "cards": [
+    {
+      "content": "What is the first book of the Bible?",
+      "options": [
+        "Exodus",
+        "Genesis",
+        "Matthew",
+        "Psalms"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who built the Ark to survive the great flood?",
+      "options": [
+        "Moses",
+        "Abraham",
+        "Noah",
+        "David"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "How many days did God take to create the world?",
+      "options": [
+        "3",
+        "6",
+        "7",
+        "40"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who killed the giant Goliath?",
+      "options": [
+        "Samson",
+        "Saul",
+        "David",
+        "Solomon"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the last book of the New Testament?",
+      "options": [
+        "Acts",
+        "Romans",
+        "Revelation",
+        "Jude"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who betrayed Jesus for 30 pieces of silver?",
+      "options": [
+        "Peter",
+        "Judas Iscariot",
+        "Thomas",
+        "Pilate"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which sea did Moses part?",
+      "options": [
+        "The Dead Sea",
+        "The Black Sea",
+        "The Red Sea",
+        "The Mediterranean Sea"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who was swallowed by a great fish?",
+      "options": [
+        "Jonah",
+        "Job",
+        "Elijah",
+        "Isaiah"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the longest book in the Bible?",
+      "options": [
+        "Isaiah",
+        "Genesis",
+        "Psalms",
+        "Luke"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who was the first man created?",
+      "options": [
+        "Cain",
+        "Abel",
+        "Adam",
+        "Seth"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which city's walls fell down after the Israelites marched around them?",
+      "options": [
+        "Jerusalem",
+        "Babylon",
+        "Jericho",
+        "Nazareth"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "How many disciples did Jesus have?",
+      "options": [
+        "10",
+        "12",
+        "7",
+        "40"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who received the Ten Commandments?",
+      "options": [
+        "Abraham",
+        "Moses",
+        "Noah",
+        "Aaron"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What was the name of the garden where Adam and Eve lived?",
+      "options": [
+        "Gethsemane",
+        "Eden",
+        "Babylon",
+        "Zion"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who was thrown into a den of lions?",
+      "options": [
+        "Daniel",
+        "Joseph",
+        "David",
+        "Shadrach"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What language was the New Testament originally written in?",
+      "options": [
+        "Hebrew",
+        "Latin",
+        "Greek",
+        "Aramaic"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who is known for his great strength and long hair?",
+      "options": [
+        "Goliath",
+        "Samson",
+        "Solomon",
+        "Esau"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who denied knowing Jesus three times?",
+      "options": [
+        "John",
+        "Judas",
+        "Peter",
+        "Matthew"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Where was Jesus born?",
+      "options": [
+        "Nazareth",
+        "Jerusalem",
+        "Bethlehem",
+        "Galilee"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who was the mother of Jesus?",
+      "options": [
+        "Martha",
+        "Mary",
+        "Elizabeth",
+        "Ruth"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What job did David have before he became king?",
+      "options": [
+        "Carpenter",
+        "Shepherd",
+        "Fisherman",
+        "Tax Collector"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which king asked God for wisdom?",
+      "options": [
+        "David",
+        "Saul",
+        "Solomon",
+        "Herod"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "How many plagues did God send on Egypt?",
+      "options": [
+        "7",
+        "10",
+        "12",
+        "3"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who was Jesus' most famous cousin?",
+      "options": [
+        "John the Baptist",
+        "James",
+        "Peter",
+        "Lazarus"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the shortest verse in the Bible?",
+      "options": [
+        "God is love",
+        "Jesus wept",
+        "Pray continually",
+        "Rejoice always"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who led the Israelites into the Promised Land after Moses died?",
+      "options": [
+        "Aaron",
+        "Caleb",
+        "Joshua",
+        "Gideon"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What did God use to create Eve?",
+      "options": [
+        "Dust",
+        "Clay",
+        "Adam's Rib",
+        "A Flower"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who was the first murderer in the Bible?",
+      "options": [
+        "Cain",
+        "Abel",
+        "Seth",
+        "Lamech"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What river was Jesus baptized in?",
+      "options": [
+        "Nile",
+        "Euphrates",
+        "Jordan",
+        "Tigris"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who wrote the majority of the Epistles (letters) in the New Testament?",
+      "options": [
+        "Peter",
+        "John",
+        "Paul",
+        "James"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What instrument did David play?",
+      "options": [
+        "Flute",
+        "Harp/Lyre",
+        "Trumpet",
+        "Drums"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who had a coat of many colors?",
+      "options": [
+        "Joseph",
+        "Benjamin",
+        "Jacob",
+        "Esau"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which woman washed Jesus' feet with her tears and hair?",
+      "options": [
+        "Mary Magdalene",
+        "Mary of Bethany",
+        "Martha",
+        "Ruth"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What type of insect did John the Baptist eat?",
+      "options": [
+        "Beetles",
+        "Locusts",
+        "Ants",
+        "Crickets"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which disciple was a tax collector?",
+      "options": [
+        "Peter",
+        "Matthew",
+        "Andrew",
+        "John"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who wrestled with an angel/God all night?",
+      "options": [
+        "Abraham",
+        "Isaac",
+        "Jacob",
+        "Moses"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What were the names of the three men thrown into the fiery furnace?",
+      "options": [
+        "Shadrach, Meshach, Abednego",
+        "Peter, James, John",
+        "Shem, Ham, Japheth",
+        "Cain, Abel, Seth"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who turned into a pillar of salt?",
+      "options": [
+        "Sarah",
+        "Lot's Wife",
+        "Rachel",
+        "Leah"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What did Jesus feed to the 5,000?",
+      "options": [
+        "Bread and Fish",
+        "Bread and Wine",
+        "Manna",
+        "Figs"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "How many days was Jesus in the tomb?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "7"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who was the 'Doubting' disciple?",
+      "options": [
+        "Peter",
+        "Thomas",
+        "Judas",
+        "Philip"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who climbed a sycamore tree to see Jesus?",
+      "options": [
+        "Zacchaeus",
+        "Bartimaeus",
+        "Lazarus",
+        "Nicodemus"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the 'Golden Rule'?",
+      "options": [
+        "Love your neighbor",
+        "Do unto others as you would have them do unto you",
+        "Thou shalt not kill",
+        "God is love"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who was the oldest man in the Bible?",
+      "options": [
+        "Noah",
+        "Abraham",
+        "Methuselah",
+        "Adam"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What animal spoke to Balaam?",
+      "options": [
+        "Donkey",
+        "Snake",
+        "Sheep",
+        "Camel"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who wrote the book of Revelation?",
+      "options": [
+        "Paul",
+        "John",
+        "Peter",
+        "Luke"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What gifts did the wise men bring?",
+      "options": [
+        "Gold, Silver, Bronze",
+        "Gold, Frankincense, Myrrh",
+        "Myrrh, Aloe, Oil",
+        "Clothing, Food, Gold"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which prophet was taken up to heaven in a whirlwind?",
+      "options": [
+        "Elisha",
+        "Elijah",
+        "Isaiah",
+        "Jeremiah"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who had a dream about a ladder reaching to heaven?",
+      "options": [
+        "Joseph",
+        "Jacob",
+        "Abraham",
+        "Isaac"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who sold his birthright for a bowl of stew?",
+      "options": [
+        "Jacob",
+        "Esau",
+        "Joseph",
+        "Cain"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What was Paul's name before he converted?",
+      "options": [
+        "Simon",
+        "Saul",
+        "Stephen",
+        "Barnabas"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which bird did Noah send out of the ark first?",
+      "options": [
+        "Dove",
+        "Raven",
+        "Eagle",
+        "Sparrow"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who was the first king of Israel?",
+      "options": [
+        "David",
+        "Solomon",
+        "Saul",
+        "Samuel"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "How many books are in the standard Protestant Bible?",
+      "options": [
+        "39",
+        "27",
+        "66",
+        "73"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the 'Root of all evil' according to Timothy?",
+      "options": [
+        "Money",
+        "The Love of Money",
+        "Pride",
+        "Greed"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who was Moses' brother?",
+      "options": [
+        "Aaron",
+        "Caleb",
+        "Joshua",
+        "Jethro"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who fell from a window while Paul was preaching?",
+      "options": [
+        "Eutychus",
+        "Timothy",
+        "Silas",
+        "Stephen"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What did God give to Moses on Mount Sinai?",
+      "options": [
+        "The Ark of the Covenant",
+        "The Ten Commandments",
+        "The Burning Bush",
+        "Manna"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who wiped Jesus' face on the way to the cross (Tradition)?",
+      "options": [
+        "Mary",
+        "Veronica",
+        "Martha",
+        "Salome"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which queen visited Solomon to test his wisdom?",
+      "options": [
+        "Queen of Sheba",
+        "Esther",
+        "Jezebel",
+        "Bathsheba"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who was the strong man who lost his strength when his hair was cut?",
+      "options": [
+        "Goliath",
+        "Samson",
+        "Hercules",
+        "Absalom"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What does 'Gospel' mean?",
+      "options": [
+        "Holy Book",
+        "Good News",
+        "Life of Jesus",
+        "Law of God"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which disciple walked on water with Jesus?",
+      "options": [
+        "John",
+        "Peter",
+        "James",
+        "Andrew"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who was the wife of Abraham?",
+      "options": [
+        "Rebekah",
+        "Rachel",
+        "Sarah",
+        "Leah"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "How many fruits of the Spirit are there?",
+      "options": [
+        "7",
+        "9",
+        "12",
+        "3"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What island was John exiled to?",
+      "options": [
+        "Patmos",
+        "Crete",
+        "Cyprus",
+        "Malta"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who interpreted Pharaoh's dreams?",
+      "options": [
+        "Moses",
+        "Daniel",
+        "Joseph",
+        "Aaron"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What was the first miracle Jesus performed?",
+      "options": [
+        "Healing a blind man",
+        "Walking on water",
+        "Turning water into wine",
+        "Raising Lazarus"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who was the female judge of Israel?",
+      "options": [
+        "Deborah",
+        "Ruth",
+        "Esther",
+        "Naomi"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What did Judas do with the 30 pieces of silver?",
+      "options": [
+        "Spent it",
+        "Gave it to the poor",
+        "Threw it back into the temple",
+        "Lost it"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who helped Jesus carry the cross?",
+      "options": [
+        "Simon of Cyrene",
+        "Joseph of Arimathea",
+        "Peter",
+        "John"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What happened to the walls of Jericho?",
+      "options": [
+        "They burned down",
+        "They fell down",
+        "They were climbed",
+        "They disappeared"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who was the father of King Solomon?",
+      "options": [
+        "Saul",
+        "David",
+        "Samuel",
+        "Jesse"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which disciple was a physician (doctor)?",
+      "options": [
+        "Luke",
+        "Matthew",
+        "Mark",
+        "John"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What land did God promise to Abraham?",
+      "options": [
+        "Egypt",
+        "Canaan",
+        "Ur",
+        "Babylon"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who is known as the 'weeping prophet'?",
+      "options": [
+        "Isaiah",
+        "Jeremiah",
+        "Ezekiel",
+        "Hosea"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What did Jacob give Joseph that made his brothers jealous?",
+      "options": [
+        "A ring",
+        "A coat",
+        "A sheep",
+        "A crown"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who brought Lazarus back to life?",
+      "options": [
+        "Elijah",
+        "Peter",
+        "Jesus",
+        "Paul"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What biblical figure led the Jews out of Egypt?",
+      "options": [
+        "David",
+        "Moses",
+        "Joseph",
+        "Abraham"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "How many commandments are there?",
+      "options": [
+        "5",
+        "10",
+        "12",
+        "7"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who asked for the head of John the Baptist?",
+      "options": [
+        "Salome",
+        "Jezebel",
+        "Delilah",
+        "Bathsheba"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What happened to Stephen in the book of Acts?",
+      "options": [
+        "He was stoned to death",
+        "He was crucified",
+        "He was exiled",
+        "He became king"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who said 'Am I my brother's keeper?'",
+      "options": [
+        "Abel",
+        "Cain",
+        "Esau",
+        "Joseph"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What city was Jesus crucified outside of?",
+      "options": [
+        "Nazareth",
+        "Bethlehem",
+        "Jerusalem",
+        "Jericho"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who was the wicked queen who wanted to kill Elijah?",
+      "options": [
+        "Esther",
+        "Jezebel",
+        "Athaliah",
+        "Vashti"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who was the giant that David killed?",
+      "options": [
+        "Goliath",
+        "Og",
+        "Anak",
+        "Sihon"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What language did Jesus speak?",
+      "options": [
+        "Greek",
+        "Hebrew",
+        "Aramaic",
+        "Latin"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "How many lepers did Jesus heal when only one returned to thank him?",
+      "options": [
+        "5",
+        "10",
+        "12",
+        "7"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who wrote the Psalms?",
+      "options": [
+        "Moses",
+        "David (mostly)",
+        "Solomon",
+        "Abraham"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Which angel appeared to Mary?",
+      "options": [
+        "Michael",
+        "Gabriel",
+        "Raphael",
+        "Uriel"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Where did Adam and Eve live?",
+      "options": [
+        "Garden of Gethsemane",
+        "Garden of Eden",
+        "Garden of Olives",
+        "Paradise City"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the name of the river where Moses was found?",
+      "options": [
+        "Jordan",
+        "Tigris",
+        "Nile",
+        "Euphrates"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who was the 'beloved disciple'?",
+      "options": [
+        "Peter",
+        "James",
+        "John",
+        "Andrew"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What did the Israelites eat in the desert?",
+      "options": [
+        "Bread",
+        "Manna",
+        "Quail only",
+        "Fish"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "How many times did the Israelites march around Jericho on the 7th day?",
+      "options": [
+        "1",
+        "3",
+        "7",
+        "10"
+      ],
+      "correct_index": 2,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What is the last word in the Bible?",
+      "options": [
+        "Amen",
+        "Jesus",
+        "Life",
+        "End"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who hid the spies in Jericho?",
+      "options": [
+        "Rahab",
+        "Ruth",
+        "Mary",
+        "Sarah"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What mountain did Noah's Ark rest on?",
+      "options": [
+        "Sinai",
+        "Ararat",
+        "Zion",
+        "Olive"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "Who was the shortest man in the Bible?",
+      "options": [
+        "Zacchaeus",
+        "David",
+        "Paul",
+        "Nehemiah"
+      ],
+      "correct_index": 0,
+      "meta": {
+        "timer": 15
+      }
+    },
+    {
+      "content": "What did Jesus turn water into?",
+      "options": [
+        "Juice",
+        "Wine",
+        "Milk",
+        "Blood"
+      ],
+      "correct_index": 1,
+      "meta": {
+        "timer": 15
+      }
+    }
+  ]
+}
