@@ -7,7 +7,7 @@ class DeckService {
     final assetManifest = await AssetManifest.loadFromAssetBundle(rootBundle);
     final assets = assetManifest.listAssets();
     final List<String> deckAssetPaths = assets
-        .where((asset) => asset.contains('assets/decks'))
+        .where((asset) => asset.contains('assets/decks/deck_'))
         .toList();
 
     final howToPlayJsonString = await rootBundle.loadString(
