@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:social_shuffle/core/providers/game_provider.dart';
@@ -7,11 +8,46 @@ import 'package:social_shuffle/features/game_loop/engines/simple_flip_engine_scr
 import 'package:social_shuffle/features/game_loop/engines/task_engine_screen.dart';
 import 'package:social_shuffle/features/game_loop/engines/voting_engine_screen.dart';
 
-class GameLoopScreen extends ConsumerWidget {
+class GameLoopScreen extends ConsumerStatefulWidget {
   const GameLoopScreen({super.key});
 
-  Widget _getEngineWidget(String engineId) {
-    switch (engineId) {
+  @override
+  ConsumerState<GameLoopScreen> createState() => _GameLoopScreenState();
+}
+
+class _GameLoopScreenState extends ConsumerState<GameLoopScreen> {
+  @override
+  void initState() {
+    super.initState();
+
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      _trackGameStart();
+    });
+  }
+
+  Future<void> _trackGameStart() async {
+    try {
+      final deck = ref.read(gameLoopProvider).currentDeck;
+
+      final docRef = FirebaseFirestore.instance
+          .collection('deck_stats')
+          .doc(deck.id);
+
+      await docRef.set({
+        'play_count': FieldValue.increment(1),
+        'title': deck.title,
+        'game_engine_id': deck.gameEngineId,
+        'last_played_at': FieldValue.serverTimestamp(),
+      }, SetOptions(merge: true));
+
+      debugPrint("tracked play for: ${deck.title}");
+    } catch (e) {
+      debugPrint("Error tracking game start: $e");
+    }
+  }
+
+  Widget _getEngineWidget(String engineType) {
+    switch (engineType) {
       case 'quiz':
         return const QuizEngineScreen();
       case 'flip':
@@ -28,7 +64,7 @@ class GameLoopScreen extends ConsumerWidget {
   }
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
+  Widget build(BuildContext context) {
     final gameLoopState = ref.watch(gameLoopProvider);
 
     return _getEngineWidget(gameLoopState.currentDeck.gameEngineType);

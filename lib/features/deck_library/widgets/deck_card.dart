@@ -51,21 +51,6 @@ class DeckCard extends StatelessWidget {
                   deck.description!,
                   style: TextStyle(fontSize: 14, color: Colors.grey[400]),
                 ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.end,
-                children: [
-                  if (onRemix != null)
-                    IconButton(
-                      icon: const Icon(Icons.copy),
-                      onPressed: onRemix,
-                    ),
-                  if (onDelete != null)
-                    IconButton(
-                      icon: const Icon(Icons.delete),
-                      onPressed: onDelete,
-                    ),
-                ],
-              ),
             ],
           ),
         ),
