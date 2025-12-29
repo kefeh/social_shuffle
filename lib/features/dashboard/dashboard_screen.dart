@@ -1,20 +1,23 @@
 import 'dart:math';
 import 'dart:ui';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:social_shuffle/core/services/package_info.dart';
+import 'package:social_shuffle/core/services/remote_config.dart';
 import 'package:social_shuffle/features/dashboard/widgets/game_mode_card.dart';
 import 'package:social_shuffle/features/deck_library/deck_library_sheet.dart';
 import 'package:social_shuffle/shared/constants.dart';
+import 'package:social_shuffle/shared/helper.dart';
 
-class DashboardScreen extends StatefulWidget {
+class DashboardScreen extends ConsumerStatefulWidget {
   const DashboardScreen({super.key});
 
   @override
-  State<DashboardScreen> createState() => _DashboardScreenState();
+  ConsumerState<DashboardScreen> createState() => _DashboardScreenState();
 }
 
-class _DashboardScreenState extends State<DashboardScreen> {
+class _DashboardScreenState extends ConsumerState<DashboardScreen> {
   bool _isCarouselView = true;
   late PageController _pageController;
   double _currentPage = 0.0;
@@ -92,6 +95,19 @@ class _DashboardScreenState extends State<DashboardScreen> {
     super.initState();
     _pageController = PageController(viewportFraction: 0.75, initialPage: 0);
     _pageController.addListener(_onScroll);
+
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+      String configVersion = ref.watch(appConfigProvider).appVersion;
+      String currentVersion = ref.watch(appInfoProvider).appVersion;
+      Compare compare = compareVersions(configVersion, currentVersion);
+
+      switch (compare) {
+        case Compare.greaterThan:
+          await showAppUpdate(context);
+        case Compare.equal:
+        case Compare.lessThan:
+      }
+    });
   }
 
   void _onScroll() {
